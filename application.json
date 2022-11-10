@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Login",
       "isDefault": true
+    },
+    {
+      "id": "Home",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +14,9 @@
   "unreadCommentThreads": 0,
   "color": "#C7F3E3",
   "icon": "family",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
