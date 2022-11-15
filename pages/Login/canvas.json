@@ -39,7 +39,7 @@
                 "group"
               ],
               "topRow": 1,
-              "bottomRow": 7,
+              "bottomRow": 8,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -81,7 +81,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 4,
+                      "bottomRow": 5,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -124,7 +124,7 @@
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
                       "topRow": 0,
-                      "bottomRow": 4,
+                      "bottomRow": 5,
                       "parentRowSpace": 10,
                       "type": "IMAGE_WIDGET",
                       "hideCard": false,
@@ -138,7 +138,7 @@
                       "key": "nc9jwlh409",
                       "image": "https://orhangazigil.files.wordpress.com/2015/07/z-harfi.jpg",
                       "isDeprecated": false,
-                      "rightColumn": 8,
+                      "rightColumn": 9,
                       "objectFit": "cover",
                       "widgetId": "yqauizkjc9",
                       "isVisible": true,
@@ -277,8 +277,14 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "username",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "onSubmit": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}",
                       "searchTags": [
                         "form",
                         "text input",
@@ -294,7 +300,14 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.53125,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onTextChanged"
+                        },
+                        {
+                          "key": "onSubmit"
+                        }
+                      ],
                       "resetOnSubmit": true,
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
@@ -309,6 +322,7 @@
                       "key": "7yhhgv55kl",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
+                      "onTextChanged": "{{loginSample.run(() => loginSample.run(), () => {})}}",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "iconName": "person",
@@ -330,6 +344,7 @@
                       "widgetName": "password",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "onSubmit": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}",
                       "searchTags": [
                         "form",
                         "text input",
@@ -345,7 +360,14 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.53125,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onTextChanged"
+                        },
+                        {
+                          "key": "onSubmit"
+                        }
+                      ],
                       "resetOnSubmit": true,
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
@@ -360,6 +382,7 @@
                       "key": "7yhhgv55kl",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
+                      "onTextChanged": "{{loginSample.run(() => loginSample.run(), () => {})}}",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "iconName": "lock",
@@ -380,7 +403,9 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnLogin",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "onClick": "",
+                      "buttonColor": "#1e40af",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -394,13 +419,13 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.53125,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
+                      "dynamicTriggerPathList": [
                         {
-                          "key": "buttonColor"
+                          "key": "onClick"
                         }
                       ],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
                       "text": "Login",
                       "isDisabled": false,
                       "key": "9vdfhewcau",

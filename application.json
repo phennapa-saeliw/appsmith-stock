@@ -5,7 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "Home",
+      "id": "Home_branch ",
+      "isDefault": false
+    },
+    {
+      "id": "Home_cantrel",
       "isDefault": false
     }
   ],
@@ -15,6 +19,9 @@
   "color": "#C7F3E3",
   "icon": "family",
   "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "publishedAppLayout": {
     "type": "MOBILE"
   },
   "evaluationVersion": 2,
