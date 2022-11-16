@@ -281,7 +281,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHb_reports",
-                      "buttonColor": "#ffb31e",
+                      "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -350,7 +350,7 @@
                       "widgetId": "qmeq373d2h",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#ffb31e",
+                      "textColor": "#18181b",
                       "version": 1,
                       "parentId": "dp23vetl75",
                       "renderMode": "CANVAS",
@@ -376,7 +376,7 @@
               ],
               "borderWidth": "1",
               "key": "g5dx8z5jwh",
-              "backgroundColor": "#18181b",
+              "backgroundColor": "#fafafa",
               "isDeprecated": false,
               "rightColumn": 28,
               "widgetId": "lhult4ledh",
@@ -440,7 +440,8 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHb_produts",
-                      "buttonColor": "#ffb31e",
+                      "onClick": "{{navigateTo('Produts', {}, 'SAME_WINDOW')}}",
+                      "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -454,7 +455,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 2,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
@@ -509,7 +514,7 @@
                       "widgetId": "95wfnbasda",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#ffb31e",
+                      "textColor": "#18181b",
                       "version": 1,
                       "parentId": "fg40d2jztx",
                       "renderMode": "CANVAS",
@@ -535,7 +540,7 @@
               ],
               "borderWidth": "1",
               "key": "g5dx8z5jwh",
-              "backgroundColor": "#18181b",
+              "backgroundColor": "#fafafa",
               "isDeprecated": false,
               "rightColumn": 62,
               "widgetId": "s02nj5lhfq",
@@ -611,11 +616,7 @@
                       "parentColumnSpace": 6.53125,
                       "dynamicTriggerPathList": [],
                       "leftColumn": 58,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
+                      "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "bzcbyxpqh6",
                       "isDeprecated": false,
@@ -627,7 +628,7 @@
                       "parentId": "dla0pkhmo3",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "borderRadius": "1.5rem",
                       "buttonVariant": "PRIMARY"
                     },
                     {
@@ -772,6 +773,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHb_user",
+                      "onClick": "{{navigateTo('Manage_users', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -786,13 +788,17 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 4,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "dlxtq6izew",
                       "isDeprecated": false,
-                      "rightColumn": 60,
+                      "rightColumn": 61,
                       "iconName": "people",
                       "widgetId": "745dg8zpyl",
                       "isVisible": true,

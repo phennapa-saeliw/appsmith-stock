@@ -440,7 +440,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHc_reports",
-                      "buttonColor": "#ffb31e",
+                      "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -509,7 +509,7 @@
                       "widgetId": "qmeq373d2h",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#ffb31e",
+                      "textColor": "#18181b",
                       "version": 1,
                       "parentId": "dp23vetl75",
                       "renderMode": "CANVAS",
@@ -535,7 +535,7 @@
               ],
               "borderWidth": "1",
               "key": "g5dx8z5jwh",
-              "backgroundColor": "#18181b",
+              "backgroundColor": "#fafafa",
               "isDeprecated": false,
               "rightColumn": 28,
               "widgetId": "lhult4ledh",
@@ -599,7 +599,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHc_produts",
-                      "buttonColor": "#ffb31e",
+                      "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -668,7 +668,7 @@
                       "widgetId": "95wfnbasda",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#ffb31e",
+                      "textColor": "#18181b",
                       "version": 1,
                       "parentId": "fg40d2jztx",
                       "renderMode": "CANVAS",
@@ -694,7 +694,7 @@
               ],
               "borderWidth": "1",
               "key": "g5dx8z5jwh",
-              "backgroundColor": "#18181b",
+              "backgroundColor": "#fafafa",
               "isDeprecated": false,
               "rightColumn": 62,
               "widgetId": "s02nj5lhfq",
@@ -770,11 +770,7 @@
                       "parentColumnSpace": 6.53125,
                       "dynamicTriggerPathList": [],
                       "leftColumn": 58,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
+                      "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "bzcbyxpqh6",
                       "isDeprecated": false,
@@ -786,7 +782,7 @@
                       "parentId": "dla0pkhmo3",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "borderRadius": "1.5rem",
                       "buttonVariant": "PRIMARY"
                     },
                     {
