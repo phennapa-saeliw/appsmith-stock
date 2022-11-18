@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Centralwarehouse_ acc",
+    "pageId": "Centralwarehouse_candy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Centralwarehouse_ acc_loginSample",
+  "id": "Centralwarehouse_candy_loginSample",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_6374a3821351c74a8ce8c07d"
+  "gitSyncId": "636c92fc03193515321c8396_63749ebe1351c74a8ce8c00f"
 }

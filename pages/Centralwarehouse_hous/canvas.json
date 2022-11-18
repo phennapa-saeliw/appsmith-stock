@@ -1238,7 +1238,7 @@
               "backgroundColor": "transparent",
               "isDeprecated": false,
               "rightColumn": 60,
-              "itemBackgroundColor": "#FFFFFF",
+              "itemBackgroundColor": "#fafafa",
               "widgetId": "dczi2wa41v",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,

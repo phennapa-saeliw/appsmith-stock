@@ -1,6 +1,6 @@
 {
   "unpublishedPage": {
-    "name": "Centralwarehouse_ candy",
+    "name": "Centralwarehouse_candy",
     "slug": "centralwarehouse-candy",
     "layouts": [
       {
@@ -1252,7 +1252,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Centralwarehouse_ candy",
+        "id": "Centralwarehouse_candy",
         "deleted": false,
         "policies": [],
         "userPermissions": []

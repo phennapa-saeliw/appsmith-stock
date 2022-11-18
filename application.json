@@ -9,7 +9,7 @@
       "isDefault": false
     },
     {
-      "id": "Home_cantrel",
+      "id": "Home_cantral",
       "isDefault": false
     },
     {
@@ -33,11 +33,11 @@
       "isDefault": false
     },
     {
-      "id": "Centralwarehouse_ drink",
+      "id": "Centralwarehouse_drink",
       "isDefault": false
     },
     {
-      "id": "Centralwarehouse_ candy",
+      "id": "Centralwarehouse_candy",
       "isDefault": false
     },
     {
@@ -53,7 +53,7 @@
       "isDefault": false
     },
     {
-      "id": "Centralwarehouse_ acc",
+      "id": "Centralwarehouse_acc",
       "isDefault": false
     }
   ],

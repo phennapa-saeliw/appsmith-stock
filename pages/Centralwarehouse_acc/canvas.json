@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Centralwarehouse_ drink",
-    "slug": "centralwarehouse-drink",
+    "name": "Centralwarehouse_acc",
+    "slug": "centralwarehouse-acc",
     "layouts": [
       {
         "viewMode": false,
@@ -65,7 +65,7 @@
                   "dynamicBindingPathList": [],
                   "children": [
                     {
-                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+                      "boxShadow": "none",
                       "widgetName": "IconButton1",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
@@ -243,7 +243,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "เครื่องดื่ม",
+              "text": "อาหาร",
               "key": "2ahtho8ffs",
               "isDeprecated": false,
               "rightColumn": 19,
@@ -1252,7 +1252,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Centralwarehouse_ drink",
+        "id": "Centralwarehouse_acc",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -1263,5 +1263,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_6374990c1351c74a8ce8bf8a"
+  "gitSyncId": "636c92fc03193515321c8396_6374a3821351c74a8ce8c07b"
 }

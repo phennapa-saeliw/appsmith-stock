@@ -27,7 +27,7 @@
           "leftColumn": 0,
           "children": [
             {
-              "widgetName": "Text4Copy4",
+              "widgetName": "textCw_acc",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -76,7 +76,7 @@
               "fontSize": "1rem"
             },
             {
-              "widgetName": "Text4Copy3",
+              "widgetName": "textCw_hous",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -125,7 +125,7 @@
               "fontSize": "1rem"
             },
             {
-              "widgetName": "Text4Copy2",
+              "widgetName": "textCw_vf",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -174,7 +174,7 @@
               "fontSize": "1rem"
             },
             {
-              "widgetName": "Text4Copy1",
+              "widgetName": "textCw_food",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -223,7 +223,7 @@
               "fontSize": "1rem"
             },
             {
-              "widgetName": "Text4Copy",
+              "widgetName": "textCw_candy",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -273,7 +273,12 @@
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "Image1Copy4",
+              "widgetName": "imageCw_acc",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
               "topRow": 39,
@@ -301,12 +306,17 @@
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "borderRadius": "0.375rem",
+              "borderRadius": "5rem",
               "enableRotation": false
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "Image1Copy3",
+              "widgetName": "imageCw_hous",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
               "topRow": 39,
@@ -334,12 +344,17 @@
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "borderRadius": "0.375rem",
+              "borderRadius": "5rem",
               "enableRotation": false
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "Image1Copy2",
+              "widgetName": "imageCw_fv",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
               "topRow": 39,
@@ -357,7 +372,7 @@
               "key": "ufee5nn5tt",
               "image": "https://i.pinimg.com/474x/76/c7/c9/76c7c9c4004e15a9f4079776074f6a73.jpg",
               "isDeprecated": false,
-              "rightColumn": 15,
+              "rightColumn": 16,
               "objectFit": "cover",
               "widgetId": "6kygk8srwf",
               "isVisible": true,
@@ -367,12 +382,17 @@
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "borderRadius": "0.375rem",
+              "borderRadius": "5rem",
               "enableRotation": false
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "Image1Copy1",
+              "widgetName": "imageCw_food",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
               "topRow": 20,
@@ -400,12 +420,17 @@
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "borderRadius": "0.375rem",
+              "borderRadius": "5rem",
               "enableRotation": false
             },
             {
               "boxShadow": "none",
-              "widgetName": "Image1Copy",
+              "widgetName": "imageCw_candy",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
               "topRow": 20,
@@ -433,12 +458,12 @@
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "borderRadius": "0.375rem",
+              "borderRadius": "5rem",
               "enableRotation": false
             },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "widgetName": "headLogin",
+              "widgetName": "headCw",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -483,7 +508,7 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "widgetName": "IconButton1",
+                      "widgetName": "iconCw",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -520,7 +545,7 @@
                       "buttonVariant": "PRIMARY"
                     },
                     {
-                      "widgetName": "Text1",
+                      "widgetName": "textCwtop",
                       "dynamicPropertyPathList": [
                         {
                           "key": "fontSize"
@@ -605,7 +630,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Divider1",
+              "widgetName": "dividerCwtop",
               "thickness": 2,
               "displayName": "Divider",
               "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
@@ -647,7 +672,7 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             },
             {
-              "widgetName": "Text2",
+              "widgetName": "textcategory",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -696,7 +721,15 @@
               "fontSize": "1rem"
             },
             {
-              "widgetName": "Text3",
+              "widgetName": "textAll",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                },
+                {
+                  "key": "disableLink"
+                }
+              ],
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -732,9 +765,10 @@
               "key": "2ahtho8ffs",
               "isDeprecated": false,
               "rightColumn": 63,
+              "disableLink": "",
               "textAlign": "CENTER",
               "widgetId": "684ovin4n3",
-              "isVisible": true,
+              "isVisible": "true",
               "fontStyle": "BOLD",
               "textColor": "#60a5fa",
               "version": 1,
@@ -746,7 +780,16 @@
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "Image1",
+              "widgetName": "imageCw_drink",
+              "onClick": "{{navigateTo('Centralwarehouse_ drink', {}, 'SAME_WINDOW')}}",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
               "topRow": 20,
@@ -756,7 +799,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "imageShape": "RECTANGLE",
               "leftColumn": 3,
               "dynamicBindingPathList": [],
@@ -767,18 +814,18 @@
               "rightColumn": 16,
               "objectFit": "cover",
               "widgetId": "i2qe167ucx",
-              "isVisible": true,
+              "isVisible": "true",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "borderRadius": "0.375rem",
+              "borderRadius": "5rem",
               "enableRotation": false
             },
             {
-              "widgetName": "Text4",
+              "widgetName": "textCw_drink",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [

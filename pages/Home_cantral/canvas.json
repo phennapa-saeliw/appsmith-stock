@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Home_cantrel",
-    "slug": "home-cantrel",
+    "name": "Home_cantral",
+    "slug": "home-cantral",
     "layouts": [
       {
         "viewMode": false,
@@ -1082,7 +1082,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home_cantrel",
+        "id": "Home_cantral",
         "deleted": false,
         "policies": [],
         "userPermissions": []

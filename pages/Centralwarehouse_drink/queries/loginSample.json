@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home_cantrel",
+    "pageId": "Centralwarehouse_drink",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Home_cantrel_loginSample",
+  "id": "Centralwarehouse_drink_loginSample",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_637343ac1638e44f08602c35"
+  "gitSyncId": "636c92fc03193515321c8396_6374990c1351c74a8ce8bf8c"
 }
