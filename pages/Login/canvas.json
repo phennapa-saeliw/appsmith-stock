@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 65,
+          "version": 67,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -284,7 +284,7 @@
                       ],
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}",
+                      "onSubmit": "",
                       "searchTags": [
                         "form",
                         "text input",
@@ -322,7 +322,7 @@
                       "key": "7yhhgv55kl",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
-                      "onTextChanged": "{{loginSample.run(() => loginSample.run(), () => {})}}",
+                      "onTextChanged": "",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "iconName": "person",
@@ -344,7 +344,7 @@
                       "widgetName": "password",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}",
+                      "onSubmit": "",
                       "searchTags": [
                         "form",
                         "text input",
@@ -382,7 +382,7 @@
                       "key": "7yhhgv55kl",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
-                      "onTextChanged": "{{loginSample.run(() => loginSample.run(), () => {})}}",
+                      "onTextChanged": "",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "iconName": "lock",
@@ -403,7 +403,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnLogin",
-                      "onClick": "{{loginSample.run()}}",
+                      "onClick": "{{loginSample.run(() => {\nconst token = loginSample?.data?.access_token;\nconst user = loginSample?.data?.user;\nif(token) {\nstoreValue('token', token);\nstoreValue('user', user);\nnavigateTo('Home_central', {});}\nelse{\n\tshowAlert('Invalid Username/Password', 'error');\n}})}}",
                       "buttonColor": "#1e40af",
                       "dynamicPropertyPathList": [
                         {

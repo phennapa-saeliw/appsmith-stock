@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home_cantral",
+    "pageId": "Home_central",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Home_cantral_loginSample",
+  "id": "Home_central_loginSample",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_637343ac1638e44f08602c35"
 }

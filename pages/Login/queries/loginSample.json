@@ -42,7 +42,7 @@
           "value": "password"
         }
       ],
-      "body": "{\n  \"email\": \"central@email.com\",\n  \"password\": \"P@ssw0rd\"\n}",
+      "body": "{\n  \"email\": \"{{username.text}}\",\n  \"password\": \"{{password.text}}\"\n}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
@@ -50,11 +50,18 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "password.text",
+      "username.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
