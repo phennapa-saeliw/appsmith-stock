@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Home_cantral",
-    "slug": "home-cantral",
+    "name": "Home_central",
+    "slug": "home-central",
     "layouts": [
       {
         "viewMode": false,
@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 65,
+          "version": 67,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -1082,7 +1082,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home_cantral",
+        "id": "Home_central",
         "deleted": false,
         "policies": [],
         "userPermissions": []

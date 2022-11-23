@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 65,
+          "version": 67,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -403,7 +403,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnLogin",
-                      "onClick": "{{loginSample.run()}}",
+                      "onClick": "{{loginSample.run(() => {\nconst token = loginSample?.data?.access_token;\nconst user = loginSample?.data?.user;\nif(token) {\nstoreValue('token', token);\nstoreValue('user', user);\nnavigateTo('Home_central', {});}\n})}}",
                       "buttonColor": "#1e40af",
                       "dynamicPropertyPathList": [
                         {

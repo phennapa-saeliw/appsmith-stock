@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 65,
+          "version": 67,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -28,7 +28,7 @@
           "children": [
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "widgetName": "headWh_drink",
+              "widgetName": "headCw_drink",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -66,7 +66,7 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "widgetName": "iconbtn_wh",
+                      "widgetName": "iconbtn_Cwdrink",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -269,7 +269,7 @@
                   "enableRotation": false,
                   "enableDownload": false,
                   "objectFit": "cover",
-                  "image": "{{List1.listData.map((currentItem) => currentItem.img)}}",
+                  "image": "{{listCw_drink.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.img;\n              })();\n            })}}",
                   "widgetName": "imageCw_drink",
                   "version": 1,
                   "animateLoading": true,
@@ -299,12 +299,12 @@
                   "bottomRow": 8,
                   "parentId": "x914fda8aq"
                 },
-                "iconCwbtn_edit": {
+                "iconCwbtn_drinkedit": {
                   "isVisible": true,
                   "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'annotation';\n              })();\n            })}}",
                   "buttonVariant": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
                   "isDisabled": false,
-                  "widgetName": "iconCwbtn_edit",
+                  "widgetName": "iconCwbtn_drinkedit",
                   "version": 1,
                   "animateLoading": true,
                   "searchTags": [
@@ -372,12 +372,12 @@
                     "dynamicBindingPathList": true
                   }
                 },
-                "iconCwbtn_add": {
+                "iconCwbtn_drinkadd": {
                   "isVisible": true,
                   "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'add';\n              })();\n            })}}",
                   "buttonVariant": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
                   "isDisabled": false,
-                  "widgetName": "iconCwbtn_add",
+                  "widgetName": "iconCwbtn_drinkadd",
                   "version": 1,
                   "animateLoading": true,
                   "searchTags": [
@@ -445,12 +445,12 @@
                     "dynamicBindingPathList": true
                   }
                 },
-                "iconCwbtn__delete": {
+                "iconCwbtn__drinkdelete": {
                   "isVisible": true,
                   "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'trash';\n              })();\n            })}}",
                   "buttonVariant": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
                   "isDisabled": false,
-                  "widgetName": "iconCwbtn__delete",
+                  "widgetName": "iconCwbtn__drinkdelete",
                   "version": 1,
                   "animateLoading": true,
                   "searchTags": [
@@ -541,6 +541,9 @@
                 },
                 {
                   "key": "boxShadow"
+                },
+                {
+                  "key": "template.imageCw_drink.image"
                 }
               ],
               "gridType": "vertical",
@@ -623,10 +626,10 @@
                               "imageShape": "RECTANGLE",
                               "dynamicBindingPathList": [
                                 {
-                                  "key": "image"
+                                  "key": "borderRadius"
                                 },
                                 {
-                                  "key": "borderRadius"
+                                  "key": "image"
                                 }
                               ],
                               "leftColumn": 0,
@@ -686,7 +689,7 @@
                             },
                             {
                               "boxShadow": "none",
-                              "widgetName": "iconCwbtn_edit",
+                              "widgetName": "iconCwbtn_drinkedit",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Icon Button",
                               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -757,7 +760,7 @@
                             },
                             {
                               "boxShadow": "none",
-                              "widgetName": "iconCwbtn_add",
+                              "widgetName": "iconCwbtn_drinkadd",
                               "buttonColor": "#16a34a",
                               "dynamicPropertyPathList": [],
                               "displayName": "Icon Button",
@@ -829,7 +832,7 @@
                             },
                             {
                               "boxShadow": "none",
-                              "widgetName": "iconCwbtn__delete",
+                              "widgetName": "iconCwbtn__drinkdelete",
                               "buttonColor": "#dc2626",
                               "displayName": "Icon Button",
                               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
