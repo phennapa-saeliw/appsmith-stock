@@ -243,7 +243,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "อาหาร",
+              "text": "ผัก-ผลไม้",
               "key": "2ahtho8ffs",
               "isDeprecated": false,
               "rightColumn": 19,
