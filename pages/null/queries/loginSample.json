@@ -7,6 +7,7 @@
       "name": "https://iqrlxxsjzuotueguklew.supabase.co",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": "https://iqrlxxsjzuotueguklew.supabase.co"
       },
       "invalids": [],
@@ -16,7 +17,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Centralwarehouse_food  Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Centralwarehouse_food  Copy_loginSample",
+  "id": "null_loginSample",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_6374a297c4406624f7ca62ff"
 }

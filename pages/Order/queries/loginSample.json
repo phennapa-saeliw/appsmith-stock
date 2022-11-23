@@ -7,6 +7,7 @@
       "name": "https://iqrlxxsjzuotueguklew.supabase.co",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": "https://iqrlxxsjzuotueguklew.supabase.co"
       },
       "invalids": [],
