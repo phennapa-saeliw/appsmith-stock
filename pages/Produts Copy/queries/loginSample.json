@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home_central",
+    "pageId": "Produts Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
           "value": "password"
         }
       ],
-      "body": "{\n  \"email\": \"zeed20_1@email.com\",\n  \"password\": \"P@ssw0rd\"\n}",
+      "body": "{\n  \"email\": \"central@email.com\",\n  \"password\": \"P@ssw0rd\"\n}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
@@ -60,7 +60,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Home_central_loginSample",
+  "id": "Produts Copy_loginSample",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_637343ac1638e44f08602c35"
+  "gitSyncId": "636c92fc03193515321c8396_637dbdd28a35f35f9baea4ba"
 }

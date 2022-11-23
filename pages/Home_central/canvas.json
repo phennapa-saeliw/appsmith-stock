@@ -28,7 +28,7 @@
           "children": [
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "containerH_cantrel5",
+              "widgetName": "containerH_centrel5",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -77,7 +77,7 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "widgetName": "iconHc_cantre",
+                      "widgetName": "iconHc_centre",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -110,7 +110,7 @@
                       "buttonVariant": "TERTIARY"
                     },
                     {
-                      "widgetName": "textHc_cantre",
+                      "widgetName": "textHc_centre",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -139,7 +139,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Cantrel",
+                      "text": "Centrel",
                       "key": "3omj0q4ec2",
                       "isDeprecated": false,
                       "rightColumn": 53,
@@ -230,7 +230,7 @@
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "containerH_cantrel4",
+              "widgetName": "containerH_centrel4",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "dynamicPropertyPathList": [
@@ -390,7 +390,7 @@
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "containerH_cantrel3",
+              "widgetName": "containerH_centrel3",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -549,7 +549,7 @@
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "containerH_cantrel2",
+              "widgetName": "containerH_centrel2",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -708,7 +708,7 @@
             },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "widgetName": "headH_cantrel",
+              "widgetName": "headH_centrel",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -753,7 +753,7 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "widgetName": "iconH_cantrel",
+                      "widgetName": "iconH_centrel",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -788,7 +788,7 @@
                     {
                       "isCompact": false,
                       "boxShadow": "none",
-                      "widgetName": "menubtnH_cantrel",
+                      "widgetName": "menubtnH_centrel",
                       "dynamicPropertyPathList": [],
                       "displayName": "Menu Button",
                       "iconSVG": "/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
@@ -877,7 +877,7 @@
             },
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "containerH_cantrel1",
+              "widgetName": "containerH_centrel1",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",

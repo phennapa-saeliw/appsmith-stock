@@ -55,6 +55,14 @@
     {
       "id": "Centralwarehouse_acc",
       "isDefault": false
+    },
+    {
+      "id": "Produts Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Public.products",
+      "isDefault": false
     }
   ],
   "viewMode": false,

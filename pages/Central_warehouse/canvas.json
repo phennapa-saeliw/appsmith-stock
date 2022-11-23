@@ -224,6 +224,7 @@
             },
             {
               "widgetName": "textCw_candy",
+              "dynamicPropertyPathList": [],
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -259,6 +260,7 @@
               "key": "2ahtho8ffs",
               "isDeprecated": false,
               "rightColumn": 39,
+              "disableLink": false,
               "textAlign": "CENTER",
               "widgetId": "0t3x4qfkf5",
               "isVisible": true,
@@ -274,6 +276,7 @@
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
               "widgetName": "imageCw_acc",
+              "onClick": "{{navigateTo('Centralwarehouse_acc', {}, 'SAME_WINDOW')}}",
               "dynamicPropertyPathList": [
                 {
                   "key": "borderRadius"
@@ -288,7 +291,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "imageShape": "RECTANGLE",
               "leftColumn": 47,
               "dynamicBindingPathList": [],
@@ -312,6 +319,7 @@
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
               "widgetName": "imageCw_hous",
+              "onClick": "{{navigateTo('Centralwarehouse_hous', {}, 'SAME_WINDOW')}}",
               "dynamicPropertyPathList": [
                 {
                   "key": "borderRadius"
@@ -326,7 +334,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "imageShape": "RECTANGLE",
               "leftColumn": 25,
               "dynamicBindingPathList": [],
@@ -350,6 +362,7 @@
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
               "widgetName": "imageCw_fv",
+              "onClick": "{{navigateTo('Centralwarehouse_vf', {}, 'SAME_WINDOW')}}",
               "dynamicPropertyPathList": [
                 {
                   "key": "borderRadius"
@@ -364,7 +377,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "imageShape": "RECTANGLE",
               "leftColumn": 3,
               "dynamicBindingPathList": [],
@@ -388,6 +405,7 @@
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
               "widgetName": "imageCw_food",
+              "onClick": "{{navigateTo('Centralwarehouse_food ', {}, 'SAME_WINDOW')}}",
               "dynamicPropertyPathList": [
                 {
                   "key": "borderRadius"
@@ -402,7 +420,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "imageShape": "RECTANGLE",
               "leftColumn": 46,
               "dynamicBindingPathList": [],
@@ -426,6 +448,7 @@
             {
               "boxShadow": "none",
               "widgetName": "imageCw_candy",
+              "onClick": "{{navigateTo('Centralwarehouse_candy', {}, 'SAME_WINDOW')}}",
               "dynamicPropertyPathList": [
                 {
                   "key": "borderRadius"
@@ -440,7 +463,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "imageShape": "RECTANGLE",
               "leftColumn": 25,
               "dynamicBindingPathList": [],
@@ -781,7 +808,7 @@
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
               "widgetName": "imageCw_drink",
-              "onClick": "{{navigateTo('Centralwarehouse_ drink', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('Centralwarehouse_drink', {}, 'SAME_WINDOW')}}",
               "dynamicPropertyPathList": [
                 {
                   "key": "isVisible"
@@ -826,6 +853,7 @@
             },
             {
               "widgetName": "textCw_drink",
+              "dynamicPropertyPathList": [],
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
