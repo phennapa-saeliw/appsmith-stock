@@ -775,6 +775,7 @@
                       "widgetName": "iconHb_user",
                       "onClick": "{{navigateTo('Manage_users', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
