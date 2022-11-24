@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home_branch ",
+    "pageId": "Home ",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Home_branch _loginSample",
+  "id": "Home _loginSample",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_6371f02013b04c5e26c9eee8"
 }

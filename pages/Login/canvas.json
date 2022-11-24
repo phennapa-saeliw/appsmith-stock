@@ -248,7 +248,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnLogin",
-                      "onClick": "{{loginSample.run(() => {\nconst token = loginSample?.data?.access_token;\nconst user = loginSample?.data?.user;\nif(token) {\nstoreValue('token', token);\nstoreValue('user', user);\nnavigateTo('Home_central',{})\n}\n\nelse{\n\tshowAlert('Invalid Username/Password', 'error');\n}})}}",
+                      "onClick": "{{loginSample.run(() => {\nconst token = loginSample?.data?.access_token;\nconst user = loginSample?.data?.user;\n\tlet type = user.user_metadata.branch_type;\nif(token) {\nstoreValue('token', token);\nstoreValue('user', user);\n\tif(type === 'center'){\n\tnavigateTo('Home_central', {});\n\t}else{\n\t\tnavigateTo('Home', {});\n\t}\n}\nelse{\n\tshowAlert('Invalid Username/Password', 'error');\n}})}}",
                       "buttonColor": "#1e40af",
                       "dynamicPropertyPathList": [
                         {

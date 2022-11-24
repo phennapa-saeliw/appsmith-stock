@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Home_branch ",
-    "slug": "home-branch",
+    "name": "Home ",
+    "slug": "home",
     "layouts": [
       {
         "viewMode": false,
@@ -934,7 +934,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home_branch ",
+        "id": "Home ",
         "deleted": false,
         "policies": [],
         "userPermissions": []
