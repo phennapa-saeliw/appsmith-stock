@@ -1077,6 +1077,152 @@
                             "parentId": true,
                             "dynamicBindingPathList": true
                           }
+                        },
+                        "IconButton2": {
+                          "isVisible": true,
+                          "iconName": "plus",
+                          "buttonVariant": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
+                          "isDisabled": false,
+                          "widgetName": "IconButton2",
+                          "version": 1,
+                          "animateLoading": true,
+                          "searchTags": [
+                            "click",
+                            "submit"
+                          ],
+                          "type": "ICON_BUTTON_WIDGET",
+                          "hideCard": false,
+                          "isDeprecated": false,
+                          "displayName": "Icon Button",
+                          "key": "hpbhk4cldp",
+                          "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                          "widgetId": "ij258uyz5x",
+                          "renderMode": "CANVAS",
+                          "buttonColor": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#16a34a';\n              })();\n            })}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "isLoading": false,
+                          "parentColumnSpace": 5.99169921875,
+                          "parentRowSpace": 10,
+                          "leftColumn": 54,
+                          "rightColumn": 58,
+                          "topRow": 0,
+                          "bottomRow": 4,
+                          "parentId": "6uysze2b0c",
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "buttonColor"
+                            },
+                            {
+                              "key": "borderRadius"
+                            }
+                          ],
+                          "logBlackList": {
+                            "isVisible": true,
+                            "iconName": true,
+                            "buttonVariant": true,
+                            "isDisabled": true,
+                            "widgetName": true,
+                            "version": true,
+                            "animateLoading": true,
+                            "searchTags": true,
+                            "type": true,
+                            "hideCard": true,
+                            "isDeprecated": true,
+                            "replacement": true,
+                            "displayName": true,
+                            "key": true,
+                            "iconSVG": true,
+                            "isCanvas": true,
+                            "minHeight": true,
+                            "widgetId": true,
+                            "renderMode": true,
+                            "buttonColor": true,
+                            "borderRadius": true,
+                            "boxShadow": true,
+                            "isLoading": true,
+                            "parentColumnSpace": true,
+                            "parentRowSpace": true,
+                            "leftColumn": true,
+                            "rightColumn": true,
+                            "topRow": true,
+                            "bottomRow": true,
+                            "parentId": true,
+                            "dynamicBindingPathList": true
+                          }
+                        },
+                        "IconButton3": {
+                          "isVisible": true,
+                          "iconName": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'remove';\n              })();\n            })}}",
+                          "buttonVariant": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
+                          "isDisabled": false,
+                          "widgetName": "IconButton3",
+                          "version": 1,
+                          "animateLoading": true,
+                          "searchTags": [
+                            "click",
+                            "submit"
+                          ],
+                          "type": "ICON_BUTTON_WIDGET",
+                          "hideCard": false,
+                          "isDeprecated": false,
+                          "displayName": "Icon Button",
+                          "key": "hpbhk4cldp",
+                          "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                          "widgetId": "l3gnw8crdq",
+                          "renderMode": "CANVAS",
+                          "buttonColor": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#ef4444';\n              })();\n            })}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "isLoading": false,
+                          "parentColumnSpace": 5.99169921875,
+                          "parentRowSpace": 10,
+                          "leftColumn": 54,
+                          "rightColumn": 58,
+                          "topRow": 4,
+                          "bottomRow": 8,
+                          "parentId": "6uysze2b0c",
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "buttonColor"
+                            },
+                            {
+                              "key": "borderRadius"
+                            }
+                          ],
+                          "logBlackList": {
+                            "isVisible": true,
+                            "iconName": true,
+                            "buttonVariant": true,
+                            "isDisabled": true,
+                            "widgetName": true,
+                            "version": true,
+                            "animateLoading": true,
+                            "searchTags": true,
+                            "type": true,
+                            "hideCard": true,
+                            "isDeprecated": true,
+                            "replacement": true,
+                            "displayName": true,
+                            "key": true,
+                            "iconSVG": true,
+                            "isCanvas": true,
+                            "minHeight": true,
+                            "widgetId": true,
+                            "renderMode": true,
+                            "buttonColor": true,
+                            "borderRadius": true,
+                            "boxShadow": true,
+                            "isLoading": true,
+                            "parentColumnSpace": true,
+                            "parentRowSpace": true,
+                            "leftColumn": true,
+                            "rightColumn": true,
+                            "topRow": true,
+                            "bottomRow": true,
+                            "parentId": true,
+                            "dynamicBindingPathList": true
+                          }
                         }
                       },
                       "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
@@ -1137,6 +1283,21 @@
                         },
                         {
                           "key": "template.Text5.fontSize"
+                        },
+                        {
+                          "key": "template.IconButton2.buttonVariant"
+                        },
+                        {
+                          "key": "template.IconButton2.buttonColor"
+                        },
+                        {
+                          "key": "template.IconButton3.iconName"
+                        },
+                        {
+                          "key": "template.IconButton3.buttonVariant"
+                        },
+                        {
+                          "key": "template.IconButton3.buttonColor"
                         }
                       ],
                       "gridType": "vertical",
@@ -1562,6 +1723,148 @@
                                       "isLoading": false,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "fontSize": "0.875rem"
+                                    },
+                                    {
+                                      "boxShadow": "none",
+                                      "widgetName": "IconButton2",
+                                      "buttonColor": "#16a34a",
+                                      "displayName": "Icon Button",
+                                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                                      "searchTags": [
+                                        "click",
+                                        "submit"
+                                      ],
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "ICON_BUTTON_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 5.99169921875,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 54,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "isDisabled": false,
+                                      "key": "hpbhk4cldp",
+                                      "isDeprecated": false,
+                                      "rightColumn": 58,
+                                      "iconName": "plus",
+                                      "widgetId": "ij258uyz5x",
+                                      "logBlackList": {
+                                        "isVisible": true,
+                                        "iconName": true,
+                                        "buttonVariant": true,
+                                        "isDisabled": true,
+                                        "widgetName": true,
+                                        "version": true,
+                                        "animateLoading": true,
+                                        "searchTags": true,
+                                        "type": true,
+                                        "hideCard": true,
+                                        "isDeprecated": true,
+                                        "replacement": true,
+                                        "displayName": true,
+                                        "key": true,
+                                        "iconSVG": true,
+                                        "isCanvas": true,
+                                        "minHeight": true,
+                                        "widgetId": true,
+                                        "renderMode": true,
+                                        "buttonColor": true,
+                                        "borderRadius": true,
+                                        "boxShadow": true,
+                                        "isLoading": true,
+                                        "parentColumnSpace": true,
+                                        "parentRowSpace": true,
+                                        "leftColumn": true,
+                                        "rightColumn": true,
+                                        "topRow": true,
+                                        "bottomRow": true,
+                                        "parentId": true,
+                                        "dynamicBindingPathList": true
+                                      },
+                                      "isVisible": true,
+                                      "version": 1,
+                                      "parentId": "6uysze2b0c",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "buttonVariant": "TERTIARY"
+                                    },
+                                    {
+                                      "boxShadow": "none",
+                                      "widgetName": "IconButton3",
+                                      "buttonColor": "#ef4444",
+                                      "displayName": "Icon Button",
+                                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                                      "searchTags": [
+                                        "click",
+                                        "submit"
+                                      ],
+                                      "topRow": 7,
+                                      "bottomRow": 11,
+                                      "parentRowSpace": 10,
+                                      "type": "ICON_BUTTON_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 5.99169921875,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 54,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "isDisabled": false,
+                                      "key": "hpbhk4cldp",
+                                      "isDeprecated": false,
+                                      "rightColumn": 58,
+                                      "iconName": "remove",
+                                      "widgetId": "l3gnw8crdq",
+                                      "logBlackList": {
+                                        "isVisible": true,
+                                        "iconName": true,
+                                        "buttonVariant": true,
+                                        "isDisabled": true,
+                                        "widgetName": true,
+                                        "version": true,
+                                        "animateLoading": true,
+                                        "searchTags": true,
+                                        "type": true,
+                                        "hideCard": true,
+                                        "isDeprecated": true,
+                                        "replacement": true,
+                                        "displayName": true,
+                                        "key": true,
+                                        "iconSVG": true,
+                                        "isCanvas": true,
+                                        "minHeight": true,
+                                        "widgetId": true,
+                                        "renderMode": true,
+                                        "buttonColor": true,
+                                        "borderRadius": true,
+                                        "boxShadow": true,
+                                        "isLoading": true,
+                                        "parentColumnSpace": true,
+                                        "parentRowSpace": true,
+                                        "leftColumn": true,
+                                        "rightColumn": true,
+                                        "topRow": true,
+                                        "bottomRow": true,
+                                        "parentId": true,
+                                        "dynamicBindingPathList": true
+                                      },
+                                      "isVisible": true,
+                                      "version": 1,
+                                      "parentId": "6uysze2b0c",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "buttonVariant": "TERTIARY"
                                     }
                                   ],
                                   "key": "yxprspuwaj",
@@ -1630,7 +1933,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "IconButton1",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#ffb31e",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -1644,11 +1947,9 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.53125,
+                      "dynamicTriggerPathList": [],
                       "leftColumn": 55,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -1656,8 +1957,8 @@
                       "isDisabled": false,
                       "key": "hpbhk4cldp",
                       "isDeprecated": false,
-                      "rightColumn": 59,
-                      "iconName": "plus",
+                      "rightColumn": 61,
+                      "iconName": "shopping-cart",
                       "widgetId": "rf61i2xpcf",
                       "isVisible": true,
                       "version": 1,
