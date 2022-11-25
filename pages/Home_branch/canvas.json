@@ -1,6 +1,6 @@
 {
   "unpublishedPage": {
-    "name": "Home_branch ",
+    "name": "Home_branch",
     "slug": "home-branch",
     "layouts": [
       {
@@ -775,6 +775,7 @@
                       "widgetName": "iconHb_user",
                       "onClick": "{{navigateTo('Manage_users', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -933,7 +934,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home_branch ",
+        "id": "Home_branch",
         "deleted": false,
         "policies": [],
         "userPermissions": []

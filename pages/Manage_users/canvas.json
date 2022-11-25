@@ -233,9 +233,6 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
-                        },
-                        {
-                          "key": "borderRadius"
                         }
                       ],
                       "isDisabled": false,
@@ -249,7 +246,7 @@
                       "parentId": "2xyke2mhw0",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "borderRadius": "1.5rem",
                       "buttonVariant": "PRIMARY"
                     },
                     {
