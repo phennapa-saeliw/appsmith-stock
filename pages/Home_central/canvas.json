@@ -78,6 +78,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHc_centre",
+                      "onClick": "{{navigateTo('Central_warehouse', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -92,7 +93,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 17,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
@@ -281,6 +286,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHc_order",
+                      "onClick": "{{navigateTo('Order', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -295,7 +301,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 3,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
@@ -599,6 +609,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHc_produts",
+                      "onClick": "{{navigateTo('Produts', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -613,7 +624,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 2,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
@@ -927,6 +942,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHc_user",
+                      "onClick": "{{navigateTo('Manage_users', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -941,7 +957,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 3,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 770,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -371,7 +371,7 @@
                     "parentId": true,
                     "dynamicBindingPathList": true
                   },
-                  "onClick": "{{showModal('Modal_Edit')}}"
+                  "onClick": "{{showModal('modal_Edit')}}"
                 },
                 "iconCwbtn_drinkadd": {
                   "isVisible": true,
@@ -445,7 +445,7 @@
                     "parentId": true,
                     "dynamicBindingPathList": true
                   },
-                  "onClick": "{{showModal('Modal_add')}}"
+                  "onClick": "{{showModal('modal_add')}}"
                 },
                 "iconCwbtn__drinkdelete": {
                   "isVisible": true,
@@ -792,7 +792,7 @@
               "displayName": "List",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
               "topRow": 17,
-              "bottomRow": 73,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "LIST_WIDGET",
               "hideCard": false,
@@ -813,14 +813,8 @@
                   "key": "template.iconCwbtn__drinkdelete.onClick"
                 }
               ],
-              "leftColumn": 3,
+              "leftColumn": 4,
               "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                },
                 {
                   "key": "template.imageCw_drink.image"
                 },
@@ -984,7 +978,7 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "iconCwbtn_drinkedit",
-                              "onClick": "{{showModal('Modal_Edit')}}",
+                              "onClick": "{{showModal('modal_Edit')}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Icon Button",
                               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -1060,7 +1054,7 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "iconCwbtn_drinkadd",
-                              "onClick": "{{showModal('Modal_add')}}",
+                              "onClick": "{{showModal('modal_add')}}",
                               "buttonColor": "#16a34a",
                               "dynamicPropertyPathList": [],
                               "displayName": "Icon Button",
@@ -1544,7 +1538,7 @@
               "key": "xwayhq7ppd",
               "backgroundColor": "transparent",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 61,
               "onListItemClick": "",
               "itemBackgroundColor": "#FFFFFF",
               "widgetId": "dczi2wa41v",
@@ -1557,7 +1551,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Modal_Edit",
+              "widgetName": "modal_Edit",
               "isCanvas": true,
               "displayName": "Modal",
               "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
@@ -1611,8 +1605,8 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "widgetName": "IconButton1",
-                      "onClick": "{{closeModal('Modal1')}}",
+                      "widgetName": "iconBtn_Moedit",
+                      "onClick": "{{closeModal('modal_Edit')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -1625,6 +1619,11 @@
                       "type": "ICON_BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 58,
                       "dynamicBindingPathList": [
                         {
@@ -1650,7 +1649,7 @@
                       "buttonVariant": "TERTIARY"
                     },
                     {
-                      "widgetName": "Text1",
+                      "widgetName": "text_Moedit",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -1699,7 +1698,7 @@
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
-                      "widgetName": "Button1",
+                      "widgetName": "btnclose_Moedit",
                       "onClick": "{{closeModal('Modal1')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
@@ -1744,7 +1743,7 @@
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
-                      "widgetName": "Button2",
+                      "widgetName": "btnupdate_Moedit",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -1788,7 +1787,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "IconButton2",
+                      "widgetName": "icon_Moedit",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -1829,7 +1828,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Divider1",
+                      "widgetName": "divider_Moedit",
                       "thickness": "2",
                       "displayName": "Divider",
                       "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
@@ -1872,7 +1871,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Image1",
+                      "widgetName": "image_Moedit",
                       "onClick": "",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
@@ -1910,7 +1909,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1",
+                      "widgetName": "inputname_Moedit",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -1963,7 +1962,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input2",
+                      "widgetName": "inputsku_Moedit",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -2016,7 +2015,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input3",
+                      "widgetName": "inputcategory_Moedit",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -2101,7 +2100,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Modal_add",
+              "widgetName": "modal_add",
               "isCanvas": true,
               "displayName": "Modal",
               "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
@@ -2135,7 +2134,7 @@
                   "widgetName": "Canvas6",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 670,
+                  "bottomRow": 676,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -2155,8 +2154,8 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "widgetName": "IconButton3",
-                      "onClick": "{{closeModal('Modal1')}}",
+                      "widgetName": "iconbtn_Moadd",
+                      "onClick": "{{closeModal('modal_add')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -2169,6 +2168,11 @@
                       "type": "ICON_BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 58,
                       "dynamicBindingPathList": [
                         {
@@ -2196,7 +2200,7 @@
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
-                      "widgetName": "Button3",
+                      "widgetName": "btnclose_Moadd",
                       "onClick": "{{closeModal('Modal1')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
@@ -2241,7 +2245,7 @@
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
-                      "widgetName": "Button4",
+                      "widgetName": "btnsave_Moadd",
                       "buttonColor": "#16a34a",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -2282,67 +2286,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "ButtonGroup1",
-                      "isCanvas": false,
-                      "displayName": "Button Group",
-                      "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 2,
-                      "bottomRow": 6,
-                      "parentRowSpace": 10,
-                      "groupButtons": {
-                        "groupButton2": {
-                          "label": "Add",
-                          "iconName": "add",
-                          "id": "groupButton2",
-                          "buttonType": "SIMPLE",
-                          "placement": "CENTER",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 0,
-                          "menuItems": {},
-                          "buttonColor": "#16a34a"
-                        }
-                      },
-                      "type": "BUTTON_GROUP_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "childStylesheet.button.buttonColor"
-                        }
-                      ],
-                      "key": "zhd2akjq77",
-                      "orientation": "horizontal",
-                      "isDeprecated": false,
-                      "rightColumn": 20,
-                      "widgetId": "o1siaft9ai",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "dxmaop5j7l",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "childStylesheet": {
-                        "button": {
-                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                        }
-                      },
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "buttonVariant": "PRIMARY"
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "Divider2",
+                      "widgetName": "divider_Moadd",
                       "thickness": 2,
                       "displayName": "Divider",
                       "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
@@ -2384,7 +2328,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Image2",
+                      "widgetName": "image_Moadd",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
                       "topRow": 10,
@@ -2420,7 +2364,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input4",
+                      "widgetName": "inputname_Moadd",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -2473,7 +2417,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input5",
+                      "widgetName": "inputsku_Moadd",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -2526,7 +2470,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input6",
+                      "widgetName": "inputcategory_Moadd",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -2579,7 +2523,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input7",
+                      "widgetName": "inputamount_Moadd",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -2632,7 +2576,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "TreeSelect1",
+                      "widgetName": "treeprice_Moadd",
                       "dynamicPropertyPathList": [
                         {
                           "key": "animateLoading"
@@ -2691,6 +2635,52 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "onOptionChange": "",
                       "allowClear": "false"
+                    },
+                    {
+                      "widgetName": "textadd_Moadd",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "Inter",
+                      "parentColumnSpace": 6.4921875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Add",
+                      "key": "8svigv85w2",
+                      "isDeprecated": false,
+                      "rightColumn": 11,
+                      "textAlign": "LEFT",
+                      "widgetId": "nf7j5597hs",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "dxmaop5j7l",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "fontSize": "1.25rem"
                     }
                   ],
                   "isDisabled": false,
