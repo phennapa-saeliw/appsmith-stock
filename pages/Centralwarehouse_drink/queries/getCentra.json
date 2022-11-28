@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "loginSample",
+    "name": "getCentra",
     "datasource": {
       "name": "https://iqrlxxsjzuotueguklew.supabase.co",
       "pluginId": "restapi-plugin",
@@ -16,34 +16,35 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Produts Copy",
+    "pageId": "Centralwarehouse_drink",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/auth/v1/token",
+      "path": "/rest/v1/products",
       "headers": [
         {
           "key": "apikey",
           "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlxcmx4eHNqenVvdHVlZ3VrbGV3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njc5MDM0NjYsImV4cCI6MTk4MzQ3OTQ2Nn0.WgJixpjkcwt6il7c-rCuP5yn2IOL4xuGMy35GA4D3Sw"
         },
         {
-          "key": "content-type",
-          "value": "application/json"
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlxcmx4eHNqenVvdHVlZ3VrbGV3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njc5MDM0NjYsImV4cCI6MTk4MzQ3OTQ2Nn0.WgJixpjkcwt6il7c-rCuP5yn2IOL4xuGMy35GA4D3Sw"
         },
         {
-          "key": "Cookie",
-          "value": "sb-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjY4MDY5OTczLCJzdWIiOiIyMTg2ZWRiZC0yOGFkLTQwZjktOTZjZS1iOTljMzc3MjhiNDYiLCJlbWFpbCI6ImxpdzQ4QGhvdG1haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6e30sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwic2Vzc2lvbl9pZCI6IjE3OWNjNzNlLWYxNjItNGU3NC04MDk0LTIwZDFjNmE1OTE4ZSJ9.qZjWqro80UCslSVn5ZXTgpUB5ZeVWXF95kXhQW_NfYg; sb-refresh-token=ejh3_Jhu2R4pif3IB-SmoA"
+          "key": "content-type",
+          "value": "application/json"
         }
       ],
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "grant_type",
-          "value": "password"
+          "key": "select",
+          "value": "*"
         }
       ],
-      "body": "{\n  \"email\": \"central@email.com\",\n  \"password\": \"P@ssw0rd\"\n}",
-      "httpMethod": "POST",
+      "body": "",
+      "bodyFormData": [],
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "formData": {
         "apiContentType": "application/json"
@@ -60,7 +61,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Produts Copy_loginSample",
+  "id": "Centralwarehouse_drink_getCentra",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_637dbdd28a35f35f9baea4ba"
+  "gitSyncId": "636c92fc03193515321c8396_638424bfa943cc38d7decef7"
 }

@@ -1078,12 +1078,12 @@
                             "dynamicBindingPathList": true
                           }
                         },
-                        "IconButton2": {
+                        "iconButton_Add": {
                           "isVisible": true,
                           "iconName": "plus",
                           "buttonVariant": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
                           "isDisabled": false,
-                          "widgetName": "IconButton2",
+                          "widgetName": "iconButton_Add",
                           "version": 1,
                           "animateLoading": true,
                           "searchTags": [
@@ -1149,14 +1149,15 @@
                             "bottomRow": true,
                             "parentId": true,
                             "dynamicBindingPathList": true
-                          }
+                          },
+                          "onClick": ""
                         },
-                        "IconButton3": {
+                        "iconButton_Remove": {
                           "isVisible": true,
                           "iconName": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'remove';\n              })();\n            })}}",
                           "buttonVariant": "{{ListProduts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
                           "isDisabled": false,
-                          "widgetName": "IconButton3",
+                          "widgetName": "iconButton_Remove",
                           "version": 1,
                           "animateLoading": true,
                           "searchTags": [
@@ -1247,6 +1248,9 @@
                       "dynamicTriggerPathList": [
                         {
                           "key": "onListItemClick"
+                        },
+                        {
+                          "key": "template.iconButton_Add.onClick"
                         }
                       ],
                       "leftColumn": 0,
@@ -1285,19 +1289,19 @@
                           "key": "template.Text5.fontSize"
                         },
                         {
-                          "key": "template.IconButton2.buttonVariant"
+                          "key": "template.iconButton_Add.buttonVariant"
                         },
                         {
-                          "key": "template.IconButton2.buttonColor"
+                          "key": "template.iconButton_Add.buttonColor"
                         },
                         {
-                          "key": "template.IconButton3.iconName"
+                          "key": "template.iconButton_Remove.iconName"
                         },
                         {
-                          "key": "template.IconButton3.buttonVariant"
+                          "key": "template.iconButton_Remove.buttonVariant"
                         },
                         {
-                          "key": "template.IconButton3.buttonColor"
+                          "key": "template.iconButton_Remove.buttonColor"
                         }
                       ],
                       "gridType": "vertical",
@@ -1726,8 +1730,14 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "IconButton2",
+                                      "widgetName": "iconButton_Add",
+                                      "onClick": "",
                                       "buttonColor": "#16a34a",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "onClick"
+                                        }
+                                      ],
                                       "displayName": "Icon Button",
                                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                                       "searchTags": [
@@ -1741,7 +1751,11 @@
                                       "hideCard": false,
                                       "animateLoading": true,
                                       "parentColumnSpace": 5.99169921875,
-                                      "dynamicTriggerPathList": [],
+                                      "dynamicTriggerPathList": [
+                                        {
+                                          "key": "onClick"
+                                        }
+                                      ],
                                       "leftColumn": 54,
                                       "dynamicBindingPathList": [
                                         {
@@ -1797,7 +1811,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "IconButton3",
+                                      "widgetName": "iconButton_Remove",
                                       "buttonColor": "#ef4444",
                                       "displayName": "Icon Button",
                                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -1932,8 +1946,9 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "IconButton1",
+                      "widgetName": "iconButto_Cart",
                       "buttonColor": "#ffb31e",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "DeleteQuery",
+    "name": "Query1",
     "datasource": {
       "name": "stocks",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Public.products",
+    "pageId": "Centralwarehouse_drink",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM public.\"products\"\n  WHERE \"product_id\" = {{data_table.triggeredRow.product_id}};",
+      "body": "SELECT * FROM public.\"products\" LIMIT 23;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,19 +26,18 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "data_table.triggeredRow.product_id"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Public.products_DeleteQuery",
+  "id": "Centralwarehouse_drink_Query1",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_637dd7f35a00585307e88b4a"
+  "gitSyncId": "636c92fc03193515321c8396_638470b33e748351b7e6b4d3"
 }
