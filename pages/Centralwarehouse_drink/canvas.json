@@ -547,7 +547,7 @@
                   "widgetId": "cn58ayuewg",
                   "renderMode": "CANVAS",
                   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                  "fontFamily": "{{listCw_drink.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
                   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                   "isLoading": false,
                   "parentColumnSpace": 5.65771484375,
@@ -610,7 +610,7 @@
                   "isVisible": true,
                   "text": "{{listCw_drink.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.category;\n              })();\n            })}}",
                   "fontSize": "1rem",
-                  "fontStyle": "BOLD",
+                  "fontStyle": "",
                   "textAlign": "LEFT",
                   "textColor": "#231F20",
                   "widgetName": "text_NameCategory",
@@ -632,7 +632,7 @@
                   "widgetId": "aaae9scvtg",
                   "renderMode": "CANVAS",
                   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                  "fontFamily": "{{listCw_drink.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
                   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                   "isLoading": false,
                   "parentColumnSpace": 5.65771484375,
@@ -779,7 +779,7 @@
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "listCw_drink",
-              "listData": "{{Query1.data}}",
+              "listData": "{{queryDrink.data}}",
               "isCanvas": true,
               "dynamicPropertyPathList": [
                 {
@@ -832,6 +832,12 @@
                 },
                 {
                   "key": "listData"
+                },
+                {
+                  "key": "template.text_NameCategory.fontFamily"
+                },
+                {
+                  "key": "template.text_NameDrink.fontFamily"
                 }
               ],
               "gridType": "vertical",
@@ -1220,16 +1226,13 @@
                               "hideCard": false,
                               "animateLoading": true,
                               "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "fontFamily": "Inter",
                               "parentColumnSpace": 5.65771484375,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 17,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
                                 },
                                 {
                                   "key": "borderRadius"
@@ -1323,16 +1326,13 @@
                               "hideCard": false,
                               "animateLoading": "true",
                               "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "fontFamily": "Inter",
                               "parentColumnSpace": 5.65771484375,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 17,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
                                 },
                                 {
                                   "key": "borderRadius"
@@ -1388,7 +1388,7 @@
                                 "dynamicBindingPathList": true
                               },
                               "isVisible": "true",
-                              "fontStyle": "BOLD",
+                              "fontStyle": "",
                               "textColor": "#231F20",
                               "version": 1,
                               "parentId": "x914fda8aq",
@@ -2719,8 +2719,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Centralwarehouse_drink_Query1",
-              "name": "Query1",
+              "id": "Centralwarehouse_drink_queryDrink",
+              "name": "queryDrink",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

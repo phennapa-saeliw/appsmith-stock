@@ -570,8 +570,13 @@
                     {
                       "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
                       "widgetName": "iconbtnP_home",
-                      "onClick": "{{navigateTo('Home_branch ', {}, 'SAME_WINDOW')}}",
+                      "onClick": "",
                       "buttonColor": "#18181b",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -1150,7 +1155,7 @@
                             "parentId": true,
                             "dynamicBindingPathList": true
                           },
-                          "onClick": ""
+                          "onClick": "{{storeValue()}}"
                         },
                         "iconButton_Remove": {
                           "isVisible": true,
@@ -1242,7 +1247,7 @@
                       "parentRowSpace": 10,
                       "type": "LIST_WIDGET",
                       "hideCard": false,
-                      "gridGap": "0",
+                      "gridGap": "",
                       "animateLoading": true,
                       "parentColumnSpace": 6.53125,
                       "dynamicTriggerPathList": [
@@ -1731,13 +1736,9 @@
                                     {
                                       "boxShadow": "none",
                                       "widgetName": "iconButton_Add",
-                                      "onClick": "",
+                                      "onClick": "{{storeValue()}}",
                                       "buttonColor": "#16a34a",
-                                      "dynamicPropertyPathList": [
-                                        {
-                                          "key": "onClick"
-                                        }
-                                      ],
+                                      "dynamicPropertyPathList": [],
                                       "displayName": "Icon Button",
                                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                                       "searchTags": [
@@ -1947,8 +1948,13 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconButto_Cart",
+                      "onClick": "{{clearStore()}}",
                       "buttonColor": "#ffb31e",
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "iconName"
+                        }
+                      ],
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -1962,7 +1968,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.53125,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 55,
                       "dynamicBindingPathList": [
                         {

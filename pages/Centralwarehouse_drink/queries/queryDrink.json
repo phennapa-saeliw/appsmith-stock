@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query3",
+    "name": "queryDrink",
     "datasource": {
       "name": "stocks",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Centralwarehouse_food ",
+    "pageId": "Centralwarehouse_drink",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"products\" LIMIT 37 OFFSET 48",
+      "body": "SELECT * FROM products WHERE category = ('Drink');",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Centralwarehouse_food _Query3",
+  "id": "Centralwarehouse_drink_queryDrink",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_638481eafa57b54aac1be47d"
+  "gitSyncId": "636c92fc03193515321c8396_638470b33e748351b7e6b4d3"
 }

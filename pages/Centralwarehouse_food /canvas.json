@@ -518,184 +518,14 @@
                     "dynamicBindingPathList": true
                   }
                 },
-                "Text1": {
-                  "isVisible": true,
-                  "text": "{{listCw_food.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
-                  "fontSize": "1rem",
-                  "fontStyle": "BOLD",
-                  "textAlign": "LEFT",
-                  "textColor": "#231F20",
-                  "widgetName": "Text1",
-                  "shouldTruncate": false,
-                  "overflow": "NONE",
-                  "version": 1,
-                  "animateLoading": true,
-                  "searchTags": [
-                    "typography",
-                    "paragraph",
-                    "label"
-                  ],
-                  "type": "TEXT_WIDGET",
-                  "hideCard": false,
-                  "isDeprecated": false,
-                  "displayName": "Text",
-                  "key": "52u5zdy0fh",
-                  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                  "widgetId": "b4cd2lmf41",
-                  "renderMode": "CANVAS",
-                  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "isLoading": false,
-                  "parentColumnSpace": 5.65771484375,
-                  "parentRowSpace": 10,
-                  "leftColumn": 16,
-                  "rightColumn": 32,
-                  "topRow": 0,
-                  "bottomRow": 4,
-                  "parentId": "x914fda8aq",
-                  "dynamicBindingPathList": [
-                    {
-                      "key": "truncateButtonColor"
-                    },
-                    {
-                      "key": "fontFamily"
-                    },
-                    {
-                      "key": "borderRadius"
-                    }
-                  ],
-                  "logBlackList": {
-                    "isVisible": true,
-                    "text": true,
-                    "fontSize": true,
-                    "fontStyle": true,
-                    "textAlign": true,
-                    "textColor": true,
-                    "widgetName": true,
-                    "shouldTruncate": true,
-                    "overflow": true,
-                    "version": true,
-                    "animateLoading": true,
-                    "searchTags": true,
-                    "type": true,
-                    "hideCard": true,
-                    "isDeprecated": true,
-                    "replacement": true,
-                    "displayName": true,
-                    "key": true,
-                    "iconSVG": true,
-                    "isCanvas": true,
-                    "minHeight": true,
-                    "widgetId": true,
-                    "renderMode": true,
-                    "truncateButtonColor": true,
-                    "fontFamily": true,
-                    "borderRadius": true,
-                    "isLoading": true,
-                    "parentColumnSpace": true,
-                    "parentRowSpace": true,
-                    "leftColumn": true,
-                    "rightColumn": true,
-                    "topRow": true,
-                    "bottomRow": true,
-                    "parentId": true,
-                    "dynamicBindingPathList": true
-                  }
-                },
-                "Text2": {
-                  "isVisible": true,
-                  "text": "{{listCw_food.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.category;\n              })();\n            })}}",
-                  "fontSize": "1rem",
-                  "fontStyle": "BOLD",
-                  "textAlign": "LEFT",
-                  "textColor": "#231F20",
-                  "widgetName": "Text2",
-                  "shouldTruncate": false,
-                  "overflow": "NONE",
-                  "version": 1,
-                  "animateLoading": true,
-                  "searchTags": [
-                    "typography",
-                    "paragraph",
-                    "label"
-                  ],
-                  "type": "TEXT_WIDGET",
-                  "hideCard": false,
-                  "isDeprecated": false,
-                  "displayName": "Text",
-                  "key": "52u5zdy0fh",
-                  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                  "widgetId": "we1g8jcwwk",
-                  "renderMode": "CANVAS",
-                  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "isLoading": false,
-                  "parentColumnSpace": 5.65771484375,
-                  "parentRowSpace": 10,
-                  "leftColumn": 16,
-                  "rightColumn": 32,
-                  "topRow": 4,
-                  "bottomRow": 8,
-                  "parentId": "x914fda8aq",
-                  "dynamicBindingPathList": [
-                    {
-                      "key": "truncateButtonColor"
-                    },
-                    {
-                      "key": "fontFamily"
-                    },
-                    {
-                      "key": "borderRadius"
-                    }
-                  ],
-                  "logBlackList": {
-                    "isVisible": true,
-                    "text": true,
-                    "fontSize": true,
-                    "fontStyle": true,
-                    "textAlign": true,
-                    "textColor": true,
-                    "widgetName": true,
-                    "shouldTruncate": true,
-                    "overflow": true,
-                    "version": true,
-                    "animateLoading": true,
-                    "searchTags": true,
-                    "type": true,
-                    "hideCard": true,
-                    "isDeprecated": true,
-                    "replacement": true,
-                    "displayName": true,
-                    "key": true,
-                    "iconSVG": true,
-                    "isCanvas": true,
-                    "minHeight": true,
-                    "widgetId": true,
-                    "renderMode": true,
-                    "truncateButtonColor": true,
-                    "fontFamily": true,
-                    "borderRadius": true,
-                    "isLoading": true,
-                    "parentColumnSpace": true,
-                    "parentRowSpace": true,
-                    "leftColumn": true,
-                    "rightColumn": true,
-                    "topRow": true,
-                    "bottomRow": true,
-                    "parentId": true,
-                    "dynamicBindingPathList": true
-                  }
-                },
-                "Text3": {
+                "textF_Ppu": {
                   "isVisible": true,
                   "text": "{{listCw_food.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.price_per_unit;\n              })();\n            })}}",
                   "fontSize": "1rem",
                   "fontStyle": "BOLD",
                   "textAlign": "LEFT",
                   "textColor": "#231F20",
-                  "widgetName": "Text3",
+                  "widgetName": "textF_Ppu",
                   "shouldTruncate": false,
                   "overflow": "NONE",
                   "version": 1,
@@ -772,11 +602,181 @@
                     "parentId": true,
                     "dynamicBindingPathList": true
                   }
+                },
+                "textF_category": {
+                  "isVisible": true,
+                  "text": "{{listCw_food.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.category;\n              })();\n            })}}",
+                  "fontSize": "1rem",
+                  "fontStyle": "",
+                  "textAlign": "LEFT",
+                  "textColor": "#231F20",
+                  "widgetName": "textF_category",
+                  "shouldTruncate": false,
+                  "overflow": "NONE",
+                  "version": 1,
+                  "animateLoading": true,
+                  "searchTags": [
+                    "typography",
+                    "paragraph",
+                    "label"
+                  ],
+                  "type": "TEXT_WIDGET",
+                  "hideCard": false,
+                  "isDeprecated": false,
+                  "displayName": "Text",
+                  "key": "52u5zdy0fh",
+                  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                  "widgetId": "we1g8jcwwk",
+                  "renderMode": "CANVAS",
+                  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "fontFamily": "{{listCw_food.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "isLoading": false,
+                  "parentColumnSpace": 5.65771484375,
+                  "parentRowSpace": 10,
+                  "leftColumn": 16,
+                  "rightColumn": 32,
+                  "topRow": 4,
+                  "bottomRow": 8,
+                  "parentId": "x914fda8aq",
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "truncateButtonColor"
+                    },
+                    {
+                      "key": "fontFamily"
+                    },
+                    {
+                      "key": "borderRadius"
+                    }
+                  ],
+                  "logBlackList": {
+                    "isVisible": true,
+                    "text": true,
+                    "fontSize": true,
+                    "fontStyle": true,
+                    "textAlign": true,
+                    "textColor": true,
+                    "widgetName": true,
+                    "shouldTruncate": true,
+                    "overflow": true,
+                    "version": true,
+                    "animateLoading": true,
+                    "searchTags": true,
+                    "type": true,
+                    "hideCard": true,
+                    "isDeprecated": true,
+                    "replacement": true,
+                    "displayName": true,
+                    "key": true,
+                    "iconSVG": true,
+                    "isCanvas": true,
+                    "minHeight": true,
+                    "widgetId": true,
+                    "renderMode": true,
+                    "truncateButtonColor": true,
+                    "fontFamily": true,
+                    "borderRadius": true,
+                    "isLoading": true,
+                    "parentColumnSpace": true,
+                    "parentRowSpace": true,
+                    "leftColumn": true,
+                    "rightColumn": true,
+                    "topRow": true,
+                    "bottomRow": true,
+                    "parentId": true,
+                    "dynamicBindingPathList": true
+                  }
+                },
+                "textF_ProdutsName": {
+                  "isVisible": true,
+                  "text": "{{listCw_food.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
+                  "fontSize": "1rem",
+                  "fontStyle": "BOLD",
+                  "textAlign": "LEFT",
+                  "textColor": "#231F20",
+                  "widgetName": "textF_ProdutsName",
+                  "shouldTruncate": false,
+                  "overflow": "NONE",
+                  "version": 1,
+                  "animateLoading": true,
+                  "searchTags": [
+                    "typography",
+                    "paragraph",
+                    "label"
+                  ],
+                  "type": "TEXT_WIDGET",
+                  "hideCard": false,
+                  "isDeprecated": false,
+                  "displayName": "Text",
+                  "key": "52u5zdy0fh",
+                  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                  "widgetId": "b4cd2lmf41",
+                  "renderMode": "CANVAS",
+                  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "fontFamily": "{{listCw_food.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "isLoading": false,
+                  "parentColumnSpace": 5.65771484375,
+                  "parentRowSpace": 10,
+                  "leftColumn": 16,
+                  "rightColumn": 32,
+                  "topRow": 0,
+                  "bottomRow": 4,
+                  "parentId": "x914fda8aq",
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "truncateButtonColor"
+                    },
+                    {
+                      "key": "fontFamily"
+                    },
+                    {
+                      "key": "borderRadius"
+                    }
+                  ],
+                  "logBlackList": {
+                    "isVisible": true,
+                    "text": true,
+                    "fontSize": true,
+                    "fontStyle": true,
+                    "textAlign": true,
+                    "textColor": true,
+                    "widgetName": true,
+                    "shouldTruncate": true,
+                    "overflow": true,
+                    "version": true,
+                    "animateLoading": true,
+                    "searchTags": true,
+                    "type": true,
+                    "hideCard": true,
+                    "isDeprecated": true,
+                    "replacement": true,
+                    "displayName": true,
+                    "key": true,
+                    "iconSVG": true,
+                    "isCanvas": true,
+                    "minHeight": true,
+                    "widgetId": true,
+                    "renderMode": true,
+                    "truncateButtonColor": true,
+                    "fontFamily": true,
+                    "borderRadius": true,
+                    "isLoading": true,
+                    "parentColumnSpace": true,
+                    "parentRowSpace": true,
+                    "leftColumn": true,
+                    "rightColumn": true,
+                    "topRow": true,
+                    "bottomRow": true,
+                    "parentId": true,
+                    "dynamicBindingPathList": true
+                  }
                 }
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "listCw_food",
-              "listData": "{{Query3.data}}",
+              "listData": "{{queryFood.data}}",
               "isCanvas": true,
               "dynamicPropertyPathList": [
                 {
@@ -812,13 +812,19 @@
                   "key": "template.imageCw_food.image"
                 },
                 {
-                  "key": "template.Text1.text"
+                  "key": "template.textF_ProdutsName.text"
                 },
                 {
-                  "key": "template.Text2.text"
+                  "key": "template.textF_category.text"
                 },
                 {
-                  "key": "template.Text3.text"
+                  "key": "template.textF_Ppu.text"
+                },
+                {
+                  "key": "template.textF_ProdutsName.fontFamily"
+                },
+                {
+                  "key": "template.textF_category.fontFamily"
                 }
               ],
               "gridType": "vertical",
@@ -1177,7 +1183,7 @@
                               "buttonVariant": "TERTIARY"
                             },
                             {
-                              "widgetName": "Text1",
+                              "widgetName": "textF_ProdutsName",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                               "searchTags": [
@@ -1192,16 +1198,13 @@
                               "hideCard": false,
                               "animateLoading": true,
                               "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "fontFamily": "Inter",
                               "parentColumnSpace": 5.65771484375,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 16,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
                                 },
                                 {
                                   "key": "borderRadius"
@@ -1266,7 +1269,7 @@
                               "fontSize": "1rem"
                             },
                             {
-                              "widgetName": "Text2",
+                              "widgetName": "textF_category",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                               "searchTags": [
@@ -1281,16 +1284,13 @@
                               "hideCard": false,
                               "animateLoading": true,
                               "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "fontFamily": "Inter",
                               "parentColumnSpace": 5.65771484375,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 16,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
                                 },
                                 {
                                   "key": "borderRadius"
@@ -1345,7 +1345,7 @@
                                 "dynamicBindingPathList": true
                               },
                               "isVisible": true,
-                              "fontStyle": "BOLD",
+                              "fontStyle": "",
                               "textColor": "#231F20",
                               "version": 1,
                               "parentId": "x914fda8aq",
@@ -1355,7 +1355,7 @@
                               "fontSize": "1rem"
                             },
                             {
-                              "widgetName": "Text3",
+                              "widgetName": "textF_Ppu",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                               "searchTags": [
@@ -1510,8 +1510,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Centralwarehouse_food _Query3",
-              "name": "Query3",
+              "id": "Centralwarehouse_food _queryFood",
+              "name": "queryFood",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query2",
+    "name": "queryVf",
     "datasource": {
       "name": "stocks",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Centralwarehouse_candy",
+    "pageId": "Centralwarehouse_vf",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"products\" LIMIT 37 OFFSET 24",
+      "body": "SELECT * FROM products WHERE category = ('Veget Fruit');",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Centralwarehouse_candy_Query2",
+  "id": "Centralwarehouse_vf_queryVf",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_6384812cd4541418e7485604"
+  "gitSyncId": "636c92fc03193515321c8396_638576ead4d99c4ab3bfa50d"
 }

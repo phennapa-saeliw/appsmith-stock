@@ -431,14 +431,14 @@
                   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                   "buttonVariant": "TERTIARY"
                 },
-                "Text1": {
+                "textC_Productname": {
                   "isVisible": true,
                   "text": "{{listCw_vf.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
                   "fontSize": "1rem",
                   "fontStyle": "BOLD",
                   "textAlign": "LEFT",
                   "textColor": "#231F20",
-                  "widgetName": "Text1",
+                  "widgetName": "textC_Productname",
                   "shouldTruncate": false,
                   "overflow": "NONE",
                   "version": 1,
@@ -457,7 +457,7 @@
                   "widgetId": "mm51rpdfuv",
                   "renderMode": "CANVAS",
                   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                  "fontFamily": "{{listCw_vf.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
                   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                   "isLoading": false,
                   "parentColumnSpace": 5.65771484375,
@@ -516,14 +516,14 @@
                     "dynamicBindingPathList": true
                   }
                 },
-                "Text2": {
+                "textC_category": {
                   "isVisible": true,
                   "text": "{{listCw_vf.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.category;\n              })();\n            })}}",
                   "fontSize": "1rem",
-                  "fontStyle": "BOLD",
+                  "fontStyle": "",
                   "textAlign": "LEFT",
                   "textColor": "#231F20",
-                  "widgetName": "Text2",
+                  "widgetName": "textC_category",
                   "shouldTruncate": false,
                   "overflow": "NONE",
                   "version": 1,
@@ -537,20 +537,20 @@
                   "hideCard": false,
                   "isDeprecated": false,
                   "displayName": "Text",
-                  "key": "52u5zdy0fh",
+                  "key": "o87rhqyiye",
                   "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                  "widgetId": "bkncs8r2d1",
+                  "widgetId": "jent857p3b",
                   "renderMode": "CANVAS",
                   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                  "fontFamily": "{{listCw_vf.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
                   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                   "isLoading": false,
                   "parentColumnSpace": 5.65771484375,
                   "parentRowSpace": 10,
                   "leftColumn": 19,
                   "rightColumn": 35,
-                  "topRow": 4,
-                  "bottomRow": 8,
+                  "topRow": 5,
+                  "bottomRow": 9,
                   "parentId": "tj99bf62qw",
                   "dynamicBindingPathList": [
                     {
@@ -601,14 +601,14 @@
                     "dynamicBindingPathList": true
                   }
                 },
-                "Text3": {
+                "textC_Ppu": {
                   "isVisible": true,
                   "text": "{{listCw_vf.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.price_per_unit;\n              })();\n            })}}",
                   "fontSize": "1rem",
                   "fontStyle": "BOLD",
                   "textAlign": "LEFT",
                   "textColor": "#231F20",
-                  "widgetName": "Text3",
+                  "widgetName": "textC_Ppu",
                   "shouldTruncate": false,
                   "overflow": "NONE",
                   "version": 1,
@@ -622,9 +622,9 @@
                   "hideCard": false,
                   "isDeprecated": false,
                   "displayName": "Text",
-                  "key": "52u5zdy0fh",
+                  "key": "o87rhqyiye",
                   "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                  "widgetId": "be7y4gimnd",
+                  "widgetId": "ab5zxwkor9",
                   "renderMode": "CANVAS",
                   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
                   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -634,8 +634,8 @@
                   "parentRowSpace": 10,
                   "leftColumn": 36,
                   "rightColumn": 52,
-                  "topRow": 4,
-                  "bottomRow": 8,
+                  "topRow": 6,
+                  "bottomRow": 10,
                   "parentId": "tj99bf62qw",
                   "dynamicBindingPathList": [
                     {
@@ -689,7 +689,7 @@
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "listCw_vf",
-              "listData": "{{Query2.data}}",
+              "listData": "{{queryCandy.data}}",
               "isCanvas": true,
               "dynamicPropertyPathList": [
                 {
@@ -722,13 +722,19 @@
                   "key": "listData"
                 },
                 {
-                  "key": "template.Text1.text"
+                  "key": "template.textC_Productname.text"
                 },
                 {
-                  "key": "template.Text2.text"
+                  "key": "template.textC_category.text"
                 },
                 {
-                  "key": "template.Text3.text"
+                  "key": "template.textC_Ppu.text"
+                },
+                {
+                  "key": "template.textC_category.fontFamily"
+                },
+                {
+                  "key": "template.textC_Productname.fontFamily"
                 }
               ],
               "gridType": "vertical",
@@ -788,7 +794,7 @@
                           "widgetName": "Canvas4",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 380,
+                          "bottomRow": 370,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -1087,7 +1093,7 @@
                               "buttonVariant": "TERTIARY"
                             },
                             {
-                              "widgetName": "Text1",
+                              "widgetName": "textC_Productname",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                               "searchTags": [
@@ -1102,16 +1108,13 @@
                               "hideCard": false,
                               "animateLoading": true,
                               "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "fontFamily": "Inter",
                               "parentColumnSpace": 5.65771484375,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 18,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
                                 },
                                 {
                                   "key": "borderRadius"
@@ -1125,7 +1128,7 @@
                               "text": "{{currentItem.product_name}}",
                               "key": "52u5zdy0fh",
                               "isDeprecated": false,
-                              "rightColumn": 34,
+                              "rightColumn": 43,
                               "textAlign": "LEFT",
                               "widgetId": "mm51rpdfuv",
                               "logBlackList": {
@@ -1176,7 +1179,7 @@
                               "fontSize": "1rem"
                             },
                             {
-                              "widgetName": "Text2",
+                              "widgetName": "textC_category",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                               "searchTags": [
@@ -1184,23 +1187,20 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 4,
-                              "bottomRow": 8,
+                              "topRow": 5,
+                              "bottomRow": 9,
                               "parentRowSpace": 10,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
                               "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "fontFamily": "Inter",
                               "parentColumnSpace": 5.65771484375,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 19,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
                                 },
                                 {
                                   "key": "borderRadius"
@@ -1212,11 +1212,11 @@
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "text": "{{currentItem.category}}",
-                              "key": "52u5zdy0fh",
+                              "key": "o87rhqyiye",
                               "isDeprecated": false,
                               "rightColumn": 35,
                               "textAlign": "LEFT",
-                              "widgetId": "bkncs8r2d1",
+                              "widgetId": "jent857p3b",
                               "logBlackList": {
                                 "isVisible": true,
                                 "text": true,
@@ -1255,7 +1255,7 @@
                                 "dynamicBindingPathList": true
                               },
                               "isVisible": true,
-                              "fontStyle": "BOLD",
+                              "fontStyle": "",
                               "textColor": "#231F20",
                               "version": 1,
                               "parentId": "tj99bf62qw",
@@ -1265,7 +1265,7 @@
                               "fontSize": "1rem"
                             },
                             {
-                              "widgetName": "Text3",
+                              "widgetName": "textC_Ppu",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                               "searchTags": [
@@ -1273,8 +1273,8 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 4,
-                              "bottomRow": 8,
+                              "topRow": 5,
+                              "bottomRow": 9,
                               "parentRowSpace": 10,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
@@ -1283,7 +1283,7 @@
                               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                               "parentColumnSpace": 5.65771484375,
                               "dynamicTriggerPathList": [],
-                              "leftColumn": 36,
+                              "leftColumn": 35,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
@@ -1301,11 +1301,11 @@
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "text": "{{currentItem.price_per_unit}}",
-                              "key": "52u5zdy0fh",
+                              "key": "o87rhqyiye",
                               "isDeprecated": false,
-                              "rightColumn": 52,
+                              "rightColumn": 51,
                               "textAlign": "LEFT",
-                              "widgetId": "be7y4gimnd",
+                              "widgetId": "ab5zxwkor9",
                               "logBlackList": {
                                 "isVisible": true,
                                 "text": true,
@@ -1653,8 +1653,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Centralwarehouse_candy_Query2",
-              "name": "Query2",
+              "id": "Centralwarehouse_candy_queryCandy",
+              "name": "queryCandy",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
