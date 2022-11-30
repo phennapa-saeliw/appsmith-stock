@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "StoreActions",
+    "pageId": "Centralwarehouse_drink",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tonOpen: () =>{\n\t\tstoreValue('cart', appsmith.store?.cart || [])\n\t},\n\n\tclearStore: (key) => {\n\t\tstoreValue(key, undefined);\n  }\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Centralwarehouse_drink_StoreActions",
+  "deleted": false,
+  "gitSyncId": "636c92fc03193515321c8396_6386d947013ae8208ce7b924"
+}

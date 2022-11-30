@@ -31,6 +31,11 @@
               "widgetName": "containerLogin",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
               "searchTags": [
@@ -248,7 +253,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnLogin",
-                      "onClick": "{{loginSample.run(() => {\nconst token = loginSample?.data?.access_token;\nconst user = loginSample?.data?.user;\n\tlet type = user.user_metadata.branch_type;\nif(token) {\nstoreValue('token', token);\nstoreValue('user', user);\n\tif(type === 'center'){\n\tnavigateTo('Home_central', {});\n\t}else{\n\t\tnavigateTo('Home_branch', {});\n\t}\n}\nelse{\n\tshowAlert('Invalid Username/Password', 'error');\n}})}}",
+                      "onClick": "{{loginSample.run(() => {\n\tconst token = loginSample?.data?.access_token;\n\tconst user = loginSample?.data?.user;\n\tlet type = user.user_metadata.branch_type;\n\tif(token) {\n\t\tstoreValue('token', token);\n\t\tstoreValue('user', user);\n\t\tif(type === 'center'){\n\t\t\tnavigateTo('Home_central', {});\n\t\t}else{\n\t\t\tnavigateTo('Home_branch', {});\n\t\t}\n\t}\n\telse{\n\t\tshowAlert('Invalid Username/Password', 'error');\n\t}\n})}}",
                       "buttonColor": "#1e40af",
                       "dynamicPropertyPathList": [
                         {
@@ -316,7 +321,7 @@
               "rightColumn": 64,
               "widgetId": "119p00u78o",
               "containerStyle": "card",
-              "isVisible": true,
+              "isVisible": "true",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
