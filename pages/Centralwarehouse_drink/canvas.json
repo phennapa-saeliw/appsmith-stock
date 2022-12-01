@@ -67,6 +67,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconbtn_Cwdrink",
+                      "onClick": "{{navigateTo('Central_warehouse', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -81,7 +82,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -528,7 +533,7 @@
                     "parentId": true,
                     "dynamicBindingPathList": true
                   },
-                  "onClick": ""
+                  "onClick": "{{Query1.run()}}"
                 },
                 "text_NameDrink": {
                   "isVisible": true,
@@ -1545,8 +1550,13 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "iconCwbtn__drinkdelete",
-                              "onClick": "",
+                              "onClick": "{{Query1.run()}}",
                               "buttonColor": "#dc2626",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
                               "displayName": "Icon Button",
                               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                               "searchTags": [

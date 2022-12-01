@@ -18,6 +18,7 @@
     },
     "pageId": "Produts",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "/rest/v1/products",
       "headers": [
@@ -38,9 +39,11 @@
         }
       ],
       "httpMethod": "GET",
-      "selfReferencingDataPaths": []
+      "selfReferencingDataPaths": [],
+      "formData": {}
     },
     "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

@@ -42,7 +42,7 @@
           "value": "password"
         }
       ],
-      "body": "{\n  \"email\": \"{{username.text}}\",\n  \"password\": \"{{password.text}}\"\n}",
+      "body": "{\n  \"email\": {{username.text}},\n  \"password\": {{password.text}}\n}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
