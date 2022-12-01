@@ -42,7 +42,7 @@
       "selfReferencingDataPaths": [],
       "formData": {}
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],

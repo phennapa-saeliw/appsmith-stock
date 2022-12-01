@@ -336,6 +336,9 @@
                       "dynamicTriggerPathList": [
                         {
                           "key": "menuItems.menuItem1.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItem2.onClick"
                         }
                       ],
                       "leftColumn": 0,
@@ -365,7 +368,8 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 1,
-                          "iconAlign": "right"
+                          "iconAlign": "right",
+                          "onClick": "{{navigateTo('Manage_users', {}, 'SAME_WINDOW')}}"
                         }
                       },
                       "isVisible": true,

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 750,
+          "bottomRow": 1292,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
           "children": [
             {
               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-              "widgetName": "Container1",
+              "widgetName": "container1",
               "borderColor": "{{appsmith.theme.colors.primaryColor}}",
               "isCanvas": true,
               "displayName": "Container",
@@ -121,8 +121,13 @@
                     {
                       "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
                       "widgetName": "iconButton_useers_left",
-                      "onClick": "",
+                      "onClick": "{{loginSample.run(() => {\n\n\tlet ret = appsmith.store.user.user_metadata.branch_type;\n\tif(ret === 'center'){\n\tnavigateTo('Home_central',{});\n\t}else{\n\t\tnavigateTo('Home_branch',{})\n\t}\n})}}",
                       "buttonColor": "#18181b",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [

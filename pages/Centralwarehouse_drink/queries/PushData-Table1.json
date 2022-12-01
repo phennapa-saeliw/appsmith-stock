@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "Table1",
+    "fullyQualifiedName": "PushData.Table1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,19 +13,18 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Produts",
-    "collectionId": "Produts_JSObject1",
+    "pageId": "Centralwarehouse_drink",
+    "collectionId": "Centralwarehouse_drink_PushData",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
+      "body": "() => {\n  let dataArray = appsmith.store.dataArray || [];\n  dataArray.push({\n    \"NAME\": inputname_Moadd.text,\n    \"TITLE\": inputsku_Moadd.text\n  });\n  storeValue(\"dataArray\", dataArray);\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {}"
+      "() => {\n  let dataArray = appsmith.store.dataArray || [];\n  dataArray.push({\n    \"NAME\": inputname_Moadd.text,\n    \"TITLE\": inputsku_Moadd.text\n  });\n  storeValue(\"dataArray\", dataArray);\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Produts_JSObject1.myFun1",
+  "id": "Centralwarehouse_drink_PushData.Table1",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_6388213bb3fbc9369c45e48e"
+  "gitSyncId": "636c92fc03193515321c8396_63885e17a39c8309023472ec"
 }
