@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 69,
+          "version": 70,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -385,7 +385,7 @@
                     "parentId": true,
                     "dynamicBindingPathList": true
                   },
-                  "onClick": "{{showModal('modal_Edit','product_id')}}"
+                  "onClick": ""
                 },
                 "iconCwbtn_drinkadd": {
                   "isVisible": true,
@@ -1133,7 +1133,7 @@
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "listCw_drink",
-              "listData": "{{queryDrink.data}}\n",
+              "listData": "{{queryDrink.data}}",
               "isCanvas": true,
               "dynamicPropertyPathList": [
                 {
@@ -1392,7 +1392,7 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "iconCwbtn_drinkedit",
-                              "onClick": "{{showModal('modal_Edit','product_id')}}",
+                              "onClick": "",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "dynamicPropertyPathList": [
                                 {
