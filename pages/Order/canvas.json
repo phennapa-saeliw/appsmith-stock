@@ -661,7 +661,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "bnt_Order",
-                      "onClick": "{{navigateTo('Reports', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo(' Receipt', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#2DB81D",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",

@@ -55,6 +55,10 @@
     {
       "id": "Centralwarehouse_acc",
       "isDefault": false
+    },
+    {
+      "id": " Receipt",
+      "isDefault": false
     }
   ],
   "viewMode": false,
