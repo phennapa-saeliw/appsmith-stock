@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 69,
+          "version": 70,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -133,6 +133,7 @@
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "9wxzfbvuwj",
+                      "sourceDataKeys": [],
                       "isDeprecated": false,
                       "rightColumn": 18,
                       "iconName": "align-justify",
@@ -167,6 +168,7 @@
                       "isLoading": false,
                       "borderRadius": "0.375rem",
                       "menuColor": "#18181b",
+                      "menuItemsSource": "STATIC",
                       "iconAlign": "right",
                       "placement": "BETWEEN"
                     }
@@ -1930,7 +1932,7 @@
                                       "text": "{{currentItem.product_name}}",
                                       "key": "g9tm35xx1s",
                                       "isDeprecated": false,
-                                      "rightColumn": 43,
+                                      "rightColumn": 48,
                                       "textAlign": "LEFT",
                                       "dynamicHeight": "FIXED",
                                       "widgetId": "r9hla3e9pw",
@@ -2169,6 +2171,9 @@
                                       "dynamicPropertyPathList": [
                                         {
                                           "key": "onClick"
+                                        },
+                                        {
+                                          "key": "iconName"
                                         }
                                       ],
                                       "displayName": "Icon Button",
@@ -2758,7 +2763,7 @@
                           "key": "text"
                         }
                       ],
-                      "text": "{{appsmith.store.cart?.reduce(\n\t//reducer function\n\t(acc, obj) => acc + parseInt(obj.qty), \n//initial value\n\t0) || 0}}",
+                      "text": "{{(\n\t//reducer function\n\t(acc, obj) => acc + parseInt(obj.qty), \n//initial value\n\t0) || 0}}",
                       "isDisabled": false,
                       "key": "kxt7twqwti",
                       "isDeprecated": false,

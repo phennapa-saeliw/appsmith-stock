@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 710,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -2382,7 +2382,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 6.84375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 0,
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "fontFamily"
@@ -2393,7 +2393,7 @@
               "text": "ขนม",
               "key": "2ahtho8ffs",
               "isDeprecated": false,
-              "rightColumn": 18,
+              "rightColumn": 17,
               "textAlign": "CENTER",
               "dynamicHeight": "FIXED",
               "widgetId": "04aptxoc1v",
