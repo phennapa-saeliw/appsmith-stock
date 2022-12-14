@@ -3400,24 +3400,22 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Produts_querySearch",
-              "name": "querySearch",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "\"%\" + inputP_search.inputText + \"%\""
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Produts_Query1",
               "name": "Query1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.pId"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Produts_querySearch",
+              "name": "querySearch",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "\"%\" + inputP_search.inputText + \"%\""
               ],
               "timeoutInMillisecond": 10000
             }

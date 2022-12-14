@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "fullyQualifiedName": "productJs.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Centralwarehouse_drink",
-    "collectionId": "Centralwarehouse_drink_JSObject1",
+    "pageId": "Centralwarehouse_acc",
+    "collectionId": "Centralwarehouse_acc_productJs",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "productId => {\n  storeValue('pId', productId);\n  deleteProduct.run();\n  showModal('modal_delete');\n}",
+      "body": "productId => {\n  storeValue('pId', productId);\n  deleteProduct.run();\n  showModal('modal_Delete');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {}
@@ -37,14 +37,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "productId => {\n  storeValue('pId', productId);\n  deleteProduct.run();\n  showModal('modal_delete');\n}"
+      "productId => {\n  storeValue('pId', productId);\n  deleteProduct.run();\n  showModal('modal_Delete');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Centralwarehouse_drink_JSObject1.myFun2",
+  "id": "Centralwarehouse_acc_productJs.myFun2",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63993637e77ccb59f6885806"
+  "gitSyncId": "636c92fc03193515321c8396_6399827fe77ccb59f6885e8f"
 }
