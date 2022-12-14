@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async productId => {\n  console.log('productId = ' + productId);\n  storeValue('proId', productId);\n  deleteProduct.run();\n  showModal('modal_delete');\n}",
+      "body": "productId => {\n  storeValue('pId', productId);\n  deleteProduct.run();\n  showModal('modal_delete');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {}
@@ -37,7 +37,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async productId => {\n  console.log('productId = ' + productId);\n  storeValue('proId', productId);\n  deleteProduct.run();\n  showModal('modal_delete');\n}"
+      "productId => {\n  storeValue('pId', productId);\n  deleteProduct.run();\n  showModal('modal_delete');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -46,5 +46,5 @@
   },
   "id": "Centralwarehouse_drink_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63904cd358803b03c807a867"
+  "gitSyncId": "636c92fc03193515321c8396_63993637e77ccb59f6885806"
 }

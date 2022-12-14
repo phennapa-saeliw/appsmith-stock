@@ -533,7 +533,7 @@
                     "parentId": true,
                     "dynamicBindingPathList": true
                   },
-                  "onClick": "{{showModal('modal_delete')}}"
+                  "onClick": "{{JSObject1.myFun2(currentItem.product_id)}}"
                 },
                 "text_NameDrink": {
                   "isVisible": true,
@@ -1473,9 +1473,13 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "iconCwbtn__drinkdelete",
-                              "onClick": "{{showModal('modal_delete')}}",
+                              "onClick": "{{JSObject1.myFun2(currentItem.product_id)}}",
                               "buttonColor": "#dc2626",
-                              "dynamicPropertyPathList": [],
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
                               "displayName": "Icon Button",
                               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                               "searchTags": [
@@ -2402,6 +2406,11 @@
                       "widgetName": "btnclose_Moedit",
                       "onClick": "{{closeModal('modal_Edit')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -2450,8 +2459,13 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnupdate_Moedit",
-                      "onClick": "{{deleteProduct.run(() => getCentral.run(), () => {})}}",
+                      "onClick": "{{updateProduct.run(() => {queryDrink.run();closeModal('modal_Edit')}, () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -3173,12 +3187,12 @@
                       "labelPosition": "Top",
                       "labelStyle": "",
                       "inputType": "TEXT",
-                      "placeholderText": "key",
+                      "placeholderText": "",
                       "isDisabled": false,
                       "key": "tz3sp4p4r0",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
-                      "onTextChanged": "{{deleteProduct.run()}}",
+                      "onTextChanged": "",
                       "isDeprecated": false,
                       "rightColumn": 60,
                       "dynamicHeight": "FIXED",
@@ -3239,7 +3253,7 @@
                       "labelPosition": "Top",
                       "labelStyle": "",
                       "inputType": "TEXT",
-                      "placeholderText": "value",
+                      "placeholderText": "",
                       "isDisabled": false,
                       "key": "tz3sp4p4r0",
                       "labelTextSize": "0.875rem",
@@ -3481,7 +3495,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1",
+                      "widgetName": "inputprice_Moadd",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -3582,7 +3596,7 @@
                 "notification"
               ],
               "topRow": 8,
-              "bottomRow": 248,
+              "bottomRow": 24,
               "parentRowSpace": 10,
               "type": "MODAL_WIDGET",
               "hideCard": false,
@@ -3702,8 +3716,10 @@
                       "parentId": "6ygqwu1yg5",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 5,
                       "fontSize": "1.5rem",
                       "minDynamicHeight": 4
                     },
@@ -3713,6 +3729,11 @@
                       "widgetName": "Button2",
                       "onClick": "{{closeModal('modal_delete')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -3752,10 +3773,10 @@
                       "parentId": "6ygqwu1yg5",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 18,
+                      "originalTopRow": 16,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 22,
+                      "originalBottomRow": 20,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -3763,9 +3784,13 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button3",
-                      "onClick": "{{deleteProduct.run(() => queryDrink.run(), () => {})}}",
+                      "onClick": "{{deleteProduct.run(() => {queryDrink.run(); closeModal('modal_delete')}, () => {})}}",
                       "buttonColor": "#ffb31e",
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -3802,10 +3827,10 @@
                       "parentId": "6ygqwu1yg5",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 18,
+                      "originalTopRow": 16,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 22,
+                      "originalBottomRow": 20,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -3897,7 +3922,7 @@
                       "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 15,
+                      "originalBottomRow": 13,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
@@ -3916,7 +3941,7 @@
                 }
               ],
               "key": "y398qe4wbq",
-              "height": 240,
+              "height": 260,
               "isDeprecated": false,
               "rightColumn": 43,
               "detachFromLayout": true,

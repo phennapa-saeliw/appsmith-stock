@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: (productId) => {\n\t\tconsole.log('productId = ' +productId)\n\t\tstoreValue('pId', productId)\n\t\tproductDetailById_DB.run()\n\t\tshowModal('modal_Edit')\n\t},\n\tmyFun2: async (productId) => {\n\t\tconsole.log('productId = ' + productId)\n\t\tstoreValue('proId', productId)\n\t\tdeleteProduct.run()\n\t\tshowModal('modal_delete')\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: (productId) => {\n\t\t//write codconsole.log('productId = ' +productId)\n\t\tstoreValue('pId', productId)\n\t\tproductDetailById_DB.run()\n\t\tshowModal('modal_Edit')\n\t},\n\tmyFun2:  (productId) => {\n\t\t//use async-await or promises\n\t\tstoreValue('pId', productId)\n\t\tdeleteProduct.run()\n\t\tshowModal('modal_delete')\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
@@ -21,5 +21,5 @@
   },
   "id": "Centralwarehouse_drink_JSObject1",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63904cd358803b03c807a86b"
+  "gitSyncId": "636c92fc03193515321c8396_63993637e77ccb59f6885809"
 }

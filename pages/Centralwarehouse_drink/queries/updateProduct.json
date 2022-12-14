@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "deleteProduct",
+    "name": "updateProduct",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM products WHERE product_id = {{appsmith.store.pId}};",
+      "body": "UPDATE products\n  SET product_name = \"{{inputname_Moedit.text}}\", sku = \"{{inputsku_Moedit.text}}\", category =\"{{inputcategory_Moedit.text}}\", amount = \"{{inputamount_Moedit.text}}\"\n  WHERE product_id = \"{{appsmith.store.pId}}\";\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,14 +36,18 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.pId"
+      "appsmith.store.pId",
+      "inputamount_Moedit.text",
+      "inputcategory_Moedit.text",
+      "inputname_Moedit.text",
+      "inputsku_Moedit.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Centralwarehouse_drink_deleteProduct",
+  "id": "Centralwarehouse_drink_updateProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_6390599a58803b03c807aa05"
+  "gitSyncId": "636c92fc03193515321c8396_63993e3a038c74195c0abeae"
 }
