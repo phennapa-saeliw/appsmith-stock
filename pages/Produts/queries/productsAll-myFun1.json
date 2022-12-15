@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "fullyQualifiedName": "productsAll.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Produts",
-    "collectionId": "Produts_JSObject1",
+    "collectionId": "Produts_productsAll",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -44,7 +44,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Produts_JSObject1.myFun1",
+  "id": "Produts_productsAll.myFun1",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_63905e7a58803b03c807aa75"
 }

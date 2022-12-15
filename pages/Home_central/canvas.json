@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 70,
+          "version": 71,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -404,7 +404,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.53125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 22,
+                      "leftColumn": 20,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -421,13 +421,13 @@
                       "text": "สำนักงานใหญ่",
                       "key": "ts5j1n76iv",
                       "isDeprecated": false,
-                      "rightColumn": 43,
+                      "rightColumn": 41,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "6g3annkybv",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#231F20",
+                      "textColor": "#18181b",
                       "version": 1,
                       "parentId": "dla0pkhmo3",
                       "renderMode": "CANVAS",
@@ -436,7 +436,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 6,
-                      "fontSize": "1rem",
+                      "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
                   ],
