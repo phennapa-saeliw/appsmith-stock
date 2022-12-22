@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "loginSample",
+    "name": "sample",
     "datasource": {
       "name": "https://iqrlxxsjzuotueguklew.supabase.co",
       "pluginId": "restapi-plugin",
@@ -67,7 +67,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Login_loginSample",
+  "id": "Login_sample",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_636caca803193515321c8694"
 }

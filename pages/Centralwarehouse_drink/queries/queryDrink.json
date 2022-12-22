@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM products WHERE category = ('Drink');",
+      "body": "SELECT * FROM products  WHERE category = ('Drink') ORDER BY product_id;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

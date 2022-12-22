@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query1",
+    "name": "queryProductsid",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Produts",
+    "pageId": "Order",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -43,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Produts_Query1",
+  "id": "Order_queryProductsid",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63905e2058803b03c807aa71"
+  "gitSyncId": "636c92fc03193515321c8396_63a2d1aafcb7cc4992ad8185"
 }

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "queryVf",
+    "name": "Query1",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Centralwarehouse_vf",
+    "pageId": "Manage_users",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM products WHERE category = ('Veget Fruit') ORDER BY product_id;",
+      "body": "SELECT * FROM public.\"branch\";",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Centralwarehouse_vf_queryVf",
+  "id": "Manage_users_Query1",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_638576ead4d99c4ab3bfa50d"
+  "gitSyncId": "636c92fc03193515321c8396_63a2c9fafcb7cc4992ad80c9"
 }

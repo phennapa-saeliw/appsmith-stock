@@ -21,10 +21,6 @@
       "isDefault": false
     },
     {
-      "id": "Order",
-      "isDefault": false
-    },
-    {
       "id": "Reports",
       "isDefault": false
     },
@@ -58,6 +54,10 @@
     },
     {
       "id": " Receipt",
+      "isDefault": false
+    },
+    {
+      "id": "Order",
       "isDefault": false
     }
   ],

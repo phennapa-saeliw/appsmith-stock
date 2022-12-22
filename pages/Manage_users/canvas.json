@@ -280,7 +280,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "8fsybbqjfx",
-                      "image": "",
+                      "image": "https://www.pngplay.com/wp-content/uploads/5/Webinar-People-Icon-PNG.png",
                       "isDeprecated": false,
                       "rightColumn": 44,
                       "objectFit": "cover",
@@ -301,6 +301,9 @@
                       "dynamicPropertyPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "onTextChanged"
                         }
                       ],
                       "displayName": "Input",
@@ -320,7 +323,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.42431640625,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onTextChanged"
+                        }
+                      ],
                       "resetOnSubmit": true,
                       "leftColumn": 11,
                       "dynamicBindingPathList": [
@@ -338,13 +345,14 @@
                       "key": "ewpezytrso",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
+                      "onTextChanged": "",
                       "isDeprecated": false,
                       "rightColumn": 54,
                       "dynamicHeight": "FIXED",
                       "widgetId": "t1na3m9pjk",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
-                      "label": "ชื่อสาขา",
+                      "label": "ชื่อ",
                       "version": 2,
                       "parentId": "2xyke2mhw0",
                       "labelAlignment": "left",
