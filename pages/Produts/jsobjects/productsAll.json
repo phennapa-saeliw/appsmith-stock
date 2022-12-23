@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "productsAll",
+    "pageId": "Produts",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tshowProduct: (productId) => {\n\t\tconsole.log('productId = ' +productId)\n\t\tstoreValue('pId', productId)\n\t\tqueryProductsid.run()\n\t\tshowModal(\"modalProducts\")\n\n\t}\n\t\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Produts_productsAll",
+  "deleted": false,
+  "gitSyncId": "636c92fc03193515321c8396_63905e7a58803b03c807aa79"
+}

@@ -21,10 +21,6 @@
       "isDefault": false
     },
     {
-      "id": "Order",
-      "isDefault": false
-    },
-    {
       "id": "Reports",
       "isDefault": false
     },
@@ -57,11 +53,11 @@
       "isDefault": false
     },
     {
-      "id": "Produts Copy",
+      "id": " Receipt",
       "isDefault": false
     },
     {
-      "id": "Public.products",
+      "id": "Order",
       "isDefault": false
     }
   ],
