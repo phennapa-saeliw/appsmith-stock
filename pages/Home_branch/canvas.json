@@ -603,7 +603,7 @@
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 400,
+                  "minHeight": 70,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [
@@ -645,7 +645,7 @@
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "iconName": "user",
-                      "widgetId": "1aofiezdhc",
+                      "widgetId": "nrmz4oxz5r",
                       "isVisible": true,
                       "version": 1,
                       "parentId": "dla0pkhmo3",
@@ -767,8 +767,10 @@
                       "parentId": "dla0pkhmo3",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 5,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }

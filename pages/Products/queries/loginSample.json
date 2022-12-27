@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "sample",
+    "name": "loginSample",
     "datasource": {
       "name": "https://iqrlxxsjzuotueguklew.supabase.co",
       "pluginId": "restapi-plugin",
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
+    "pageId": "Products",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
           "value": "password"
         }
       ],
-      "body": "{\n  \"email\": {{username.text}},\n  \"password\": {{password.text}}\n}",
+      "body": "{\n  \"email\": \"{{iconbtnP_home}}\",\n  \"password\":\"{{iconbtnP_home}}\" \n}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
@@ -59,15 +59,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "password.text",
-      "username.text"
+      "iconbtnP_home"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Login_sample",
+  "id": "Products_loginSample",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_636caca803193515321c8694"
+  "gitSyncId": "636c92fc03193515321c8396_637456521638e44f08604578"
 }

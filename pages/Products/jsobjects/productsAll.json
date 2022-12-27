@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "productsAll",
-    "pageId": "Order",
+    "pageId": "Products",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -10,7 +10,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Order_productsAll",
+  "id": "Products_productsAll",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63a2d1aafcb7cc4992ad819b"
+  "gitSyncId": "636c92fc03193515321c8396_63905e7a58803b03c807aa79"
 }

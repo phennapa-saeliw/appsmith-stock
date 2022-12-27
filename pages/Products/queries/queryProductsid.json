@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Order",
+    "pageId": "Products",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -43,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_queryProductsid",
+  "id": "Products_queryProductsid",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63a2d1aafcb7cc4992ad8185"
+  "gitSyncId": "636c92fc03193515321c8396_63905e2058803b03c807aa71"
 }

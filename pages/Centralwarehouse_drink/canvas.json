@@ -3699,7 +3699,7 @@
                       "labelPosition": "Top",
                       "labelStyle": "",
                       "inputType": "TEXT",
-                      "placeholderText": "URL เด้อจ้า",
+                      "placeholderText": "URL ",
                       "isDisabled": false,
                       "key": "5i6i2sq9ls",
                       "labelTextSize": "0.875rem",
@@ -3901,7 +3901,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button2",
                       "onClick": "{{closeModal('modal_Delete')}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#dc2626",
                       "dynamicPropertyPathList": [
                         {
                           "key": "onClick"
@@ -3925,9 +3925,6 @@
                       ],
                       "leftColumn": 31,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -3958,7 +3955,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button3",
                       "onClick": "{{deleteProduct.run(() => {queryDrink.run(); closeModal('modal_Delete')}, () => {})}}",
-                      "buttonColor": "#ffb31e",
+                      "buttonColor": "#dc2626",
                       "dynamicPropertyPathList": [
                         {
                           "key": "onClick"
@@ -4217,6 +4214,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Centralwarehouse_drink_queryDrink",
+              "name": "queryDrink",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Centralwarehouse_drink_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -4224,14 +4231,6 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Centralwarehouse_drink_queryDrink",
-              "name": "queryDrink",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
