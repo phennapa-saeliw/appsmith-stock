@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "queryProductsid",
+    "name": "productDetailById_DB",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -43,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Products_queryProductsid",
+  "id": "Products_productDetailById_DB",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63905e2058803b03c807aa71"
+  "gitSyncId": "636c92fc03193515321c8396_63abfd8f690c8f1a0335ed56"
 }

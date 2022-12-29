@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tshowProduct: (productId) => {\n\t\tconsole.log('productId = ' +productId)\n\t\tstoreValue('pId', productId)\n\t\tqueryProductsid.run()\n\t\tshowModal(\"modalProducts\")\n\n\t}\n\t\n}",
+    "body": "export default {\n\tshowProduct: (productId) => {\n\t\tconsole.log('productId = ' +productId)\n\t\tstoreValue('pId', productId)\n\t\tproductDetailById_DB.run()\n\t\tshowModal(\"modalProducts\")\n\t},\n\t\n\t\n\t\n}",
     "variables": [],
     "userPermissions": []
   },

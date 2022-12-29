@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "showProduct",
-    "fullyQualifiedName": "productsAll.showProduct",
+    "name": "myFun1",
+    "fullyQualifiedName": "JSObjfect1.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,17 +14,15 @@
       "userPermissions": []
     },
     "pageId": "Products",
-    "collectionId": "Products_productsAll",
+    "collectionId": "Products_JSObjfect1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "productId => {\n  console.log('productId = ' + productId);\n  storeValue('pId', productId);\n  productDetailById_DB.run();\n  showModal(\"modalProducts\");\n}",
+      "body": "() => {\n  let fruits = [\"apple\", \"orange\", \"banana\"];\n  let fruit = fruits.push('aaaa');\n  console.log(fruit);\n  console.log(fruits);\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {}
-      ],
-      "isAsync": true
+      "jsArguments": [],
+      "isAsync": false
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -37,14 +35,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "productId => {\n  console.log('productId = ' + productId);\n  storeValue('pId', productId);\n  productDetailById_DB.run();\n  showModal(\"modalProducts\");\n}"
+      "() => {\n  let fruits = [\"apple\", \"orange\", \"banana\"];\n  let fruit = fruits.push('aaaa');\n  console.log(fruit);\n  console.log(fruits);\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Products_productsAll.showProduct",
+  "id": "Products_JSObjfect1.myFun1",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63905e7a58803b03c807aa75"
+  "gitSyncId": "636c92fc03193515321c8396_63ac02e8fcb7cc4992ae0001"
 }
