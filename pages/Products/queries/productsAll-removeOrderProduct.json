@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "showProduct",
-    "fullyQualifiedName": "productsAll.showProduct",
+    "name": "removeOrderProduct",
+    "fullyQualifiedName": "productsAll.removeOrderProduct",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,15 +19,12 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "productId => {\n  storeValue('pId', productId);\n  if (appsmith.store.pId !== undefined) {\n    productDetailById_DB.run();\n    showModal(\"modalProducts\");\n  }\n}",
+      "body": "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    delOrderProduct.run(() => {\n      getOrders.run();\n    });\n  }\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {}
-      ],
+      "jsArguments": [],
       "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -37,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "productId => {\n  storeValue('pId', productId);\n  if (appsmith.store.pId !== undefined) {\n    productDetailById_DB.run();\n    showModal(\"modalProducts\");\n  }\n}"
+      "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    delOrderProduct.run(() => {\n      getOrders.run();\n    });\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Products_productsAll.showProduct",
+  "id": "Products_productsAll.removeOrderProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63905e7a58803b03c807aa75"
+  "gitSyncId": "636c92fc03193515321c8396_63b55f3e0bc0a80b3001a835"
 }

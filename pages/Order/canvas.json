@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -245,7 +245,7 @@
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "List1",
-              "listData": "[\n  {\n    \"id\": \"001\",\n    \"name\": \"Blue\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"002\",\n    \"name\": \"Green\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n\t  {\n    \"id\": \"002\",\n    \"name\": \"Green\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n\t  {\n    \"id\": \"002\",\n    \"name\": \"Green\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  }\n\t\n\t\n\t\n]",
+              "listData": "{{appsmith.store}}",
               "isCanvas": true,
               "displayName": "List",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
@@ -271,6 +271,9 @@
                 },
                 {
                   "key": "template.Image1.image"
+                },
+                {
+                  "key": "listData"
                 }
               ],
               "gridType": "vertical",
@@ -375,6 +378,7 @@
                               "isDeprecated": false,
                               "rightColumn": 15,
                               "objectFit": "cover",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "k7mw06nszz",
                               "logBlackList": {
                                 "isVisible": true,

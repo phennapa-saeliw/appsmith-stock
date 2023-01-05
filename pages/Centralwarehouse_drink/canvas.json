@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -1185,9 +1185,6 @@
                   "key": "template.text_NameCategory.overflow"
                 },
                 {
-                  "key": "listData"
-                },
-                {
                   "key": "template.text_NameCategory.fontFamily"
                 },
                 {
@@ -1249,6 +1246,9 @@
                 },
                 {
                   "key": "template.text_NameDrink.textColor"
+                },
+                {
+                  "key": "listData"
                 }
               ],
               "gridType": "vertical",
@@ -1341,6 +1341,7 @@
                               "isDeprecated": false,
                               "rightColumn": 16,
                               "objectFit": "contain",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "8aoha3nhfb",
                               "logBlackList": {
                                 "isVisible": true,
@@ -1428,6 +1429,7 @@
                               "isDeprecated": false,
                               "rightColumn": 58,
                               "iconName": "annotation",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "vi46t9bua9",
                               "logBlackList": {
                                 "isVisible": true,
@@ -1509,6 +1511,7 @@
                               "isDeprecated": false,
                               "rightColumn": 63,
                               "iconName": "trash",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "0k702c50f7",
                               "logBlackList": {
                                 "isVisible": true,

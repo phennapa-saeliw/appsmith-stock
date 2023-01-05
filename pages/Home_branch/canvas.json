@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -452,7 +452,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHb_produts",
-                      "onClick": "{{navigateTo('Produts', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
