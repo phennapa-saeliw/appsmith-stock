@@ -43,7 +43,7 @@
           "value": "password"
         }
       ],
-      "body": "{\n  \"email\": \"{{iconbtnP_home}}\",\n  \"password\":\"{{iconbtnP_home}}\" \n}",
+      "body": "{\n  \"email\": \"central@email.com\",\n  \"password\": \"P@ssw0rd\"\n}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
@@ -51,17 +51,11 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "iconbtnP_home"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
@@ -69,5 +63,5 @@
   },
   "id": "Order_loginSample",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63a2d1aafcb7cc4992ad818c"
+  "gitSyncId": "636c92fc03193515321c8396_63aa9b5b647efb486b771738"
 }

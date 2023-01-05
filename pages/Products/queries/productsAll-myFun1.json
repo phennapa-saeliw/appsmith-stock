@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "showProduct",
-    "fullyQualifiedName": "productsAll.showProduct",
+    "name": "myFun1",
+    "fullyQualifiedName": "productsAll.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Produts",
-    "collectionId": "Produts_productsAll",
+    "pageId": "Products",
+    "collectionId": "Products_productsAll",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "productId => {\n  console.log('productId = ' + productId);\n  storeValue('pId', productId);\n  queryProductsid.run();\n  showModal(\"modalProducts\");\n}",
+      "body": "productId => {\n  console.log('productId = ' + productId);\n  storeValue('pId', productId);\n  productDetailById_DB.run();\n  showModal('modal_Edit');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {}
@@ -27,7 +27,6 @@
       "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -37,14 +36,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "productId => {\n  console.log('productId = ' + productId);\n  storeValue('pId', productId);\n  queryProductsid.run();\n  showModal(\"modalProducts\");\n}"
+      "productId => {\n  console.log('productId = ' + productId);\n  storeValue('pId', productId);\n  productDetailById_DB.run();\n  showModal('modal_Edit');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Produts_productsAll.showProduct",
+  "id": "Products_productsAll.myFun1",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63905e7a58803b03c807aa75"
+  "gitSyncId": "636c92fc03193515321c8396_63b567545b7acd601d97f0b5"
 }

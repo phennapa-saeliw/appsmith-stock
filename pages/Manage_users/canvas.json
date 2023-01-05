@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -58,7 +58,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 450,
+                  "bottomRow": 560,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -121,7 +121,7 @@
                     {
                       "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
                       "widgetName": "iconButton_useers_left",
-                      "onClick": "{{loginSample.run(() => {\n\n\tlet ret = appsmith.store.user.user_metadata.branch_type;\n\tif(ret === 'center'){\n\tnavigateTo('Home_central',{});\n\t}else{\n\t\tnavigateTo('Home_branch',{})\n\t}\n})}}",
+                      "onClick": "{{loginSample.run(() => {\n\tlet ret = appsmith.store.user.user_metadata.branch_type;\n\tif(ret === 'center'){\n\tnavigateTo('Home_central',{});\n\t}else{\n\t\tnavigateTo('Home_branch',{})\n\t}\n})}}",
                       "buttonColor": "#18181b",
                       "dynamicPropertyPathList": [
                         {
@@ -258,44 +258,6 @@
                       "buttonVariant": "PRIMARY"
                     },
                     {
-                      "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-                      "widgetName": "imageUsers",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "displayName": "Image",
-                      "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
-                      "topRow": 9,
-                      "bottomRow": 25,
-                      "parentRowSpace": 10,
-                      "type": "IMAGE_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 6.42431640625,
-                      "dynamicTriggerPathList": [],
-                      "imageShape": "RECTANGLE",
-                      "leftColumn": 18,
-                      "dynamicBindingPathList": [],
-                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
-                      "key": "8fsybbqjfx",
-                      "image": "https://www.pngplay.com/wp-content/uploads/5/Webinar-People-Icon-PNG.png",
-                      "isDeprecated": false,
-                      "rightColumn": 44,
-                      "objectFit": "cover",
-                      "widgetId": "vdsyzuiuls",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "2xyke2mhw0",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "maxZoomLevel": 1,
-                      "enableDownload": false,
-                      "borderRadius": "15rem",
-                      "enableRotation": false
-                    },
-                    {
                       "boxShadow": "none",
                       "widgetName": "input_id",
                       "dynamicPropertyPathList": [
@@ -304,10 +266,14 @@
                         },
                         {
                           "key": "onTextChanged"
+                        },
+                        {
+                          "key": "onSubmit"
                         }
                       ],
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "onSubmit": "",
                       "searchTags": [
                         "form",
                         "text input",
@@ -326,6 +292,9 @@
                       "dynamicTriggerPathList": [
                         {
                           "key": "onTextChanged"
+                        },
+                        {
+                          "key": "onSubmit"
                         }
                       ],
                       "resetOnSubmit": true,
@@ -336,6 +305,9 @@
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
                         }
                       ],
                       "labelPosition": "Auto",
@@ -352,7 +324,7 @@
                       "widgetId": "t1na3m9pjk",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
-                      "label": "ชื่อ",
+                      "label": "Email",
                       "version": 2,
                       "parentId": "2xyke2mhw0",
                       "labelAlignment": "left",
@@ -361,12 +333,12 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "{{appsmith.store.user.email}}",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input_branch_id",
+                      "widgetName": "input_branch_id",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -393,6 +365,9 @@
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
                         }
                       ],
                       "labelPosition": "Top",
@@ -408,7 +383,7 @@
                       "widgetId": "5bd82npauy",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
-                      "label": "รหัสสาขา",
+                      "label": "Type",
                       "version": 2,
                       "parentId": "2xyke2mhw0",
                       "labelAlignment": "left",
@@ -417,8 +392,47 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "{{appsmith.store.user.user_metadata.branch_type}}",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+                      "widgetName": "IconButton1",
+                      "buttonColor": "#fafafa",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 11,
+                      "bottomRow": 26,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.42431640625,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 13,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "upkq4v66ej",
+                      "isDeprecated": false,
+                      "rightColumn": 53,
+                      "iconName": "user",
+                      "widgetId": "87sodq7mrp",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "2xyke2mhw0",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "5rem",
+                      "buttonVariant": "PRIMARY"
                     }
                   ],
                   "key": "6t7y7p7l1y",

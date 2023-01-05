@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "queryProductsid",
+    "name": "deleteOrdersProduct",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Produts",
+    "pageId": "Products",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM products WHERE product_id = '{{appsmith.store.pId}}';",
+      "body": "DELETE FROM public.\"order_product\"\nWHERE product_id = '{{appsmith.store.product_id}}' and order_id = '{{appsmith.store.order_id}}';\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,14 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.pId"
+      "appsmith.store.order_id",
+      "appsmith.store.product_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Produts_queryProductsid",
+  "id": "Products_deleteOrdersProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63905e2058803b03c807aa71"
+  "gitSyncId": "636c92fc03193515321c8396_63b5654a0bc0a80b3001a8fb"
 }

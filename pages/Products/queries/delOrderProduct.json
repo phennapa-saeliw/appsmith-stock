@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "queryProductsid",
+    "name": "delOrderProduct",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Order",
+    "pageId": "Products",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM products WHERE product_id = '{{appsmith.store.pId}}';",
+      "body": "SELECT public.\"order_product\".*\nFROM public.\"order_product\"\nWHERE product_id = '{{appsmith.store.orders.product_id}}' and order_id = '{{appsmith.store.order_id}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,14 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.pId"
+      "appsmith.store.order_id",
+      "appsmith.store.orders.product_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_queryProductsid",
+  "id": "Products_delOrderProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63a2d1aafcb7cc4992ad8185"
+  "gitSyncId": "636c92fc03193515321c8396_63b565a75b7acd601d97f097"
 }

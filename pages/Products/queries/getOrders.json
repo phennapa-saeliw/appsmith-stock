@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "querySearch",
+    "name": "getOrders",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Produts",
+    "pageId": "Products",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM products WHERE product_name ILIKE '{{\"%\" + inputP_search.inputText + \"%\"}}';",
+      "body": "SELECT op.*, p.product_name, p.product_image\nFROM public.\"order_product\" op\nINNER JOIN public.\"orders\" o ON op.order_id = o.order_id\nINNER JOIN public.\"products\" p ON op.product_id = p.product_id\nWHERE o.user_id = '{{appsmith.store.user.id}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,14 +36,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "\"%\" + inputP_search.inputText + \"%\""
+      "appsmith.store.user.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Produts_querySearch",
+  "id": "Products_getOrders",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63881e91b3fbc9369c45e469"
+  "gitSyncId": "636c92fc03193515321c8396_63b56572f276cd0745e97312"
 }

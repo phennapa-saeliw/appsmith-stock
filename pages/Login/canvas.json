@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -262,7 +262,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnLogin",
-                      "onClick": "{{loginsample.run(() => {\n\tconst token = loginsample?.data?.access_token;\n\tconst user = loginsample?.data?.user;\n\tlet type = user.user_metadata.branch_type;\n\tif(token) {\n\t\tstoreValue('token', token);\n\t\tstoreValue('user', user);\n\t\tif(type === 'center'){\n\t\t\tnavigateTo('Home_central', {});\n\t\t}else{\n\t\t\tnavigateTo('Home_branch', {});\n\t\t}\n\t}\n\telse{\n\t\tshowAlert('Invalid Username/Password', 'error');\n\t}\n})}}",
+                      "onClick": "{{loginSample.run(() => {\n\tconst token = loginSample?.data?.access_token;\n\tconst user = loginSample?.data?.user;\n\tlet type = user.user_metadata.branch_type;\n\tif(token) {\n\t\tstoreValue('token', token);\n\t\tstoreValue('user', user);\n\t\tif(type === 'center'){\n\t\t\tnavigateTo('Home_central', {});\n\t\t}else{\n\t\t\tnavigateTo('Home_branch', {});\n\t\t}\n\t}\n\telse{\n\t\tshowAlert('Invalid Username/Password', 'error');\n\t}\n})}}",
                       "buttonColor": "#1e40af",
                       "dynamicPropertyPathList": [
                         {

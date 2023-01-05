@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query1",
+    "name": "productDetailById_DB",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Manage_users",
+    "pageId": "Products",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"branch\";",
+      "body": "SELECT * FROM products WHERE product_id = '{{appsmith.store.pId}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,18 +26,24 @@
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.pId"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Manage_users_Query1",
+  "id": "Products_productDetailById_DB",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63a2c9fafcb7cc4992ad80c9"
+  "gitSyncId": "636c92fc03193515321c8396_63abfd8f690c8f1a0335ed56"
 }

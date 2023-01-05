@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "loginsample",
+    "name": "loginSample",
     "datasource": {
       "name": "https://iqrlxxsjzuotueguklew.supabase.co",
       "pluginId": "restapi-plugin",
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
+    "pageId": "Products",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,6 +30,10 @@
         {
           "key": "content-type",
           "value": "application/json"
+        },
+        {
+          "key": "Cookie",
+          "value": "sb-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjY4MDY5OTczLCJzdWIiOiIyMTg2ZWRiZC0yOGFkLTQwZjktOTZjZS1iOTljMzc3MjhiNDYiLCJlbWFpbCI6ImxpdzQ4QGhvdG1haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6e30sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwic2Vzc2lvbl9pZCI6IjE3OWNjNzNlLWYxNjItNGU3NC04MDk0LTIwZDFjNmE1OTE4ZSJ9.qZjWqro80UCslSVn5ZXTgpUB5ZeVWXF95kXhQW_NfYg; sb-refresh-token=ejh3_Jhu2R4pif3IB-SmoA"
         }
       ],
       "encodeParamsToggle": true,
@@ -39,7 +43,7 @@
           "value": "password"
         }
       ],
-      "body": "{\n  \"email\": \"{{username.text}}\",\n  \"password\": \"{{password.text}}\"\n}",
+      "body": "{\n  \"email\": \"{{iconbtnP_home}}\",\n  \"password\":\"{{iconbtnP_home}}\" \n}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
@@ -56,15 +60,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "password.text",
-      "username.text"
+      "iconbtnP_home"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Login_loginsample",
+  "id": "Products_loginSample",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_639ac5a07c323677ddd82fb2"
+  "gitSyncId": "636c92fc03193515321c8396_637456521638e44f08604578"
 }

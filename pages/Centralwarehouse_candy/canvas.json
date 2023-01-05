@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -1230,6 +1230,7 @@
                               "isDeprecated": false,
                               "rightColumn": 16,
                               "objectFit": "contain",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "6r5pp7n8a9",
                               "logBlackList": {
                                 "isVisible": true,
@@ -1317,6 +1318,7 @@
                               "isDeprecated": false,
                               "rightColumn": 57,
                               "iconName": "annotation",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "4cv213vdbx",
                               "logBlackList": {
                                 "isVisible": true,
@@ -1398,6 +1400,7 @@
                               "isDeprecated": false,
                               "rightColumn": 63,
                               "iconName": "trash",
+                              "dynamicHeight": "FIXED",
                               "widgetId": "owu83h9afa",
                               "logBlackList": {
                                 "isVisible": true,
