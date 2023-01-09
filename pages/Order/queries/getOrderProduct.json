@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "delOrderProduct",
+    "name": "getOrderProduct",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Products",
+    "pageId": "Order",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -44,7 +44,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Products_delOrderProduct",
+  "id": "Order_getOrderProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63b565a75b7acd601d97f097"
+  "gitSyncId": "63b6e26ba9f4ff7974e6aff1_63b7ceb7a9f4ff7974e6b1c9"
 }
