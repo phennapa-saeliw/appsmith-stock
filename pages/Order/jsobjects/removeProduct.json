@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "removeProduct",
     "pageId": "Order",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -19,7 +19,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Order_JSObject1",
+  "id": "Order_removeProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63b7f111995e411c46857a5e"
+  "gitSyncId": "636c92fc03193515321c8396_63bb865596c9042751e56c99"
 }

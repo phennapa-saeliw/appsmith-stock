@@ -67,7 +67,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconCw_acc",
-                      "onClick": "{{navigateTo('Order', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -383,7 +383,8 @@
                 "IconButton1": {
                   "buttonVariant": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
                   "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'trash';\n              })();\n            })}}",
-                  "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#b91c1c';\n              })();\n            })}}"
+                  "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#b91c1c';\n              })();\n            })}}",
+                  "onClick": "{{}}"
                 },
                 "Text4": {
                   "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'ชิ้น';\n              })();\n            })}}",
@@ -404,7 +405,11 @@
               "gridGap": 0,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "template.IconButton1.onClick"
+                }
+              ],
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
@@ -893,7 +898,13 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "IconButton1",
+                              "onClick": "{{}}",
                               "buttonColor": "#b91c1c",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
                               "displayName": "Icon Button",
                               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                               "searchTags": [
@@ -907,7 +918,11 @@
                               "hideCard": false,
                               "animateLoading": true,
                               "parentColumnSpace": 6.29931640625,
-                              "dynamicTriggerPathList": [],
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
                               "leftColumn": 57,
                               "dynamicBindingPathList": [
                                 {
@@ -1168,6 +1183,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1",
+              "onClick": "{{navigateTo(' Receipt', {}, 'SAME_WINDOW')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -1182,7 +1198,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {

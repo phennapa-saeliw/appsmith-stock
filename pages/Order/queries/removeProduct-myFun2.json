@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "fullyQualifiedName": "removeProduct.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Order",
-    "collectionId": "Order_JSObject1",
+    "collectionId": "Order_removeProduct",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_JSObject1.myFun2",
+  "id": "Order_removeProduct.myFun2",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63b7f111995e411c46857a5b"
+  "gitSyncId": "636c92fc03193515321c8396_63bb865596c9042751e56c96"
 }
