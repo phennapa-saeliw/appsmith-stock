@@ -423,9 +423,6 @@
                   "key": "template.Text1.text"
                 },
                 {
-                  "key": "listData"
-                },
-                {
                   "key": "template.Image1.objectFit"
                 },
                 {
@@ -451,6 +448,9 @@
                 },
                 {
                   "key": "template.Text4.fontSize"
+                },
+                {
+                  "key": "listData"
                 }
               ],
               "gridType": "vertical",
@@ -541,10 +541,10 @@
                               "imageShape": "RECTANGLE",
                               "dynamicBindingPathList": [
                                 {
-                                  "key": "image"
+                                  "key": "borderRadius"
                                 },
                                 {
-                                  "key": "borderRadius"
+                                  "key": "image"
                                 }
                               ],
                               "leftColumn": 0,
