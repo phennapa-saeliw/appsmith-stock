@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.\"order_product\"\n(\"order_id\", \"product_id\", \"amount\")\nVALUES\n ('{{appsmith.store.order_id}}',\n\t'{{appsmith.store.orders.product_id}}',\n\t'{{appsmith.store.orders.amount}}');\n",
+      "body": "INSERT INTO public.\"order_product\"\n(\"order_id\", \"product_id\", \"amount\",\"price_unit\")\nVALUES\n ('{{appsmith.store.order_id}}',\n\t'{{appsmith.store.orders.product_id}}',\n\t'{{appsmith.store.orders.amount}}',\n '{{appsmith.store.orders.price}}');\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,6 +38,7 @@
     "jsonPathKeys": [
       "appsmith.store.order_id",
       "appsmith.store.orders.amount",
+      "appsmith.store.orders.price",
       "appsmith.store.orders.product_id"
     ],
     "userSetOnLoad": false,

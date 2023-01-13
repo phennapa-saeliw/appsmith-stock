@@ -437,7 +437,7 @@
                   "widgetName": "Canvas3Copy",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 170,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -477,12 +477,12 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 2,
+                      "leftColumn": 3,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "dlxtq6izew",
                       "isDeprecated": false,
-                      "rightColumn": 60,
+                      "rightColumn": 61,
                       "iconName": "cube-add",
                       "widgetId": "k3sgqc3013",
                       "isVisible": true,

@@ -481,7 +481,7 @@
                   "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                   "widgetId": "0k702c50f7",
                   "renderMode": "CANVAS",
-                  "buttonColor": "{{listCw_drink.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#dc2626';\n              })();\n            })}}",
+                  "buttonColor": "{{listCw_drink.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#b91c1c';\n              })();\n            })}}",
                   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                   "boxShadow": "none",
                   "isLoading": false,
@@ -1249,6 +1249,9 @@
                 },
                 {
                   "key": "listData"
+                },
+                {
+                  "key": "template.iconCwbtn__drinkdelete.buttonColor"
                 }
               ],
               "gridType": "vertical",
@@ -1476,7 +1479,7 @@
                               "boxShadow": "none",
                               "widgetName": "iconCwbtn__drinkdelete",
                               "onClick": "{{productJs.myFun2(currentItem.product_id)}}",
-                              "buttonColor": "#dc2626",
+                              "buttonColor": "#b91c1c",
                               "dynamicPropertyPathList": [
                                 {
                                   "key": "onClick"
