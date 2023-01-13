@@ -122,6 +122,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHb_order",
+                      "onClick": "{{navigateTo('Order', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -136,7 +137,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 2,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
@@ -658,7 +663,11 @@
                       "isCompact": false,
                       "boxShadow": "none",
                       "widgetName": "menubtnH_branch",
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "menuItems.menuItem1.onClick"
+                        }
+                      ],
                       "displayName": "Menu Button",
                       "iconSVG": "/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
                       "topRow": 0,
@@ -694,7 +703,7 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 0,
-                          "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW')}}",
+                          "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW');clearStore()}}",
                           "iconAlign": "right"
                         },
                         "menuItem2": {

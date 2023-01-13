@@ -217,8 +217,13 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconButton_logout",
-                      "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW'); clearStore()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
