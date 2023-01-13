@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 1292,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -151,7 +151,7 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 0,
-                          "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW'),clearStore()}}",
+                          "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW');clearStore()()}}",
                           "iconAlign": "right"
                         },
                         "menuItem2": {
@@ -3472,24 +3472,22 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Products_querySearch",
-              "name": "querySearch",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "\"%\" + inputP_search.inputText + \"%\""
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Products_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.pId"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_querySearch",
+              "name": "querySearch",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "\"%\" + inputP_search.inputText + \"%\""
               ],
               "timeoutInMillisecond": 10000
             }

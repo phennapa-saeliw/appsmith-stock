@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -57,8 +57,8 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 75,
-              "originalBottomRow": 83
+              "originalTopRow": 72,
+              "originalBottomRow": 80
             },
             {
               "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
@@ -729,7 +729,7 @@
                               "text": "{{currentItem.product_name}}",
                               "key": "qhma8xf9ni",
                               "isDeprecated": false,
-                              "rightColumn": 14,
+                              "rightColumn": 37,
                               "textAlign": "LEFT",
                               "dynamicHeight": "FIXED",
                               "widgetId": "sfqjbbmken",
@@ -827,7 +827,7 @@
                               "text": "{{currentItem.amount}}",
                               "key": "qhma8xf9ni",
                               "isDeprecated": false,
-                              "rightColumn": 61,
+                              "rightColumn": 64,
                               "textAlign": "LEFT",
                               "dynamicHeight": "FIXED",
                               "widgetId": "7vm8v15lqb",
@@ -945,7 +945,7 @@
               "boxShadow": "none",
               "widgetName": "DatePicker1",
               "minDate": "1920-12-31T18:30:00.000Z",
-              "dateFormat": "DD/MM/YYYY HH:mm",
+              "dateFormat": "LLL",
               "displayName": "DatePicker",
               "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
               "searchTags": [
@@ -961,7 +961,7 @@
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 20,
+              "leftColumn": 15,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -975,9 +975,8 @@
               "key": "osan2d7cdm",
               "labelTextSize": "0.875rem",
               "isRequired": false,
-              "defaultDate": "2023-01-13T03:09:24.128Z",
               "isDeprecated": false,
-              "rightColumn": 44,
+              "rightColumn": 47,
               "dynamicHeight": "FIXED",
               "widgetId": "jbae3wjtzc",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",

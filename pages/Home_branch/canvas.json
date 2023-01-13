@@ -292,6 +292,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconHb_reports",
+                      "onClick": "{{navigateTo('Reports', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -306,7 +307,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.84375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 3,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
