@@ -16,12 +16,14 @@
     "pageId": "Order",
     "collectionId": "Order_removeProduct",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n    });\n  }\n}",
+      "body": "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n      totalOrder.run();\n    });\n  }\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [],
+      "jsArguments": [
+        {}
+      ],
       "isAsync": true
     },
     "executeOnLoad": false,
@@ -34,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n    });\n  }\n}"
+      "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n      totalOrder.run();\n    });\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

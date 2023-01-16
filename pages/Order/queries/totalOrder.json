@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query1",
+    "name": "totalOrder",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT op.*, p.product_name, p.product_image\nFROM public.\"order_product\" op\nINNER JOIN public.\"orders\" o ON op.order_id = o.order_id\nINNER JOIN public.\"products\" p ON op.product_id = p.product_id\nWHERE o.user_id = '{{appsmith.store.user.id}}';",
+      "body": "SELECT SUM(op.amount*op.price_unit)as total\nFROM public.\"order_product\" op\nINNER JOIN public.\"orders\" o ON op.order_id = o.order_id\nINNER JOIN public.\"products\" p ON op.product_id = p.product_id\nWHERE o.user_id = '{{appsmith.store.user.id}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -38,12 +38,12 @@
     "jsonPathKeys": [
       "appsmith.store.user.id"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_Query1",
+  "id": "Order_totalOrder",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63bbd81260108a125629681f"
+  "gitSyncId": "636c92fc03193515321c8396_63c1094e926a11120b6fd167"
 }

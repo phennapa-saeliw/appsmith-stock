@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query1",
+    "name": "totalOrder",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -43,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": " Receipt_Query1",
+  "id": " Receipt_totalOrder",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_63c11261b2145e61ce451e0d"
 }
