@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 890,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -58,8 +58,8 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 66,
-              "originalBottomRow": 70
+              "originalTopRow": 70,
+              "originalBottomRow": 74
             },
             {
               "widgetName": "Text9Copy",
@@ -97,7 +97,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "เวลา : {{appsmith.store.orders.time}}",
+              "text": "เวลา :  {{appsmith.store.orders.time}}",
               "key": "7hv9ayjxdr",
               "isDeprecated": false,
               "rightColumn": 48,
@@ -111,10 +111,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 14,
+              "originalTopRow": 16,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 18,
+              "originalBottomRow": 21,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -150,8 +150,8 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 77,
-              "originalBottomRow": 81
+              "originalTopRow": 81,
+              "originalBottomRow": 85
             },
             {
               "boxShadow": "none",
@@ -180,7 +180,7 @@
               "parentColumnSpace": 6.84375,
               "dynamicTriggerPathList": [],
               "resetOnSubmit": true,
-              "leftColumn": 24,
+              "leftColumn": 25,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -197,7 +197,7 @@
               "labelTextSize": "0.885rem",
               "isRequired": false,
               "isDeprecated": false,
-              "rightColumn": 44,
+              "rightColumn": 45,
               "dynamicHeight": "FIXED",
               "widgetId": "gytubz8w9n",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -209,10 +209,10 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 70,
+              "originalTopRow": 74,
               "borderRadius": "0px",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 77,
+              "originalBottomRow": 81,
               "iconAlign": "left",
               "defaultText": "{{totalOrder.data[0].total}}",
               "minDynamicHeight": 4
@@ -462,7 +462,7 @@
               "originalTopRow": 10,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 14,
+              "originalBottomRow": 16,
               "fontSize": "1.25rem",
               "minDynamicHeight": 4
             },
@@ -507,10 +507,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 22,
+              "originalTopRow": 25,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 26,
+              "originalBottomRow": 30,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -555,7 +555,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 22,
+              "originalTopRow": 21,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
               "originalBottomRow": 26,
@@ -1035,9 +1035,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 26,
+              "originalTopRow": 30,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 64
+              "originalBottomRow": 68
             },
             {
               "widgetName": "Text8",
@@ -1089,10 +1089,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 18,
+              "originalTopRow": 21,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 22,
+              "originalBottomRow": 25,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -1132,7 +1132,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "วันที่ : {{appsmith.store.orders.date}}",
+              "text": "วันที่ :  {{appsmith.store.orders.date}}",
               "key": "7hv9ayjxdr",
               "isDeprecated": false,
               "rightColumn": 24,
@@ -1146,10 +1146,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 14,
+              "originalTopRow": 16,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 18,
+              "originalBottomRow": 21,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -1157,7 +1157,13 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1",
+              "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW');clearStore(\"orsers\",undefined)}}",
               "buttonColor": "#16a34a",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -1171,7 +1177,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 45,
               "dynamicBindingPathList": [],
               "text": "สั่งสินค้า",
@@ -1187,10 +1197,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 71,
+              "originalTopRow": 76,
               "disabledWhenInvalid": false,
               "borderRadius": "0px",
-              "originalBottomRow": 77,
+              "originalBottomRow": 81,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             }
@@ -1232,7 +1242,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_638ffcb3d9681172b41db05a"

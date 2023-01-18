@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -201,8 +201,8 @@
               "searchTags": [
                 "line"
               ],
-              "topRow": 47,
-              "bottomRow": 51,
+              "topRow": 49,
+              "bottomRow": 53,
               "parentRowSpace": 10,
               "type": "DIVIDER_WIDGET",
               "capType": "nc",

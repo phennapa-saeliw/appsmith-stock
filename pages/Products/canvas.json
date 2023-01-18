@@ -3472,24 +3472,22 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Products_querySearch",
-              "name": "querySearch",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "\"%\" + inputP_search.inputText + \"%\""
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Products_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.pId"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Products_querySearch",
+              "name": "querySearch",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "\"%\" + inputP_search.inputText + \"%\""
               ],
               "timeoutInMillisecond": 10000
             }
