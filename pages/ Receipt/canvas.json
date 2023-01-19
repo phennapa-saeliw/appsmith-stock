@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 75,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -27,7 +27,7 @@
           "leftColumn": 0,
           "children": [
             {
-              "widgetName": "Divider1CopyCopy",
+              "widgetName": "divider_Receipt",
               "thickness": 2,
               "displayName": "Divider",
               "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
@@ -62,7 +62,7 @@
               "originalBottomRow": 74
             },
             {
-              "widgetName": "Text9Copy",
+              "widgetName": "textRe_time",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -119,7 +119,7 @@
               "minDynamicHeight": 4
             },
             {
-              "widgetName": "Divider1Copy",
+              "widgetName": "divider_Receipt_two",
               "thickness": 2,
               "displayName": "Divider",
               "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
@@ -155,7 +155,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Input1",
+              "widgetName": "inputRe_price",
               "dynamicPropertyPathList": [
                 {
                   "key": "labelTextSize"
@@ -219,7 +219,7 @@
             },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "widgetName": "headCw_acc",
+              "widgetName": "headReceipt",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -384,7 +384,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "dividerCw_acc",
+              "widgetName": "dividerReceipt",
               "thickness": 2,
               "displayName": "Divider",
               "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
@@ -419,7 +419,7 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             },
             {
-              "widgetName": "Text1",
+              "widgetName": "textRez_nameReceipt",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -467,7 +467,7 @@
               "minDynamicHeight": 4
             },
             {
-              "widgetName": "Text4",
+              "widgetName": "textRe_nameproduct",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -515,7 +515,7 @@
               "minDynamicHeight": 4
             },
             {
-              "widgetName": "Text5",
+              "widgetName": "textRe_name_price",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -566,8 +566,8 @@
               "template": {
                 "Text6": {
                   "isVisible": true,
-                  "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
-                  "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
+                  "text": "{{list_Receipt.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
+                  "fontSize": "{{list_Receipt.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
                   "fontStyle": "BOLD",
                   "textAlign": "LEFT",
                   "textColor": "#231F20",
@@ -621,7 +621,7 @@
                 },
                 "Text7": {
                   "isVisible": true,
-                  "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.amount;\n              })();\n            })}}",
+                  "text": "{{list_Receipt.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.amount;\n              })();\n            })}}",
                   "fontSize": "1rem",
                   "fontStyle": "BOLD",
                   "textAlign": "LEFT",
@@ -676,7 +676,7 @@
                 }
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "List1",
+              "widgetName": "list_Receipt",
               "listData": "{{getOrders.data}}",
               "isCanvas": true,
               "displayName": "List",
@@ -1040,7 +1040,7 @@
               "originalBottomRow": 68
             },
             {
-              "widgetName": "Text8",
+              "widgetName": "textRe_baranch",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -1097,7 +1097,7 @@
               "minDynamicHeight": 4
             },
             {
-              "widgetName": "Text9",
+              "widgetName": "textRe_day",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -1156,8 +1156,8 @@
             {
               "resetFormOnClick": false,
               "boxShadow": "none",
-              "widgetName": "Button1",
-              "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW');clearStore(\"orsers\",undefined)}}",
+              "widgetName": "buttonRe_confirm",
+              "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW');storeValue(\"orders\",undefined)}}",
               "buttonColor": "#16a34a",
               "dynamicPropertyPathList": [
                 {
@@ -1217,9 +1217,7 @@
                 "appsmith.store.user.id"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": " Receipt_totalOrder",
               "name": "totalOrder",

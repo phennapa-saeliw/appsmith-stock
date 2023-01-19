@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 75,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -917,14 +917,14 @@
                           "bottomRow": 8,
                           "parentId": "6uysze2b0c"
                         },
-                        "Text4": {
+                        "textproducts_name": {
                           "isVisible": true,
                           "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
                           "fontSize": "1rem",
                           "fontStyle": "BOLD",
                           "textAlign": "LEFT",
                           "textColor": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#18181b';\n              })();\n            })}}",
-                          "widgetName": "Text4",
+                          "widgetName": "textproducts_name",
                           "shouldTruncate": false,
                           "overflow": "NONE",
                           "version": 1,
@@ -1002,99 +1002,14 @@
                             "dynamicBindingPathList": true
                           }
                         },
-                        "Text5": {
-                          "isVisible": true,
-                          "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.price_per_unit;\n              })();\n            })}}",
-                          "fontSize": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
-                          "fontStyle": "BOLD",
-                          "textAlign": "LEFT",
-                          "textColor": "#231F20",
-                          "widgetName": "Text5",
-                          "shouldTruncate": false,
-                          "overflow": "NONE",
-                          "version": 1,
-                          "animateLoading": true,
-                          "searchTags": [
-                            "typography",
-                            "paragraph",
-                            "label"
-                          ],
-                          "type": "TEXT_WIDGET",
-                          "hideCard": false,
-                          "isDeprecated": false,
-                          "displayName": "Text",
-                          "key": "g9tm35xx1s",
-                          "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                          "widgetId": "bawm9dwyf1",
-                          "renderMode": "CANVAS",
-                          "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                          "fontFamily": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
-                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                          "isLoading": false,
-                          "parentColumnSpace": 5.99169921875,
-                          "parentRowSpace": 10,
-                          "leftColumn": 18,
-                          "rightColumn": 34,
-                          "topRow": 5,
-                          "bottomRow": 9,
-                          "parentId": "6uysze2b0c",
-                          "dynamicBindingPathList": [
-                            {
-                              "key": "truncateButtonColor"
-                            },
-                            {
-                              "key": "fontFamily"
-                            },
-                            {
-                              "key": "borderRadius"
-                            }
-                          ],
-                          "logBlackList": {
-                            "isVisible": true,
-                            "text": true,
-                            "fontSize": true,
-                            "fontStyle": true,
-                            "textAlign": true,
-                            "textColor": true,
-                            "widgetName": true,
-                            "shouldTruncate": true,
-                            "overflow": true,
-                            "version": true,
-                            "animateLoading": true,
-                            "searchTags": true,
-                            "type": true,
-                            "hideCard": true,
-                            "isDeprecated": true,
-                            "replacement": true,
-                            "displayName": true,
-                            "key": true,
-                            "iconSVG": true,
-                            "isCanvas": true,
-                            "minHeight": true,
-                            "widgetId": true,
-                            "renderMode": true,
-                            "truncateButtonColor": true,
-                            "fontFamily": true,
-                            "borderRadius": true,
-                            "isLoading": true,
-                            "parentColumnSpace": true,
-                            "parentRowSpace": true,
-                            "leftColumn": true,
-                            "rightColumn": true,
-                            "topRow": true,
-                            "bottomRow": true,
-                            "parentId": true,
-                            "dynamicBindingPathList": true
-                          }
-                        },
-                        "Text6": {
+                        "textproducts_cate": {
                           "isVisible": true,
                           "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.category;\n              })();\n            })}}",
                           "fontSize": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
                           "fontStyle": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'BOLD';\n              })();\n            })}}",
                           "textAlign": "LEFT",
                           "textColor": "#231F20",
-                          "widgetName": "Text6",
+                          "widgetName": "textproducts_cate",
                           "shouldTruncate": false,
                           "overflow": "NONE",
                           "version": 1,
@@ -1172,14 +1087,14 @@
                             "dynamicBindingPathList": true
                           }
                         },
-                        "Text7": {
+                        "textproducts_bath": {
                           "isVisible": true,
                           "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'บาท';\n              })();\n            })}}",
                           "fontSize": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
                           "fontStyle": "BOLD",
                           "textAlign": "LEFT",
                           "textColor": "#231F20",
-                          "widgetName": "Text7",
+                          "widgetName": "textproducts_bath",
                           "shouldTruncate": false,
                           "overflow": "NONE",
                           "version": 1,
@@ -1257,14 +1172,14 @@
                             "dynamicBindingPathList": true
                           }
                         },
-                        "Text8": {
+                        "textproducts_stock": {
                           "isVisible": true,
                           "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Stock';\n              })();\n            })}}",
                           "fontSize": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
                           "fontStyle": "BOLD",
                           "textAlign": "LEFT",
                           "textColor": "#231F20",
-                          "widgetName": "Text8",
+                          "widgetName": "textproducts_stock",
                           "shouldTruncate": false,
                           "overflow": "NONE",
                           "version": 1,
@@ -1342,14 +1257,14 @@
                             "dynamicBindingPathList": true
                           }
                         },
-                        "Text9": {
+                        "textproducts_amount": {
                           "isVisible": true,
                           "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.amount;\n              })();\n            })}}",
                           "fontSize": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
                           "fontStyle": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'BOLD';\n              })();\n            })}}",
                           "textAlign": "LEFT",
                           "textColor": "#231F20",
-                          "widgetName": "Text9",
+                          "widgetName": "textproducts_amount",
                           "shouldTruncate": false,
                           "overflow": "NONE",
                           "version": 1,
@@ -1427,14 +1342,14 @@
                             "dynamicBindingPathList": true
                           }
                         },
-                        "Text10": {
+                        "textproducts_sin": {
                           "isVisible": true,
                           "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'ชิ้น';\n              })();\n            })}}",
                           "fontSize": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
                           "fontStyle": "BOLD",
                           "textAlign": "LEFT",
                           "textColor": "#231F20",
-                          "widgetName": "Text10",
+                          "widgetName": "textproducts_sin",
                           "shouldTruncate": false,
                           "overflow": "NONE",
                           "version": 1,
@@ -1512,9 +1427,94 @@
                             "dynamicBindingPathList": true
                           }
                         },
-                        "IconButtonadd": {
+                        "textP_price": {
+                          "isVisible": true,
+                          "text": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.price_per_unit;\n              })();\n            })}}",
+                          "fontSize": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
+                          "fontStyle": "BOLD",
+                          "textAlign": "LEFT",
+                          "textColor": "#231F20",
+                          "widgetName": "textP_price",
+                          "shouldTruncate": false,
+                          "overflow": "NONE",
+                          "version": 1,
+                          "animateLoading": true,
+                          "searchTags": [
+                            "typography",
+                            "paragraph",
+                            "label"
+                          ],
+                          "type": "TEXT_WIDGET",
+                          "hideCard": false,
+                          "isDeprecated": false,
+                          "displayName": "Text",
+                          "key": "g9tm35xx1s",
+                          "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                          "widgetId": "bawm9dwyf1",
+                          "renderMode": "CANVAS",
+                          "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "fontFamily": "{{listProducts.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Inter';\n              })();\n            })}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "isLoading": false,
+                          "parentColumnSpace": 5.99169921875,
+                          "parentRowSpace": 10,
+                          "leftColumn": 18,
+                          "rightColumn": 34,
+                          "topRow": 5,
+                          "bottomRow": 9,
+                          "parentId": "6uysze2b0c",
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "truncateButtonColor"
+                            },
+                            {
+                              "key": "fontFamily"
+                            },
+                            {
+                              "key": "borderRadius"
+                            }
+                          ],
+                          "logBlackList": {
+                            "isVisible": true,
+                            "text": true,
+                            "fontSize": true,
+                            "fontStyle": true,
+                            "textAlign": true,
+                            "textColor": true,
+                            "widgetName": true,
+                            "shouldTruncate": true,
+                            "overflow": true,
+                            "version": true,
+                            "animateLoading": true,
+                            "searchTags": true,
+                            "type": true,
+                            "hideCard": true,
+                            "isDeprecated": true,
+                            "replacement": true,
+                            "displayName": true,
+                            "key": true,
+                            "iconSVG": true,
+                            "isCanvas": true,
+                            "minHeight": true,
+                            "widgetId": true,
+                            "renderMode": true,
+                            "truncateButtonColor": true,
+                            "fontFamily": true,
+                            "borderRadius": true,
+                            "isLoading": true,
+                            "parentColumnSpace": true,
+                            "parentRowSpace": true,
+                            "leftColumn": true,
+                            "rightColumn": true,
+                            "topRow": true,
+                            "bottomRow": true,
+                            "parentId": true,
+                            "dynamicBindingPathList": true
+                          }
+                        },
+                        "iconButtonadd": {
                           "boxShadow": "none",
-                          "widgetName": "IconButtonadd",
+                          "widgetName": "iconButtonadd",
                           "onClick": "{{productsAll.showProduct(currentItem.product_id)}}",
                           "buttonColor": "#16a34a",
                           "dynamicPropertyPathList": [
@@ -1626,7 +1626,7 @@
                           "key": "onPageChange"
                         },
                         {
-                          "key": "template.IconButtonadd.onClick"
+                          "key": "template.iconButtonadd.onClick"
                         }
                       ],
                       "leftColumn": 0,
@@ -1644,79 +1644,79 @@
                           "key": "template.image_inlist.boxShadow"
                         },
                         {
-                          "key": "template.Text4.textColor"
+                          "key": "template.textproducts_name.textColor"
                         },
                         {
-                          "key": "template.Text4.text"
+                          "key": "template.textproducts_name.text"
                         },
                         {
                           "key": "listData"
                         },
                         {
-                          "key": "template.Text6.text"
+                          "key": "template.textproducts_cate.text"
                         },
                         {
-                          "key": "template.Text6.fontSize"
+                          "key": "template.textproducts_cate.fontSize"
                         },
                         {
-                          "key": "template.Text5.text"
+                          "key": "template.textP_price.text"
                         },
                         {
-                          "key": "template.Text5.fontSize"
+                          "key": "template.textP_price.fontSize"
                         },
                         {
-                          "key": "template.Text7.fontSize"
+                          "key": "template.textproducts_bath.fontSize"
                         },
                         {
-                          "key": "template.Text8.fontSize"
+                          "key": "template.textproducts_stock.fontSize"
                         },
                         {
-                          "key": "template.Text8.text"
+                          "key": "template.textproducts_stock.text"
                         },
                         {
-                          "key": "template.Text9.fontSize"
+                          "key": "template.textproducts_amount.fontSize"
                         },
                         {
-                          "key": "template.Text9.text"
+                          "key": "template.textproducts_amount.text"
                         },
                         {
-                          "key": "template.Text9.fontStyle"
+                          "key": "template.textproducts_amount.fontStyle"
                         },
                         {
-                          "key": "template.Text6.fontStyle"
+                          "key": "template.textproducts_cate.fontStyle"
                         },
                         {
-                          "key": "template.Text10.fontSize"
+                          "key": "template.textproducts_sin.fontSize"
                         },
                         {
-                          "key": "template.Text6.fontFamily"
+                          "key": "template.textproducts_cate.fontFamily"
                         },
                         {
-                          "key": "template.Text5.fontFamily"
+                          "key": "template.textP_price.fontFamily"
                         },
                         {
-                          "key": "template.Text7.fontFamily"
+                          "key": "template.textproducts_bath.fontFamily"
                         },
                         {
-                          "key": "template.Text8.fontFamily"
+                          "key": "template.textproducts_stock.fontFamily"
                         },
                         {
-                          "key": "template.Text9.fontFamily"
+                          "key": "template.textproducts_amount.fontFamily"
                         },
                         {
-                          "key": "template.Text10.fontFamily"
+                          "key": "template.textproducts_sin.fontFamily"
                         },
                         {
                           "key": "template.image_inlist.objectFit"
                         },
                         {
-                          "key": "template.Text7.text"
+                          "key": "template.textproducts_bath.text"
                         },
                         {
-                          "key": "template.Text10.text"
+                          "key": "template.textproducts_sin.text"
                         },
                         {
-                          "key": "template.IconButtonadd.onClick"
+                          "key": "template.iconButtonadd.onClick"
                         }
                       ],
                       "gridType": "vertical",
@@ -1801,7 +1801,7 @@
                                   "children": [
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "IconButtonadd",
+                                      "widgetName": "iconButtonadd",
                                       "onClick": "{{productsAll.showProduct(currentItem.product_id)}}",
                                       "buttonColor": "#16a34a",
                                       "dynamicPropertyPathList": [
@@ -1957,7 +1957,7 @@
                                       "enableRotation": false
                                     },
                                     {
-                                      "widgetName": "Text4",
+                                      "widgetName": "textproducts_name",
                                       "dynamicPropertyPathList": [
                                         {
                                           "key": "text"
@@ -2054,7 +2054,7 @@
                                       "minDynamicHeight": 4
                                     },
                                     {
-                                      "widgetName": "Text5",
+                                      "widgetName": "textP_price",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                                       "searchTags": [
@@ -2143,7 +2143,7 @@
                                       "minDynamicHeight": 4
                                     },
                                     {
-                                      "widgetName": "Text6",
+                                      "widgetName": "textproducts_cate",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                                       "searchTags": [
@@ -2232,7 +2232,7 @@
                                       "minDynamicHeight": 4
                                     },
                                     {
-                                      "widgetName": "Text7",
+                                      "widgetName": "textproducts_bath",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                                       "searchTags": [
@@ -2318,7 +2318,7 @@
                                       "minDynamicHeight": 4
                                     },
                                     {
-                                      "widgetName": "Text8",
+                                      "widgetName": "textproducts_stock",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                                       "searchTags": [
@@ -2404,7 +2404,7 @@
                                       "minDynamicHeight": 4
                                     },
                                     {
-                                      "widgetName": "Text9",
+                                      "widgetName": "textproducts_amount",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                                       "searchTags": [
@@ -2493,7 +2493,7 @@
                                       "minDynamicHeight": 4
                                     },
                                     {
-                                      "widgetName": "Text10",
+                                      "widgetName": "textproducts_sin",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                                       "searchTags": [
@@ -2722,7 +2722,7 @@
                   "dynamicBindingPathList": [],
                   "children": [
                     {
-                      "widgetName": "Text14Copy",
+                      "widgetName": "textModal_Pbath",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -2776,7 +2776,7 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "widgetName": "Text12",
+                      "widgetName": "textModal_products",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -2828,7 +2828,7 @@
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
-                      "widgetName": "Button4",
+                      "widgetName": "buttonModal_Padd",
                       "onClick": "{{productsAll.addProduct(inputAmount.inputText, price.text)}}",
                       "buttonColor": "#16a34a",
                       "dynamicPropertyPathList": [
@@ -2877,7 +2877,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Image1",
+                      "widgetName": "imageModal",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
                       "topRow": 5,
@@ -2916,7 +2916,7 @@
                       "enableRotation": false
                     },
                     {
-                      "widgetName": "Text13",
+                      "widgetName": "textModal_Pname",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -3109,7 +3109,7 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "widgetName": "Text15",
+                      "widgetName": "textModal_Pstock",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -3228,7 +3228,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "IconButton6",
+                      "widgetName": "iconbuttonModal_exit",
                       "onClick": "{{closeModal('modalProducts')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
@@ -3273,7 +3273,7 @@
                       "buttonVariant": "TERTIARY"
                     },
                     {
-                      "widgetName": "Text19",
+                      "widgetName": "textModal_namequantity",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -3327,7 +3327,7 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "widgetName": "Text21",
+                      "widgetName": "textModal_Psin",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -3382,7 +3382,7 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "widgetName": "Text22",
+                      "widgetName": "textModal_Pprice",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [

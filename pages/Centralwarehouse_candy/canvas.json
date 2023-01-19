@@ -4189,16 +4189,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Centralwarehouse_candy_queryCandy",
-              "name": "queryCandy",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Centralwarehouse_candy_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -4206,6 +4196,14 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Centralwarehouse_candy_queryCandy",
+              "name": "queryCandy",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
