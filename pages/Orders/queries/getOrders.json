@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Order",
+    "pageId": "Orders",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -43,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_getOrders",
+  "id": "Orders_getOrders",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63b7e5a360108a1256293d73"
+  "gitSyncId": "636c92fc03193515321c8396_63ce8d48af0003311d22d531"
 }

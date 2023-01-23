@@ -391,7 +391,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Order",
+                      "text": "Orders",
                       "key": "bwft1s7vbf",
                       "isDeprecated": false,
                       "rightColumn": 57,
@@ -413,7 +413,7 @@
                     {
                       "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
                       "widgetName": "iconbtnP_order",
-                      "onClick": "{{navigateTo('Order', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo('Orders', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#18181b",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",

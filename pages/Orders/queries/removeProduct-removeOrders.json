@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "removeOrders",
-    "fullyQualifiedName": "clearOrder.removeOrders",
+    "fullyQualifiedName": "removeProduct.removeOrders",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": " Receipt",
-    "collectionId": " Receipt_clearOrder",
+    "pageId": "Orders",
+    "collectionId": "Orders_removeProduct",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  clearStore(\"orders\", null);\n  totalOrder.run();\n}",
+      "body": "() => {\n  storeValue(\"orders\", null);\n  totalOrder.run();\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -34,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  clearStore(\"orders\", null);\n  totalOrder.run();\n}"
+      "() => {\n  storeValue(\"orders\", null);\n  totalOrder.run();\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": " Receipt_clearOrder.removeOrders",
+  "id": "Orders_removeProduct.removeOrders",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63ce61183f7cc55e1ac7770a"
+  "gitSyncId": "636c92fc03193515321c8396_63ce8d48af0003311d22d534"
 }

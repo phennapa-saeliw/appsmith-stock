@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "totalOrder",
+    "name": "getOrderProduct",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Order",
+    "pageId": "Orders",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT SUM(op.amount*op.price_unit)as total\nFROM public.\"order_product\" op\nINNER JOIN public.\"orders\" o ON op.order_id = o.order_id\nINNER JOIN public.\"products\" p ON op.product_id = p.product_id\nWHERE o.user_id = '{{appsmith.store.user.id}}';",
+      "body": "SELECT public.\"order_product\".*\nFROM public.\"order_product\"\nWHERE product_id = '{{appsmith.store.orders.product_id}}' and order_id = '{{appsmith.store.order_id}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,14 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.user.id"
+      "appsmith.store.order_id",
+      "appsmith.store.orders.product_id"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_totalOrder",
+  "id": "Orders_getOrderProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63c1094e926a11120b6fd167"
+  "gitSyncId": "636c92fc03193515321c8396_63ce8e053f7cc55e1ac77bec"
 }

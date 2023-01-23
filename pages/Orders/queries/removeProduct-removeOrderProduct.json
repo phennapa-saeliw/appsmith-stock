@@ -13,17 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Order",
-    "collectionId": "Order_removeProduct",
+    "pageId": "Orders",
+    "collectionId": "Orders_removeProduct",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n      totalOrder.run();\n    });\n  }\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {}
-      ],
+      "jsArguments": [],
       "isAsync": true
     },
     "executeOnLoad": false,
@@ -43,7 +41,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_removeProduct.removeOrderProduct",
+  "id": "Orders_removeProduct.removeOrderProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63bb967da9c896341acc33c1"
+  "gitSyncId": "636c92fc03193515321c8396_63ce8df547460b7391257748"
 }

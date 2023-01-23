@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "removeProduct.myFun2",
+    "fullyQualifiedName": "clear.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Order",
-    "collectionId": "Order_removeProduct",
+    "pageId": " Receipt",
+    "collectionId": " Receipt_clear",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -25,7 +25,6 @@
       "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -42,7 +41,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_removeProduct.myFun2",
+  "id": " Receipt_clear.myFun2",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63bb865596c9042751e56c96"
+  "gitSyncId": "636c92fc03193515321c8396_63ce91e1af0003311d22d592"
 }

@@ -29,10 +29,6 @@
         {
           "key": "content-type",
           "value": "application/json"
-        },
-        {
-          "key": "Cookie",
-          "value": "sb-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjY4MDY5OTczLCJzdWIiOiIyMTg2ZWRiZC0yOGFkLTQwZjktOTZjZS1iOTljMzc3MjhiNDYiLCJlbWFpbCI6ImxpdzQ4QGhvdG1haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6e30sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwic2Vzc2lvbl9pZCI6IjE3OWNjNzNlLWYxNjItNGU3NC04MDk0LTIwZDFjNmE1OTE4ZSJ9.qZjWqro80UCslSVn5ZXTgpUB5ZeVWXF95kXhQW_NfYg; sb-refresh-token=ejh3_Jhu2R4pif3IB-SmoA"
         }
       ],
       "encodeParamsToggle": true,
@@ -62,5 +58,5 @@
   },
   "id": "Manage_users_loginSample",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_637456d7e513ba71810925ed"
+  "gitSyncId": "636c92fc03193515321c8396_63ce90be3f7cc55e1ac77c3c"
 }

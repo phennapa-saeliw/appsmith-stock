@@ -13,6 +13,10 @@
       "isDefault": false
     },
     {
+      "id": "Manage_users",
+      "isDefault": false
+    },
+    {
       "id": "Central_warehouse",
       "isDefault": false
     },
@@ -21,7 +25,11 @@
       "isDefault": false
     },
     {
-      "id": "Manage_users",
+      "id": "Orders",
+      "isDefault": false
+    },
+    {
+      "id": " Receipt",
       "isDefault": false
     },
     {
@@ -46,14 +54,6 @@
     },
     {
       "id": "Centralwarehouse_acc",
-      "isDefault": false
-    },
-    {
-      "id": " Receipt",
-      "isDefault": false
-    },
-    {
-      "id": "Order",
       "isDefault": false
     }
   ],

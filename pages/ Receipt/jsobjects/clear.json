@@ -1,12 +1,12 @@
 {
   "unpublishedCollection": {
-    "name": "clearOrder",
+    "name": "clear",
     "pageId": " Receipt",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tremoveOrders: () => {\n\t\tclearStore(\"orders\", null);\n\t\ttotalOrder.run()\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tremoveOrders: () => {\n\t\tclearStore(\"orders\", null)\n\t\ttotalOrder.run()\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
@@ -19,7 +19,7 @@
     ],
     "userPermissions": []
   },
-  "id": " Receipt_clearOrder",
+  "id": " Receipt_clear",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_63ce53d23f7cc55e1ac7763a"
 }

@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "removeProduct",
-    "pageId": "Order",
+    "pageId": "Orders",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -19,7 +19,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Order_removeProduct",
+  "id": "Orders_removeProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63bb865596c9042751e56c99"
+  "gitSyncId": "636c92fc03193515321c8396_63ce8d48af0003311d22d53c"
 }
