@@ -1157,7 +1157,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "buttonRe_confirm",
-              "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW');JSObject1.removeOrders()}}",
+              "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW');clearOrder.removeOrders()}}",
               "buttonColor": "#16a34a",
               "dynamicPropertyPathList": [
                 {

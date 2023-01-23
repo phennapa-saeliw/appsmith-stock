@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "removeOrderProduct",
-    "fullyQualifiedName": "productsAll.removeOrderProduct",
+    "name": "removeOrders",
+    "fullyQualifiedName": "clearOrder.removeOrders",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,17 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Products",
-    "collectionId": "Products_productsAll",
+    "pageId": " Receipt",
+    "collectionId": " Receipt_clearOrder",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n    });\n  }\n}",
+      "body": "() => {\n  clearStore(\"orders\", null);\n  totalOrder.run();\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {}
-      ],
+      "jsArguments": [],
       "isAsync": true
     },
     "executeOnLoad": false,
@@ -36,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n    });\n  }\n}"
+      "() => {\n  clearStore(\"orders\", null);\n  totalOrder.run();\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Products_productsAll.removeOrderProduct",
+  "id": " Receipt_clearOrder.removeOrders",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63b55f3e0bc0a80b3001a835"
+  "gitSyncId": "636c92fc03193515321c8396_63ce61183f7cc55e1ac7770a"
 }
