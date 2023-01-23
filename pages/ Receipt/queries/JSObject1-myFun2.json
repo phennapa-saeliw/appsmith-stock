@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "removeOrders",
-    "fullyQualifiedName": "removeProduct.removeOrders",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,18 +13,19 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Order",
-    "collectionId": "Order_removeProduct",
+    "pageId": " Receipt",
+    "collectionId": " Receipt_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  storeValue(\"orders\", null);\n  totalOrder.run();\n}",
+      "body": "async () => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,14 +35,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  storeValue(\"orders\", null);\n  totalOrder.run();\n}"
+      "async () => {}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Order_removeProduct.removeOrders",
+  "id": " Receipt_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63ce4eb247460b73912571d0"
+  "gitSyncId": "636c92fc03193515321c8396_63ce53d23f7cc55e1ac77638"
 }

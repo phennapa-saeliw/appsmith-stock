@@ -995,7 +995,7 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 3,
+                              "topRow": 4,
                               "bottomRow": 8,
                               "parentRowSpace": 10,
                               "type": "TEXT_WIDGET",
@@ -1196,7 +1196,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "buttonOrder_confirm",
-              "onClick": "{{navigateTo(' Receipt', {}, 'SAME_WINDOW');removeProduct.removeOrders()}}",
+              "onClick": "{{navigateTo(' Receipt', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#15803d",
               "dynamicPropertyPathList": [
                 {
