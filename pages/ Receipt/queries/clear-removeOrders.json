@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  clearStore(\"orders\", null);\n  totalOrder.run();\n}",
+      "body": "() => {\n  clearStore(\"orders\", undefined);\n  totalOrder.run();\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  clearStore(\"orders\", null);\n  totalOrder.run();\n}"
+      "() => {\n  clearStore(\"orders\", undefined);\n  totalOrder.run();\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
