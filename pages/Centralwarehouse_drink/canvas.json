@@ -4137,7 +4137,7 @@
             {
               "boxShadow": "none",
               "widgetName": "iconCwbtn_drinkadd",
-              "onClick": "{{showModal('modal_Add')}}/",
+              "onClick": "{{showModal('modal_Add')}}",
               "buttonColor": "#16a34a",
               "dynamicPropertyPathList": [
                 {

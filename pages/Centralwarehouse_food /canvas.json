@@ -3499,7 +3499,7 @@
                       "labelPosition": "Top",
                       "labelStyle": "",
                       "inputType": "TEXT",
-                      "placeholderText": "URL เด้อจ้า",
+                      "placeholderText": "URL ",
                       "isDisabled": false,
                       "key": "5i6i2sq9ls",
                       "labelTextSize": "0.875rem",
@@ -4037,6 +4037,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Centralwarehouse_food _queryFood",
+              "name": "queryFood",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Centralwarehouse_food _productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -4044,14 +4054,6 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Centralwarehouse_food _queryFood",
-              "name": "queryFood",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

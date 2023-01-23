@@ -3500,7 +3500,7 @@
                       "labelPosition": "Top",
                       "labelStyle": "",
                       "inputType": "TEXT",
-                      "placeholderText": "URL เด้อจ้า",
+                      "placeholderText": "URL\n",
                       "isDisabled": false,
                       "key": "5i6i2sq9ls",
                       "labelTextSize": "0.875rem",
