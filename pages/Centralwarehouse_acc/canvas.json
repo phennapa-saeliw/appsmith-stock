@@ -2228,7 +2228,7 @@
             {
               "boxShadow": "none",
               "widgetName": "iconCwbtn_accadd",
-              "onClick": "{{showModal('Modal3')}}",
+              "onClick": "{{showModal('model_Add')}}",
               "buttonColor": "#16a34a",
               "dynamicPropertyPathList": [],
               "displayName": "Icon Button",
@@ -3090,7 +3090,7 @@
                       "buttonVariant": "TERTIARY"
                     },
                     {
-                      "widgetName": "Text7Copy",
+                      "widgetName": "textdel_Acc",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -3146,14 +3146,10 @@
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
-                      "widgetName": "Button2",
+                      "widgetName": "btncloseDle_Acc",
                       "onClick": "{{closeModal('modal_Delete')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "onClick"
-                        }
-                      ],
+                      "dynamicPropertyPathList": [],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -3203,7 +3199,7 @@
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
-                      "widgetName": "Button3",
+                      "widgetName": "btnconfirmDel_Acc",
                       "onClick": "{{deleteProduct.run(() => {queryAcc.run(); closeModal('modal_Delete')}, () => {})}}",
                       "buttonColor": "#ffb31e",
                       "dynamicPropertyPathList": [
@@ -3288,7 +3284,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Modal3",
+              "widgetName": "model_Add",
               "isCanvas": true,
               "displayName": "Modal",
               "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
@@ -3330,7 +3326,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconbtn_Moadd",
-                      "onClick": "{{closeModal('modal_Add')}}",
+                      "onClick": "{{closeModal('model_Add')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -3499,7 +3495,7 @@
                       "labelPosition": "Top",
                       "labelStyle": "",
                       "inputType": "TEXT",
-                      "placeholderText": "URL เด้อจ้า",
+                      "placeholderText": "URL ",
                       "isDisabled": false,
                       "key": "5i6i2sq9ls",
                       "labelTextSize": "0.875rem",
@@ -3893,13 +3889,9 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "btnclose_Moadd",
-                      "onClick": "{{closeModal('modal_Add')}}",
+                      "onClick": "{{closeModal('model_Add')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "onClick"
-                        }
-                      ],
+                      "dynamicPropertyPathList": [],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -4037,6 +4029,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Centralwarehouse_acc_queryAcc",
+              "name": "queryAcc",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Centralwarehouse_acc_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -4044,14 +4046,6 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Centralwarehouse_acc_queryAcc",
-              "name": "queryAcc",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
