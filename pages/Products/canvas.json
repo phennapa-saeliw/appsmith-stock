@@ -325,7 +325,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.84375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 26,
+                      "leftColumn": 25,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -342,7 +342,7 @@
                       "text": "Products",
                       "key": "bwft1s7vbf",
                       "isDeprecated": false,
-                      "rightColumn": 38,
+                      "rightColumn": 37,
                       "textAlign": "CENTER",
                       "dynamicHeight": "FIXED",
                       "widgetId": "zo9ub1v4hu",
@@ -476,7 +476,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 25,
+                      "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -485,7 +485,7 @@
                       "isDisabled": false,
                       "key": "3m5lr5fxsf",
                       "isDeprecated": false,
-                      "rightColumn": 39,
+                      "rightColumn": 38,
                       "iconName": "cube-add",
                       "widgetId": "na7rhvplbs",
                       "isVisible": true,
@@ -2573,7 +2573,7 @@
                       "text": "{{productDetailById_DB.data[0].amount}}",
                       "key": "rpqo5v1162",
                       "isDeprecated": false,
-                      "rightColumn": 21,
+                      "rightColumn": 23,
                       "disableLink": "",
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
