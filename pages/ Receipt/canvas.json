@@ -258,7 +258,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "iconCw_acc",
-                      "onClick": "{{navigateTo('Order', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo('Orders', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -1157,7 +1157,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "buttonRe_confirm",
-              "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW');clear.removeOrders()}}",
+              "onClick": "{{navigateTo('Products', {}, 'SAME_WINDOW')",
               "buttonColor": "#16a34a",
               "dynamicPropertyPathList": [
                 {

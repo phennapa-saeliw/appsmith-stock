@@ -312,12 +312,12 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 3,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "dlxtq6izew",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 60,
                       "iconName": "cube-add",
                       "widgetId": "k3sgqc3013",
                       "isVisible": true,
