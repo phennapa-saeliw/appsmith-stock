@@ -16,12 +16,14 @@
     "pageId": "Orders",
     "collectionId": "Orders_removeProduct",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "productId => {\n  storeValue('product_id', productId);\n  if (appsmith.store.product_id !== undefined) {\n    deleteOrdersProduct.run(() => {\n      getOrders.run();\n      totalOrder.run();\n    });\n  }\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [],
+      "jsArguments": [
+        {}
+      ],
       "isAsync": true
     },
     "executeOnLoad": false,

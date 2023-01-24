@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -2528,9 +2528,6 @@
                       "dynamicPropertyPathList": [
                         {
                           "key": "disableLink"
-                        },
-                        {
-                          "key": "textColor"
                         }
                       ],
                       "displayName": "Text",
@@ -2563,9 +2560,6 @@
                         },
                         {
                           "key": "text"
-                        },
-                        {
-                          "key": "textColor"
                         }
                       ],
                       "shouldTruncate": false,
@@ -2580,7 +2574,7 @@
                       "widgetId": "vxzisy3895",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "{{productDetailById_DB.data[0].amount;if(productDetailById_DB.data[0].amount <= 5){\nproductDetailById_DB.data[0].amount = '#b91c1c'}}}",
+                      "textColor": "#18181b",
                       "version": 1,
                       "parentId": "byublvzw9n",
                       "renderMode": "CANVAS",

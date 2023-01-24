@@ -32,7 +32,11 @@
               "widgetName": "buttonOrder_confirm",
               "onClick": "{{navigateTo(' Receipt', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#15803d",
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
