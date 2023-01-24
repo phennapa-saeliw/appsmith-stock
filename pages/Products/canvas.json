@@ -731,7 +731,7 @@
                   ],
                   "children": [
                     {
-                      "widgetName": "textProduts",
+                      "widgetName": "textProducts",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -763,7 +763,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Produts",
+                      "text": "Products",
                       "key": "bwft1s7vbf",
                       "isDeprecated": false,
                       "rightColumn": 18,
@@ -2166,7 +2166,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Produts",
+                      "text": "Products",
                       "key": "rpqo5v1162",
                       "isDeprecated": false,
                       "rightColumn": 37,
