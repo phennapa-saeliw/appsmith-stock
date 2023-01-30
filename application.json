@@ -68,6 +68,7 @@
   "publishedAppLayout": {
     "type": "MOBILE"
   },
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
