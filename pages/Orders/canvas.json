@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 75,
+          "version": 76,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -279,7 +279,7 @@
                   "leftColumn": 0,
                   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                   "key": "expxo3d90w",
-                  "image": "{{List_order.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_image;\n              })();\n            })}}",
+                  "image": "{{list_Order.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_image;\n              })();\n            })}}",
                   "isDeprecated": false,
                   "rightColumn": 16,
                   "objectFit": "contain",
@@ -366,7 +366,7 @@
                   "leftColumn": 16,
                   "shouldTruncate": false,
                   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "text": "{{List_order.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
+                  "text": "{{list_Order.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.product_name;\n              })();\n            })}}",
                   "key": "3jsaeympr3",
                   "isDeprecated": false,
                   "rightColumn": 35,
@@ -560,7 +560,7 @@
                   ],
                   "shouldTruncate": false,
                   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "text": "{{List_order.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.amount;\n              })();\n            })}}",
+                  "text": "{{list_Order.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.amount;\n              })();\n            })}}",
                   "key": "esnwvhv0up",
                   "isDeprecated": false,
                   "rightColumn": 36,
@@ -622,7 +622,7 @@
                 "iconbutton_Order_trash": {
                   "boxShadow": "none",
                   "widgetName": "iconbutton_Order_trash",
-                  "onClick": "{{List_order.listData.map((currentItem) => removeProduct.removeOrderProduct(currentItem.product_id) + ')')}}",
+                  "onClick": "{{list_Order.listData.map((currentItem) => removeProduct.removeOrderProduct(currentItem.product_id) + ')')}}",
                   "buttonColor": "#b91c1c",
                   "dynamicPropertyPathList": [
                     {
@@ -798,7 +798,7 @@
                 }
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "List_order",
+              "widgetName": "list_Order",
               "listData": "{{getOrders.data}}",
               "isCanvas": true,
               "displayName": "List",

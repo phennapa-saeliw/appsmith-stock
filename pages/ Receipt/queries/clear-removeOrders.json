@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  storeValue('orders', undefined);\n}",
+      "body": "() => {\n  storeValue(\"orders\", undefined);\n  getOrders.run();\n  totalOrder.run();\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  storeValue('orders', undefined);\n}"
+      "() => {\n  storeValue(\"orders\", undefined);\n  getOrders.run();\n  totalOrder.run();\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

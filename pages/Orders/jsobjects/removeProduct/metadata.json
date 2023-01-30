@@ -1,12 +1,11 @@
 {
   "unpublishedCollection": {
-    "name": "clear",
-    "pageId": " Receipt",
+    "name": "removeProduct",
+    "pageId": "Orders",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tremoveOrders: () => {\n\t\tstoreValue('orders',undefined)\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
@@ -19,7 +18,7 @@
     ],
     "userPermissions": []
   },
-  "id": " Receipt_clear",
+  "id": "Orders_removeProduct",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63ce53d23f7cc55e1ac7763a"
+  "gitSyncId": "636c92fc03193515321c8396_63ce8d48af0003311d22d53c"
 }

@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 75,
+          "version": 76,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -3398,62 +3398,6 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "inputcategory_Moadd",
-                      "displayName": "Input",
-                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "searchTags": [
-                        "form",
-                        "text input",
-                        "number",
-                        "textarea"
-                      ],
-                      "topRow": 39,
-                      "bottomRow": 46,
-                      "parentRowSpace": 10,
-                      "labelWidth": 5,
-                      "autoFocus": false,
-                      "type": "INPUT_WIDGET_V2",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "resetOnSubmit": true,
-                      "leftColumn": 4,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Top",
-                      "labelStyle": "",
-                      "inputType": "TEXT",
-                      "isDisabled": false,
-                      "key": "tz3sp4p4r0",
-                      "labelTextSize": "0.875rem",
-                      "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 60,
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "nlridhxdq7",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "หมวดหมู่",
-                      "version": 2,
-                      "parentId": "dxmaop5j7l",
-                      "labelAlignment": "left",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "iconAlign": "left",
-                      "defaultText": "",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
                       "widgetName": "inputamount_Moadd",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
@@ -3726,6 +3670,58 @@
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
                       "defaultText": "",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "inputcategory_Moadd",
+                      "displayName": "TreeSelect",
+                      "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+                      "labelText": "หมวดหมู่",
+                      "searchTags": [
+                        "dropdown"
+                      ],
+                      "topRow": 40,
+                      "bottomRow": 47,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SINGLE_SELECT_TREE_WIDGET",
+                      "hideCard": false,
+                      "defaultOptionValue": "",
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.4921875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 4,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "[  \n  {\n    \"label\": \"Drink\",\n    \"value\": \"Drink\"\n  },\n  {\n    \"label\": \"Candy\",\n    \"value\": \"Candy\"\n  },\n\t {\n    \"label\": \"Food\",\n    \"value\": \"Food\"\n  },\n\t{\n    \"label\": \"Veget Fruit\",\n    \"value\": \"Veget Fruit\"\n  },\n\t{\n    \"label\": \"Hous\",\n    \"value\": \"Hous\"\n  },\n\t{\n    \"label\": \"Acc\",\n    \"value\": \"Acc\"\n  }\n]",
+                      "placeholderText": "Select option",
+                      "isDisabled": false,
+                      "key": "q36cqox7yb",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 60,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "s2um5tk487",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "expandAll": false,
+                      "parentId": "dxmaop5j7l",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "allowClear": false,
                       "minDynamicHeight": 4
                     }
                   ],
