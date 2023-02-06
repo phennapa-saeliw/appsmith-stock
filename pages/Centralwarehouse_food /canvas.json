@@ -3298,7 +3298,7 @@
                 "notification"
               ],
               "topRow": 1,
-              "bottomRow": 621,
+              "bottomRow": 561,
               "parentRowSpace": 10,
               "type": "MODAL_WIDGET",
               "hideCard": false,
@@ -3316,13 +3316,13 @@
                   "widgetName": "Canvas7",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 620,
+                  "bottomRow": 560,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 620,
+                  "minHeight": 560,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -3363,7 +3363,7 @@
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "iconName": "cross",
-                      "widgetId": "k4fxptyd1y",
+                      "widgetId": "0cpndwjmyo",
                       "isVisible": true,
                       "version": 1,
                       "parentId": "9pbhs2z09j",
@@ -3408,7 +3408,7 @@
                       "rightColumn": 10,
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
-                      "widgetId": "qeztsw4mrf",
+                      "widgetId": "wu3l1izkn0",
                       "isVisible": true,
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
@@ -3453,7 +3453,7 @@
                       "strokeStyle": "solid",
                       "isDeprecated": false,
                       "rightColumn": 62,
-                      "widgetId": "8t0wlcgldz",
+                      "widgetId": "5f4mya23wa",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "capSide": 0,
                       "isVisible": true,
@@ -3507,7 +3507,7 @@
                       "isDeprecated": false,
                       "rightColumn": 59,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "ij3lttsdie",
+                      "widgetId": "sxu1iyjrtf",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "รูปภาพ",
@@ -3524,7 +3524,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "inputid_Moadd",
+                      "widgetName": "inputname_Moadd",
                       "dynamicPropertyPathList": [
                         {
                           "key": "onTextChanged"
@@ -3574,74 +3574,7 @@
                       "isDeprecated": false,
                       "rightColumn": 59,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "t8l4p590e5",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "ID",
-                      "version": 2,
-                      "parentId": "9pbhs2z09j",
-                      "labelAlignment": "left",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "iconAlign": "left",
-                      "defaultText": "",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "inputname_Moadd",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "onTextChanged"
-                        }
-                      ],
-                      "displayName": "Input",
-                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "searchTags": [
-                        "form",
-                        "text input",
-                        "number",
-                        "textarea"
-                      ],
-                      "topRow": 25,
-                      "bottomRow": 32,
-                      "parentRowSpace": 10,
-                      "labelWidth": 5,
-                      "autoFocus": false,
-                      "type": "INPUT_WIDGET_V2",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [
-                        {
-                          "key": "onTextChanged"
-                        }
-                      ],
-                      "resetOnSubmit": true,
-                      "leftColumn": 3,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Top",
-                      "labelStyle": "",
-                      "inputType": "TEXT",
-                      "placeholderText": "",
-                      "isDisabled": false,
-                      "key": "tz3sp4p4r0",
-                      "labelTextSize": "0.875rem",
-                      "isRequired": false,
-                      "onTextChanged": "",
-                      "isDeprecated": false,
-                      "rightColumn": 59,
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "wcdru4d3sf",
+                      "widgetId": "alacutctp7",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "ชื่อ",
@@ -3675,8 +3608,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 32,
-                      "bottomRow": 39,
+                      "topRow": 26,
+                      "bottomRow": 33,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -3706,7 +3639,7 @@
                       "isDeprecated": false,
                       "rightColumn": 59,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "lv65iqt7v7",
+                      "widgetId": "it2akclnpf",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "รหัส",
@@ -3723,6 +3656,58 @@
                     },
                     {
                       "boxShadow": "none",
+                      "widgetName": "inputcategory_Moadd",
+                      "displayName": "TreeSelect",
+                      "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+                      "labelText": "หมวดหมู่",
+                      "searchTags": [
+                        "dropdown"
+                      ],
+                      "topRow": 33,
+                      "bottomRow": 40,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SINGLE_SELECT_TREE_WIDGET",
+                      "hideCard": false,
+                      "defaultOptionValue": "",
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.4921875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 3,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "[  \n  {\n    \"label\": \"Drink\",\n    \"value\": \"Drink\"\n  },\n  {\n    \"label\": \"Candy\",\n    \"value\": \"Candy\"\n  },\n\t {\n    \"label\": \"Food\",\n    \"value\": \"Food\"\n  },\n\t{\n    \"label\": \"Veget Fruit\",\n    \"value\": \"Veget Fruit\"\n  },\n\t{\n    \"label\": \"Hous\",\n    \"value\": \"Hous\"\n  },\n\t{\n    \"label\": \"Acc\",\n    \"value\": \"Acc\"\n  }\n]",
+                      "placeholderText": "Select option",
+                      "isDisabled": false,
+                      "key": "q36cqox7yb",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 59,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "6czjqzje3s",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "expandAll": false,
+                      "parentId": "9pbhs2z09j",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "allowClear": false,
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
                       "widgetName": "inputprice_Moadd",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
@@ -3732,8 +3717,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 48,
-                      "bottomRow": 55,
+                      "topRow": 42,
+                      "bottomRow": 49,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -3762,7 +3747,7 @@
                       "isDeprecated": false,
                       "rightColumn": 30,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "xkcja91lri",
+                      "widgetId": "ag7r383qnm",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "ราคา",
@@ -3788,8 +3773,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 48,
-                      "bottomRow": 55,
+                      "topRow": 42,
+                      "bottomRow": 49,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -3818,7 +3803,7 @@
                       "isDeprecated": false,
                       "rightColumn": 59,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "xzg57bwgql",
+                      "widgetId": "18b01ygtan",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "จำนวนสินค้า",
@@ -3850,8 +3835,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 56,
-                      "bottomRow": 60,
+                      "topRow": 50,
+                      "bottomRow": 54,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -3860,7 +3845,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 24,
+                      "leftColumn": 25,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -3873,9 +3858,9 @@
                       "isDisabled": false,
                       "key": "4kciqj1ouo",
                       "isDeprecated": false,
-                      "rightColumn": 40,
+                      "rightColumn": 41,
                       "isDefaultClickDisabled": true,
-                      "widgetId": "k4shfmgcj7",
+                      "widgetId": "m17z0ukglh",
                       "buttonStyle": "PRIMARY",
                       "isVisible": true,
                       "recaptchaType": "V3",
@@ -3892,7 +3877,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{addProduct.run(() => {queryFood.run();closeModal('modal_Add')}, () => {})}}",
+                      "onClick": "{{addProduct.run(() => {queryDrink.run();closeModal('modal_Add')}, () => {})}}",
                       "buttonColor": "#16a34a",
                       "dynamicPropertyPathList": [
                         {
@@ -3908,8 +3893,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 56,
-                      "bottomRow": 60,
+                      "topRow": 50,
+                      "bottomRow": 54,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -3920,7 +3905,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 41,
+                      "leftColumn": 43,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -3930,9 +3915,9 @@
                       "isDisabled": "",
                       "key": "ozka8gd2f3",
                       "isDeprecated": false,
-                      "rightColumn": 60,
+                      "rightColumn": 61,
                       "isDefaultClickDisabled": true,
-                      "widgetId": "k2ufi2fcum",
+                      "widgetId": "ex3nailniz",
                       "isVisible": true,
                       "recaptchaType": "V3",
                       "version": 1,
@@ -3943,58 +3928,6 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "inputcategory_Moadd",
-                      "displayName": "TreeSelect",
-                      "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-                      "labelText": "หมวดหมู่",
-                      "searchTags": [
-                        "dropdown"
-                      ],
-                      "topRow": 40,
-                      "bottomRow": 47,
-                      "parentRowSpace": 10,
-                      "labelWidth": 5,
-                      "type": "SINGLE_SELECT_TREE_WIDGET",
-                      "hideCard": false,
-                      "defaultOptionValue": "",
-                      "animateLoading": true,
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Top",
-                      "options": "[  \n  {\n    \"label\": \"Drink\",\n    \"value\": \"Drink\"\n  },\n  {\n    \"label\": \"Candy\",\n    \"value\": \"Candy\"\n  },\n\t {\n    \"label\": \"Food\",\n    \"value\": \"Food\"\n  },\n\t{\n    \"label\": \"Veget Fruit\",\n    \"value\": \"Veget Fruit\"\n  },\n\t{\n    \"label\": \"Hous\",\n    \"value\": \"Hous\"\n  },\n\t{\n    \"label\": \"Acc\",\n    \"value\": \"Acc\"\n  }\n]",
-                      "placeholderText": "Select option",
-                      "isDisabled": false,
-                      "key": "0s488dxh9n",
-                      "labelTextSize": "0.875rem",
-                      "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 60,
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "8wv6ncms6f",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "version": 1,
-                      "expandAll": false,
-                      "parentId": "9pbhs2z09j",
-                      "labelAlignment": "left",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "allowClear": false,
-                      "minDynamicHeight": 4
                     }
                   ],
                   "isDisabled": false,
@@ -4011,7 +3944,7 @@
                 }
               ],
               "key": "jkwpnl955l",
-              "height": 620,
+              "height": 560,
               "isDeprecated": false,
               "rightColumn": 47,
               "detachFromLayout": true,
@@ -4033,16 +3966,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Centralwarehouse_food _queryFood",
-              "name": "queryFood",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Centralwarehouse_food _productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -4050,6 +3973,14 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Centralwarehouse_food _queryFood",
+              "name": "queryFood",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

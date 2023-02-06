@@ -2840,7 +2840,9 @@
                 "appsmith.store.pId"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Products_querySearch",
               "name": "querySearch",

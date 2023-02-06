@@ -3037,13 +3037,13 @@
                   "widgetName": "Canvas6",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 670,
+                  "bottomRow": 560,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 676,
+                  "minHeight": 442,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [
@@ -3055,73 +3055,6 @@
                     }
                   ],
                   "children": [
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "inputid_Moadd",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "onTextChanged"
-                        }
-                      ],
-                      "displayName": "Input",
-                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "searchTags": [
-                        "form",
-                        "text input",
-                        "number",
-                        "textarea"
-                      ],
-                      "topRow": 18,
-                      "bottomRow": 25,
-                      "parentRowSpace": 10,
-                      "labelWidth": 5,
-                      "autoFocus": false,
-                      "type": "INPUT_WIDGET_V2",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [
-                        {
-                          "key": "onTextChanged"
-                        }
-                      ],
-                      "resetOnSubmit": true,
-                      "leftColumn": 4,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "labelPosition": "Top",
-                      "labelStyle": "",
-                      "inputType": "TEXT",
-                      "placeholderText": "",
-                      "isDisabled": false,
-                      "key": "tz3sp4p4r0",
-                      "labelTextSize": "0.875rem",
-                      "isRequired": false,
-                      "onTextChanged": "",
-                      "isDeprecated": false,
-                      "rightColumn": 60,
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "z16g9opi77",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "ID",
-                      "version": 2,
-                      "parentId": "dxmaop5j7l",
-                      "labelAlignment": "left",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "iconAlign": "left",
-                      "defaultText": "",
-                      "minDynamicHeight": 4
-                    },
                     {
                       "boxShadow": "none",
                       "widgetName": "iconbtn_Moadd",
@@ -3184,8 +3117,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 56,
-                      "bottomRow": 60,
+                      "topRow": 50,
+                      "bottomRow": 54,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -3194,7 +3127,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 25,
+                      "leftColumn": 26,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -3207,7 +3140,7 @@
                       "isDisabled": false,
                       "key": "4kciqj1ouo",
                       "isDeprecated": false,
-                      "rightColumn": 41,
+                      "rightColumn": 42,
                       "isDefaultClickDisabled": true,
                       "widgetId": "3wi8lrjlrp",
                       "buttonStyle": "PRIMARY",
@@ -3280,8 +3213,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 25,
-                      "bottomRow": 32,
+                      "topRow": 18,
+                      "bottomRow": 25,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -3350,8 +3283,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 32,
-                      "bottomRow": 39,
+                      "topRow": 26,
+                      "bottomRow": 33,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -3407,8 +3340,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 48,
-                      "bottomRow": 55,
+                      "topRow": 42,
+                      "bottomRow": 49,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -3521,8 +3454,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 56,
-                      "bottomRow": 60,
+                      "topRow": 50,
+                      "bottomRow": 54,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -3533,7 +3466,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 42,
+                      "leftColumn": 44,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -3543,7 +3476,7 @@
                       "isDisabled": "",
                       "key": "ozka8gd2f3",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "lew1ei9non",
                       "isVisible": true,
@@ -3568,8 +3501,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 48,
-                      "bottomRow": 55,
+                      "topRow": 42,
+                      "bottomRow": 49,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -3681,8 +3614,8 @@
                       "searchTags": [
                         "dropdown"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 47,
+                      "topRow": 33,
+                      "bottomRow": 40,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "type": "SINGLE_SELECT_TREE_WIDGET",
@@ -3741,7 +3674,7 @@
                 }
               ],
               "key": "mwrs8m0ods",
-              "height": 676,
+              "height": 442,
               "isDeprecated": false,
               "rightColumn": 43,
               "detachFromLayout": true,
