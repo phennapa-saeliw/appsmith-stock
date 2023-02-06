@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 75,
+          "version": 76,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -4030,16 +4030,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Centralwarehouse_vf_queryVf",
-              "name": "queryVf",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Centralwarehouse_vf_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -4047,6 +4037,14 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Centralwarehouse_vf_queryVf",
+              "name": "queryVf",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

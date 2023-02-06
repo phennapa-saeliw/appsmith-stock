@@ -1,8 +1,9 @@
 export default {
 	myVar1: [],
 	myVar2: {},
-	removeOrders: () => {
-		storeValue("orders",undefined)
+	removeOrders: async () => {
+		await storeValue('orders',null)
+		await navigateTo('Products', {}, 'SAME_WINDOW')
 		getOrders.run()
 		totalOrder.run()
 	},

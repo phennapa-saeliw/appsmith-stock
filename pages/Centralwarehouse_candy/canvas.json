@@ -1366,11 +1366,7 @@
                               "widgetName": "iconCwbtn_candydelete",
                               "onClick": "{{productJs.myFun2(currentItem.product_id)}}",
                               "buttonColor": "#dc2626",
-                              "dynamicPropertyPathList": [
-                                {
-                                  "key": "onClick"
-                                }
-                              ],
+                              "dynamicPropertyPathList": [],
                               "displayName": "Icon Button",
                               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                               "searchTags": [

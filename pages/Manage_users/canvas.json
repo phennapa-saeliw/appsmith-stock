@@ -77,7 +77,7 @@
                   "children": [
                     {
                       "boxShadow": "none",
-                      "widgetName": "Divider1",
+                      "widgetName": "divider_Manage",
                       "thickness": 2,
                       "displayName": "Divider",
                       "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",

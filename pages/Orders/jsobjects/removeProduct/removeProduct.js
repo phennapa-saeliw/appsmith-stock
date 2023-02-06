@@ -19,7 +19,7 @@ export default {
 		//use async-await or promises
 	},
 		removeOrders: () => {
-		storeValue("orders", undefined);
+		storeValue('orders', null);
 		//getOrders.run()
 		//totalOrder.run()
 			

@@ -1176,9 +1176,6 @@
                   "key": "listData"
                 },
                 {
-                  "key": "template.imageCwbtn_acc.image"
-                },
-                {
                   "key": "template.textAcc_Product_name.text"
                 },
                 {
@@ -1243,6 +1240,9 @@
                 },
                 {
                   "key": "template.Text4.text"
+                },
+                {
+                  "key": "template.imageCwbtn_acc.image"
                 }
               ],
               "gridType": "vertical",
@@ -1325,10 +1325,10 @@
                               "imageShape": "RECTANGLE",
                               "dynamicBindingPathList": [
                                 {
-                                  "key": "image"
+                                  "key": "borderRadius"
                                 },
                                 {
-                                  "key": "borderRadius"
+                                  "key": "image"
                                 }
                               ],
                               "leftColumn": 0,
@@ -4025,6 +4025,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Centralwarehouse_acc_queryAcc",
+              "name": "queryAcc",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Centralwarehouse_acc_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -4032,14 +4042,6 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Centralwarehouse_acc_queryAcc",
-              "name": "queryAcc",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
