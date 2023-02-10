@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "getOrders",
+    "name": "update_status_order",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT op.product_id,op.amount,op.price_unit,(op.amount*op.price_unit)as total,p.product_name, p.product_image\nFROM public.\"order_product\" op\nINNER JOIN public.\"orders\" o ON op.order_id = o.order_id\nINNER JOIN public.\"products\" p ON op.product_id = p.product_id\nWHERE o.user_id = '{{appsmith.store.user.id}}' and o.status = '0';",
+      "body": "UPDATE public.\"orders\"\n  SET status = '1'\n  WHERE order_id = '{{appsmith.store.order_id}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,14 +36,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.user.id"
+      "appsmith.store.order_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": " Receipt_getOrders",
+  "id": " Receipt_update_status_order",
   "deleted": false,
-  "gitSyncId": "636c92fc03193515321c8396_63c0d8145eed6624eedb3135"
+  "gitSyncId": "636c92fc03193515321c8396_63e5c3d623afe1799ffaa178"
 }

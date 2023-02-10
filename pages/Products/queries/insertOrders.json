@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.\"orders\"\n(\"order_name\",\"total_price\",\"datetime\", \"user_id\")\nvalues\n('{{appsmith.store.user.user_metadata.branch_type}}','{{appsmith.store.orders.totalPrice}}','{{appsmith.store.oders.datetime}}',{{appsmith.store.user.id}})\nRETURNING public.\"orders\".order_id;",
+      "body": "INSERT INTO public.\"orders\"\n(\"order_name\",\"total_price\",\"datetime\", \"user_id\",\"status\")\nvalues\n('{{appsmith.store.user.user_metadata.branch_type}}','{{appsmith.store.orders.totalPrice}}','{{appsmith.store.oders.datetime}}',{{appsmith.store.user.id}},'0')\nRETURNING public.\"orders\".order_id;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

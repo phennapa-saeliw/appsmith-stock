@@ -15,10 +15,10 @@
     },
     "pageId": "Orders",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 1000000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT op.product_id,op.amount,op.price_unit,(op.amount*op.price_unit)as total,p.product_name, p.product_image\nFROM public.\"order_product\" op\nINNER JOIN public.\"orders\" o ON op.order_id = o.order_id\nINNER JOIN public.\"products\" p ON op.product_id = p.product_id\nWHERE o.user_id = '{{appsmith.store.user.id}}';",
+      "body": "SELECT op.product_id,op.amount,op.price_unit,(op.amount*op.price_unit)as total,p.product_name, p.product_image\nFROM public.\"order_product\" op\nINNER JOIN public.\"orders\" o ON op.order_id = o.order_id\nINNER JOIN public.\"products\" p ON op.product_id = p.product_id\nWHERE o.user_id = '{{appsmith.store.user.id}}' and o.status = '0';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -33,7 +33,9 @@
       }
     ],
     "isValid": true,
-    "invalids": [],
+    "invalids": [
+      "'Query timeout' field must be an integer between 0 and 60000"
+    ],
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.user.id"

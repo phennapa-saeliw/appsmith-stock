@@ -1693,8 +1693,10 @@
               "jsonPathKeys": [
                 "appsmith.store.user.id"
               ],
-              "timeoutInMillisecond": 10000
-            },
+              "timeoutInMillisecond": 1000000
+            }
+          ],
+          [
             {
               "id": "Orders_totalOrder",
               "name": "totalOrder",

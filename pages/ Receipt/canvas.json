@@ -1217,7 +1217,9 @@
                 "appsmith.store.user.id"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": " Receipt_totalOrder",
               "name": "totalOrder",
