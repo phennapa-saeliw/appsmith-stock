@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "productsAll",
+    "pageId": "Products",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Products_productsAll",
+  "deleted": false,
+  "gitSyncId": "636c92fc03193515321c8396_63905e7a58803b03c807aa79"
+}
