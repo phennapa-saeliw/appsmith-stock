@@ -3967,6 +3967,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Centralwarehouse_hous_queryHous",
+              "name": "queryHous",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Centralwarehouse_hous_productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -3974,14 +3984,6 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Centralwarehouse_hous_queryHous",
-              "name": "queryHous",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

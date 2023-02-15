@@ -3966,6 +3966,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Centralwarehouse_food _queryFood",
+              "name": "queryFood",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Centralwarehouse_food _productDetailById_DB",
               "name": "productDetailById_DB",
               "confirmBeforeExecute": false,
@@ -3973,14 +3983,6 @@
               "jsonPathKeys": [
                 "appsmith.store.pId"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Centralwarehouse_food _queryFood",
-              "name": "queryFood",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
