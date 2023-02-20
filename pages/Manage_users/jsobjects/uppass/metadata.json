@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "uppass",
     "pageId": "Manage_users",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -18,7 +18,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Manage_users_JSObject1",
+  "id": "Manage_users_uppass",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_63e327a7e07ffb6475cad47e"
 }

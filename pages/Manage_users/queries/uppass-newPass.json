@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "newPass",
-    "fullyQualifiedName": "JSObject1.newPass",
+    "fullyQualifiedName": "uppass.newPass",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Manage_users",
-    "collectionId": "Manage_users_JSObject1",
+    "collectionId": "Manage_users_uppass",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Manage_users_JSObject1.newPass",
+  "id": "Manage_users_uppass.newPass",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_63e327a7e07ffb6475cad47a"
 }
