@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query1",
+    "name": "add_Branch",
     "datasource": {
       "name": "stock",
       "pluginId": "postgres-plugin",
@@ -15,8 +15,10 @@
     },
     "pageId": "Branch",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
+      "body": "INSERT INTO branch (branch_id,branch_name,branch_detail)\nVALUES\n(\"{{input_branchSku.inputText}}\",\n\"{{input_branchName.inputText}}\",\n\"{{input_branchdetail.inputText}}\"\n);",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -25,16 +27,25 @@
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "input_branchName.inputText",
+      "input_branchSku.inputText",
+      "input_branchdetail.inputText"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Branch_Query1",
+  "id": "Branch_add_Branch",
   "deleted": false,
   "gitSyncId": "636c92fc03193515321c8396_63ec605d8e503f76365177d9"
 }
